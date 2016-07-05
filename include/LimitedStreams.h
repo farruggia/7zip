@@ -3,10 +3,10 @@
 #ifndef __LIMITED_STREAMS_H
 #define __LIMITED_STREAMS_H
 
-#include "../../Common/MyBuffer.h"
-#include "../../Common/MyCom.h"
-#include "../../Common/MyVector.h"
-#include "../IStream.h"
+#include <../../Common/MyBuffer.h>
+#include <../../Common/MyCom.h>
+#include <../../Common/MyVector.h>
+#include <../IStream.h>
 
 class CLimitedSequentialInStream:
   public ISequentialInStream,

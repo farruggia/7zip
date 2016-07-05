@@ -1,10 +1,10 @@
 // Pbkdf2HmacSha1.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/CpuArch.h"
+#include <../../../C/CpuArch.h>
 
-#include "HmacSha1.h"
+#include <HmacSha1.h>
 
 namespace NCrypto {
 namespace NSha1 {

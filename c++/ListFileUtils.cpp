@@ -1,15 +1,15 @@
 // Common/ListFileUtils.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../C/CpuArch.h"
+#include <../../C/CpuArch.h>
 
-#include "../Windows/FileIO.h"
+#include <../Windows/FileIO.h>
 
-#include "ListFileUtils.h"
-#include "MyBuffer.h"
-#include "StringConvert.h"
-#include "UTFConvert.h"
+#include <ListFileUtils.h>
+#include <MyBuffer.h>
+#include <StringConvert.h>
+#include <UTFConvert.h>
 
 static const char kQuoteChar = '\"';
 

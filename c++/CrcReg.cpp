@@ -1,13 +1,13 @@
 // CrcReg.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../C/7zCrc.h"
-#include "../../C/CpuArch.h"
+#include <../../C/7zCrc.h>
+#include <../../C/CpuArch.h>
 
-#include "../Common/MyCom.h"
+#include <../Common/MyCom.h>
 
-#include "../7zip/Common/RegisterCodec.h"
+#include <../7zip/Common/RegisterCodec.h>
 
 EXTERN_C_BEGIN
 

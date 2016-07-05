@@ -1,8 +1,8 @@
 // ProgressMt.h
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "ProgressMt.h"
+#include <ProgressMt.h>
 
 void CMtCompressProgressMixer::Init(int numItems, ICompressProgressInfo *progress)
 {

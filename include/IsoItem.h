@@ -3,12 +3,12 @@
 #ifndef __ARCHIVE_ISO_ITEM_H
 #define __ARCHIVE_ISO_ITEM_H
 
-#include "../../../Common/MyString.h"
-#include "../../../Common/MyBuffer.h"
+#include <../../../Common/MyString.h>
+#include <../../../Common/MyBuffer.h>
 
-#include "../../../Windows/TimeUtils.h"
+#include <../../../Windows/TimeUtils.h>
 
-#include "IsoHeader.h"
+#include <IsoHeader.h>
 
 namespace NArchive {
 namespace NIso {

@@ -1,8 +1,8 @@
 // InStreamWithCRC.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "InStreamWithCRC.h"
+#include <InStreamWithCRC.h>
 
 STDMETHODIMP CSequentialInStreamWithCRC::Read(void *data, UInt32 size, UInt32 *processedSize)
 {

@@ -13,15 +13,15 @@
 // #define PRF(x)
 #endif
 
-#include "../../../C/CpuArch.h"
-#include "../../../C/HuffEnc.h"
+#include <../../../C/CpuArch.h>
+#include <../../../C/HuffEnc.h>
 
-#include "../../Common/MyBuffer.h"
-#include "../../Common/MyCom.h"
+#include <../../Common/MyBuffer.h>
+#include <../../Common/MyCom.h>
 
-#include "../ICoder.h"
+#include <../ICoder.h>
 
-#include "HuffmanDecoder.h"
+#include <HuffmanDecoder.h>
 
 namespace NCompress {
 namespace NLzms {

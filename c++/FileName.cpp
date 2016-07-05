@@ -1,11 +1,11 @@
 // Windows/FileName.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "Windows/FileName.h"
-#include "Common/Wildcard.h"
+#include <Windows/FileName.h>
+#include <Common/Wildcard.h>
 
-#include "Common/StringConvert.h"
+#include <Common/StringConvert.h>
 
 namespace NWindows {
 namespace NFile {

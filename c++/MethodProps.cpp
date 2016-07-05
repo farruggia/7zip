@@ -1,10 +1,10 @@
 // MethodProps.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Common/StringToInt.h"
+#include <../../Common/StringToInt.h>
 
-#include "MethodProps.h"
+#include <MethodProps.h>
 
 using namespace NWindows;
 

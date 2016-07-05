@@ -1,24 +1,24 @@
 // 7zHandler.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../../C/CpuArch.h"
+#include <../../../../C/CpuArch.h>
 
-#include "../../../Common/ComTry.h"
-#include "../../../Common/IntToString.h"
+#include <../../../Common/ComTry.h>
+#include <../../../Common/IntToString.h>
 
 #ifndef __7Z_SET_PROPERTIES
-#include "../../../Windows/System.h"
+#include <../../../Windows/System.h>
 #endif
 
-#include "../Common/ItemNameUtils.h"
+#include <../Common/ItemNameUtils.h>
 
-#include "7zHandler.h"
-#include "7zProperties.h"
+#include <7zHandler.h>
+#include <7zProperties.h>
 
 #ifdef __7Z_SET_PROPERTIES
 #ifdef EXTRACT_ONLY
-#include "../Common/ParseProperties.h"
+#include <../Common/ParseProperties.h>
 #endif
 #endif
 

@@ -4,9 +4,9 @@
 #ifndef __XZ_ENC_H
 #define __XZ_ENC_H
 
-#include "Lzma2Enc.h"
+#include <Lzma2Enc.h>
 
-#include "Xz.h"
+#include <Xz.h>
 
 EXTERN_C_BEGIN
 

@@ -1,23 +1,23 @@
 // TarHandler.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../Common/ComTry.h"
-#include "../../../Common/IntToString.h"
-#include "../../../Common/StringConvert.h"
-#include "../../../Common/UTFConvert.h"
+#include <../../../Common/ComTry.h>
+#include <../../../Common/IntToString.h>
+#include <../../../Common/StringConvert.h>
+#include <../../../Common/UTFConvert.h>
 
-#include "../../../Windows/TimeUtils.h"
+#include <../../../Windows/TimeUtils.h>
 
-#include "../../Common/LimitedStreams.h"
-#include "../../Common/MethodProps.h"
-#include "../../Common/ProgressUtils.h"
-#include "../../Common/StreamObjects.h"
-#include "../../Common/StreamUtils.h"
+#include <../../Common/LimitedStreams.h>
+#include <../../Common/MethodProps.h>
+#include <../../Common/ProgressUtils.h>
+#include <../../Common/StreamObjects.h>
+#include <../../Common/StreamUtils.h>
 
-#include "../Common/ItemNameUtils.h"
+#include <../Common/ItemNameUtils.h>
 
-#include "TarHandler.h"
+#include <TarHandler.h>
 
 using namespace NWindows;
 

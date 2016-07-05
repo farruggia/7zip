@@ -1,13 +1,13 @@
 // PpmdEncoder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/Alloc.h"
-#include "../../../C/CpuArch.h"
+#include <../../../C/Alloc.h>
+#include <../../../C/CpuArch.h>
 
-#include "../Common/StreamUtils.h"
+#include <../Common/StreamUtils.h>
 
-#include "PpmdEncoder.h"
+#include <PpmdEncoder.h>
 
 namespace NCompress {
 namespace NPpmd {

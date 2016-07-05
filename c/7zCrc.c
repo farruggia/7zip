@@ -1,10 +1,10 @@
 /* 7zCrc.c -- CRC32 init
 2015-03-10 : Igor Pavlov : Public domain */
 
-#include "Precomp.h"
+#include <Precomp.h>
 
-#include "7zCrc.h"
-#include "CpuArch.h"
+#include <7zCrc.h>
+#include <CpuArch.h>
 
 #define kCrcPoly 0xEDB88320
 

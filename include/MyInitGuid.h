@@ -35,7 +35,7 @@ DEFINE_GUID(IID_IUnknown,
 #else
 
 #define INITGUID
-#include "MyGuidDef.h"
+#include <MyGuidDef.h>
 DEFINE_GUID(IID_IUnknown,
 0x00000000, 0x0000, 0x0000, 0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46);
 

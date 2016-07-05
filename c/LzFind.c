@@ -1,12 +1,12 @@
 /* LzFind.c -- Match finder for LZ algorithms
 2015-10-15 : Igor Pavlov : Public domain */
 
-#include "Precomp.h"
+#include <Precomp.h>
 
 #include <string.h>
 
-#include "LzFind.h"
-#include "LzHash.h"
+#include <LzFind.h>
+#include <LzHash.h>
 
 #define kEmptyHashValue 0
 #define kMaxValForNormalize ((UInt32)0xFFFFFFFF)

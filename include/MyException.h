@@ -3,7 +3,7 @@
 #ifndef __COMMON_EXCEPTION_H
 #define __COMMON_EXCEPTION_H
 
-#include "MyWindows.h"
+#include <MyWindows.h>
 
 struct CSystemException
 {

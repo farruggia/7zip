@@ -1,6 +1,6 @@
 // Bench.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 #include <stdio.h>
 
@@ -28,15 +28,15 @@
 #endif
 #endif
 
-#include "../../../../C/7zCrc.h"
-#include "../../../../C/Alloc.h"
-#include "../../../../C/CpuArch.h"
+#include <../../../../C/7zCrc.h>
+#include <../../../../C/Alloc.h>
+#include <../../../../C/CpuArch.h>
 
-#include "../../../Windows/System.h"
+#include <../../../Windows/System.h>
 
 #ifndef _7ZIP_ST
-#include "../../../Windows/Synchronization.h"
-#include "../../../Windows/Thread.h"
+#include <../../../Windows/Synchronization.h>
+#include <../../../Windows/Thread.h>
 #endif
 
 #if defined(_WIN32) || defined(UNIX_USE_WIN_FILE)
@@ -44,18 +44,18 @@
 #endif
 
 #ifdef USE_WIN_FILE
-#include "../../../Windows/FileIO.h"
+#include <../../../Windows/FileIO.h>
 #endif
 
 
-#include "../../../Common/IntToString.h"
-#include "../../../Common/StringConvert.h"
-#include "../../../Common/StringToInt.h"
+#include <../../../Common/IntToString.h>
+#include <../../../Common/StringConvert.h>
+#include <../../../Common/StringToInt.h>
 
-#include "../../Common/MethodProps.h"
-#include "../../Common/StreamUtils.h"
+#include <../../Common/MethodProps.h>
+#include <../../Common/StreamUtils.h>
 
-#include "Bench.h"
+#include <Bench.h>
 
 using namespace NWindows;
 

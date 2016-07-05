@@ -3,11 +3,11 @@
 #ifndef __ARCHIVE_CHM_HANDLER_H
 #define __ARCHIVE_CHM_HANDLER_H
 
-#include "../../../Common/MyCom.h"
+#include <../../../Common/MyCom.h>
 
-#include "../IArchive.h"
+#include <../IArchive.h>
 
-#include "ChmIn.h"
+#include <ChmIn.h>
 
 namespace NArchive {
 namespace NChm {

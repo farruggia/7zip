@@ -3,16 +3,16 @@
 #ifndef __DEFLATE_DECODER_H
 #define __DEFLATE_DECODER_H
 
-#include "../../Common/MyCom.h"
+#include <../../Common/MyCom.h>
 
-#include "../ICoder.h"
+#include <../ICoder.h>
 
-#include "../Common/InBuffer.h"
+#include <../Common/InBuffer.h>
 
-#include "BitlDecoder.h"
-#include "DeflateConst.h"
-#include "HuffmanDecoder.h"
-#include "LzOutWindow.h"
+#include <BitlDecoder.h>
+#include <DeflateConst.h>
+#include <HuffmanDecoder.h>
+#include <LzOutWindow.h>
 
 namespace NCompress {
 namespace NDeflate {

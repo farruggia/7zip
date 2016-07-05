@@ -1,10 +1,10 @@
 // Crypto/MyAes.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/CpuArch.h"
+#include <../../../C/CpuArch.h>
 
-#include "MyAes.h"
+#include <MyAes.h>
 
 namespace NCrypto {
 

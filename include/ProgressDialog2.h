@@ -3,17 +3,17 @@
 #ifndef __PROGRESS_DIALOG_2_H
 #define __PROGRESS_DIALOG_2_H
 
-#include "../../../Common/MyCom.h"
+#include <../../../Common/MyCom.h>
 
-#include "../../../Windows/ErrorMsg.h"
-#include "../../../Windows/Synchronization.h"
-#include "../../../Windows/Thread.h"
+#include <../../../Windows/ErrorMsg.h>
+#include <../../../Windows/Synchronization.h>
+#include <../../../Windows/Thread.h>
 
-#include "../../../Windows/Control/Dialog.h"
-#include "../../../Windows/Control/ListView.h"
-#include "../../../Windows/Control/ProgressBar.h"
+#include <../../../Windows/Control/Dialog.h>
+#include <../../../Windows/Control/ListView.h>
+#include <../../../Windows/Control/ProgressBar.h>
 
-#include "MyWindowsNew.h"
+#include <MyWindowsNew.h>
 
 struct CProgressMessageBoxPair
 {

@@ -3,11 +3,11 @@
 #ifndef __OPEN_CALLBACK_CONSOLE_H
 #define __OPEN_CALLBACK_CONSOLE_H
 
-#include "../../../Common/StdOutStream.h"
+#include <../../../Common/StdOutStream.h>
 
-#include "../Common/ArchiveOpenCallback.h"
+#include <../Common/ArchiveOpenCallback.h>
 
-#include "PercentPrinter.h"
+#include <PercentPrinter.h>
 
 class COpenCallbackConsole: public IOpenCallbackUI
 {

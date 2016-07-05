@@ -3,11 +3,11 @@
 #ifndef __STREAM_OBJECTS_H
 #define __STREAM_OBJECTS_H
 
-#include "../../Common/MyBuffer.h"
-#include "../../Common/MyCom.h"
-#include "../../Common/MyVector.h"
+#include <../../Common/MyBuffer.h>
+#include <../../Common/MyCom.h>
+#include <../../Common/MyVector.h>
 
-#include "../IStream.h"
+#include <../IStream.h>
 
 class CBufferInStream:
   public IInStream,

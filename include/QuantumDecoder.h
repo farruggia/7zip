@@ -3,9 +3,9 @@
 #ifndef __COMPRESS_QUANTUM_DECODER_H
 #define __COMPRESS_QUANTUM_DECODER_H
 
-#include "../../Common/MyCom.h"
+#include <../../Common/MyCom.h>
 
-#include "LzOutWindow.h"
+#include <LzOutWindow.h>
 
 namespace NCompress {
 namespace NQuantum {

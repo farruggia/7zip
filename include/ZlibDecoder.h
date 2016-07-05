@@ -3,7 +3,7 @@
 #ifndef __ZLIB_DECODER_H
 #define __ZLIB_DECODER_H
 
-#include "DeflateDecoder.h"
+#include <DeflateDecoder.h>
 
 namespace NCompress {
 namespace NZlib {

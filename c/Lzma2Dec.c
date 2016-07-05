@@ -3,7 +3,7 @@
 
 /* #define SHOW_DEBUG_INFO */
 
-#include "Precomp.h"
+#include <Precomp.h>
 
 #ifdef SHOW_DEBUG_INFO
 #include <stdio.h>
@@ -11,7 +11,7 @@
 
 #include <string.h>
 
-#include "Lzma2Dec.h"
+#include <Lzma2Dec.h>
 
 /*
 00000000  -  EOS

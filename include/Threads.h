@@ -4,8 +4,8 @@
 #ifndef __7Z_THRESDS_H
 #define __7Z_THRESDS_H
 
-#include "7zTypes.h"
-#include "windows.h"
+#include <7zTypes.h>
+#include <windows.h>
 
 #ifdef ENV_BEOS
 #include <kernel/OS.h>

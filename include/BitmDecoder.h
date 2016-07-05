@@ -3,7 +3,7 @@
 #ifndef __BITM_DECODER_H
 #define __BITM_DECODER_H
 
-#include "../IStream.h"
+#include <../IStream.h>
 
 namespace NBitm {
 

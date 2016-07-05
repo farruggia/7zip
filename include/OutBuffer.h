@@ -3,9 +3,9 @@
 #ifndef __OUT_BUFFER_H
 #define __OUT_BUFFER_H
 
-#include "../IStream.h"
-#include "../../Common/MyCom.h"
-#include "../../Common/MyException.h"
+#include <../IStream.h>
+#include <../../Common/MyCom.h>
+#include <../../Common/MyException.h>
 
 #ifndef _NO_EXCEPTIONS
 struct COutBufferException: public CSystemException

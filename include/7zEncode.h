@@ -3,11 +3,11 @@
 #ifndef __7Z_ENCODE_H
 #define __7Z_ENCODE_H
 
-#include "7zCompressionMode.h"
+#include <7zCompressionMode.h>
 
-#include "../Common/CoderMixer2.h"
+#include <../Common/CoderMixer2.h>
 
-#include "7zItem.h"
+#include <7zItem.h>
 
 namespace NArchive {
 namespace N7z {

@@ -1,28 +1,28 @@
 // 7zUpdate.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../../C/CpuArch.h"
+#include <../../../../C/CpuArch.h>
 
-#include "../../../Common/Wildcard.h"
+#include <../../../Common/Wildcard.h>
 
-#include "../../Common/CreateCoder.h"
-#include "../../Common/LimitedStreams.h"
-#include "../../Common/ProgressUtils.h"
+#include <../../Common/CreateCoder.h>
+#include <../../Common/LimitedStreams.h>
+#include <../../Common/ProgressUtils.h>
 
-#include "../../Compress/CopyCoder.h"
+#include <../../Compress/CopyCoder.h>
 
-#include "../Common/ItemNameUtils.h"
+#include <../Common/ItemNameUtils.h>
 
-#include "7zDecode.h"
-#include "7zEncode.h"
-#include "7zFolderInStream.h"
-#include "7zHandler.h"
-#include "7zOut.h"
-#include "7zUpdate.h"
+#include <7zDecode.h>
+#include <7zEncode.h>
+#include <7zFolderInStream.h>
+#include <7zHandler.h>
+#include <7zOut.h>
+#include <7zUpdate.h>
 
 #ifndef WIN32
-#include "Windows/FileIO.h"
+#include <Windows/FileIO.h>
 #endif
 
 namespace NArchive {

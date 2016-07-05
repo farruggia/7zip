@@ -1,24 +1,24 @@
 // List.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../Common/IntToString.h"
-#include "../../../Common/MyCom.h"
-#include "../../../Common/StdOutStream.h"
-#include "../../../Common/StringConvert.h"
-#include "../../../Common/UTFConvert.h"
+#include <../../../Common/IntToString.h>
+#include <../../../Common/MyCom.h>
+#include <../../../Common/StdOutStream.h>
+#include <../../../Common/StringConvert.h>
+#include <../../../Common/UTFConvert.h>
 
-#include "../../../Windows/ErrorMsg.h"
-#include "../../../Windows/FileDir.h"
-#include "../../../Windows/PropVariant.h"
-#include "../../../Windows/PropVariantConv.h"
+#include <../../../Windows/ErrorMsg.h>
+#include <../../../Windows/FileDir.h>
+#include <../../../Windows/PropVariant.h>
+#include <../../../Windows/PropVariantConv.h>
 
-#include "../Common/OpenArchive.h"
-#include "../Common/PropIDUtils.h"
+#include <../Common/OpenArchive.h>
+#include <../Common/PropIDUtils.h>
 
-#include "ConsoleClose.h"
-#include "List.h"
-#include "OpenCallbackConsole.h"
+#include <ConsoleClose.h>
+#include <List.h>
+#include <OpenCallbackConsole.h>
 
 using namespace NWindows;
 using namespace NCOM;

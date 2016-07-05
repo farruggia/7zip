@@ -3,7 +3,7 @@
 #ifndef __COMMON_STRING_TO_INT_H
 #define __COMMON_STRING_TO_INT_H
 
-#include "MyTypes.h"
+#include <MyTypes.h>
 
 UInt32 ConvertStringToUInt32(const char *s, const char **end) throw();
 UInt64 ConvertStringToUInt64(const char *s, const char **end) throw();

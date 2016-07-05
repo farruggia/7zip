@@ -1,23 +1,23 @@
 /* XzEnc.c -- Xz Encode
 2015-09-16 : Igor Pavlov : Public domain */
 
-#include "Precomp.h"
+#include <Precomp.h>
 
 #include <stdlib.h>
 #include <string.h>
 
-#include "7zCrc.h"
-#include "Alloc.h"
-#include "Bra.h"
-#include "CpuArch.h"
+#include <7zCrc.h>
+#include <Alloc.h>
+#include <Bra.h>
+#include <CpuArch.h>
 
 #ifdef USE_SUBBLOCK
-#include "Bcj3Enc.c"
-#include "SbFind.c"
-#include "SbEnc.c"
+#include <Bcj3Enc.c>
+#include <SbFind.c>
+#include <SbEnc.c>
 #endif
 
-#include "XzEnc.h"
+#include <XzEnc.h>
 
 #define XzBlock_ClearFlags(p)       (p)->flags = 0;
 #define XzBlock_SetNumFilters(p, n) (p)->flags |= ((n) - 1);

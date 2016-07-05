@@ -1,13 +1,13 @@
 // DeflateEncoder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/Alloc.h"
-#include "../../../C/HuffEnc.h"
+#include <../../../C/Alloc.h>
+#include <../../../C/HuffEnc.h>
 
-#include "../../Common/ComTry.h"
+#include <../../Common/ComTry.h>
 
-#include "DeflateEncoder.h"
+#include <DeflateEncoder.h>
 
 #undef NO_INLINE
 

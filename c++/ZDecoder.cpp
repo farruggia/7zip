@@ -1,15 +1,15 @@
 // ZDecoder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 // #include <stdio.h>
 
-#include "../../../C/Alloc.h"
+#include <../../../C/Alloc.h>
 
-#include "../Common/InBuffer.h"
-#include "../Common/OutBuffer.h"
+#include <../Common/InBuffer.h>
+#include <../Common/OutBuffer.h>
 
-#include "ZDecoder.h"
+#include <ZDecoder.h>
 
 namespace NCompress {
 namespace NZ {

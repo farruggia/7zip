@@ -1,7 +1,7 @@
 // File: lzham_comp.h
 // See Copyright Notice and license at the end of include/lzham.h
 #pragma once
-#include "lzham.h"
+#include <lzham.h>
 
 namespace lzham
 {

@@ -3,7 +3,7 @@
 #ifndef __STREAM_UTILS_H
 #define __STREAM_UTILS_H
 
-#include "../IStream.h"
+#include <../IStream.h>
 
 HRESULT ReadStream(ISequentialInStream *stream, void *data, size_t *size) throw();
 HRESULT ReadStream_FALSE(ISequentialInStream *stream, void *data, size_t size) throw();

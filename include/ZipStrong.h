@@ -3,11 +3,11 @@
 #ifndef __CRYPTO_ZIP_STRONG_H
 #define __CRYPTO_ZIP_STRONG_H
 
-#include "../../Common/MyBuffer.h"
+#include <../../Common/MyBuffer.h>
 
-#include "../IPassword.h"
+#include <../IPassword.h>
 
-#include "MyAes.h"
+#include <MyAes.h>
 
 namespace NCrypto {
 namespace NZipStrong {

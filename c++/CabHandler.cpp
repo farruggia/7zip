@@ -1,31 +1,31 @@
 // CabHandler.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 // #include <stdio.h>
 
-#include "../../../../C/Alloc.h"
+#include <../../../../C/Alloc.h>
 
-#include "../../../Common/ComTry.h"
-#include "../../../Common/IntToString.h"
-#include "../../../Common/StringConvert.h"
-#include "../../../Common/UTFConvert.h"
+#include <../../../Common/ComTry.h>
+#include <../../../Common/IntToString.h>
+#include <../../../Common/StringConvert.h>
+#include <../../../Common/UTFConvert.h>
 
-#include "../../../Windows/PropVariant.h"
-#include "../../../Windows/TimeUtils.h"
+#include <../../../Windows/PropVariant.h>
+#include <../../../Windows/TimeUtils.h>
 
-#include "../../Common/ProgressUtils.h"
-#include "../../Common/StreamUtils.h"
+#include <../../Common/ProgressUtils.h>
+#include <../../Common/StreamUtils.h>
 
-#include "../../Compress/CopyCoder.h"
-#include "../../Compress/DeflateDecoder.h"
-#include "../../Compress/LzxDecoder.h"
-#include "../../Compress/QuantumDecoder.h"
+#include <../../Compress/CopyCoder.h>
+#include <../../Compress/DeflateDecoder.h>
+#include <../../Compress/LzxDecoder.h>
+#include <../../Compress/QuantumDecoder.h>
 
-#include "../Common/ItemNameUtils.h"
+#include <../Common/ItemNameUtils.h>
 
-#include "CabBlockInStream.h"
-#include "CabHandler.h"
+#include <CabBlockInStream.h>
+#include <CabHandler.h>
 
 using namespace NWindows;
 

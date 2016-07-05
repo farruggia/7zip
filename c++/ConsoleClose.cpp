@@ -1,8 +1,8 @@
 // ConsoleClose.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "ConsoleClose.h"
+#include <ConsoleClose.h>
 
 #include <signal.h>
 

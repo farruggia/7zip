@@ -1,8 +1,8 @@
 // Archive/TarHeader.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "TarHeader.h"
+#include <TarHeader.h>
 
 namespace NArchive {
 namespace NTar {

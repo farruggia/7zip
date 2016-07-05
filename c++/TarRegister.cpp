@@ -1,10 +1,10 @@
 // TarRegister.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Common/RegisterArc.h"
+#include <../../Common/RegisterArc.h>
 
-#include "TarHandler.h"
+#include <TarHandler.h>
 
 namespace NArchive {
 namespace NTar {

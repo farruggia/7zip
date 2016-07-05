@@ -3,9 +3,9 @@
 #ifndef __HASH_CON_H
 #define __HASH_CON_H
 
-#include "../Common/HashCalc.h"
+#include <../Common/HashCalc.h>
 
-#include "UpdateCallbackConsole.h"
+#include <UpdateCallbackConsole.h>
 
 class CHashCallbackConsole: public IHashCallbackUI, public CCallbackConsoleBase
 {

@@ -1,8 +1,8 @@
 // Windows/Synchronization.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "Synchronization.h"
+#include <Synchronization.h>
 
 // #define TRACEN(u) u;
 #define TRACEN(u)  /* */

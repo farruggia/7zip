@@ -1,15 +1,15 @@
 // ArchiveOpenCallback.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../Common/ComTry.h"
+#include <../../../Common/ComTry.h>
 
-#include "../../../Windows/FileName.h"
-#include "../../../Windows/PropVariant.h"
+#include <../../../Windows/FileName.h>
+#include <../../../Windows/PropVariant.h>
 
-#include "../../Common/FileStreams.h"
+#include <../../Common/FileStreams.h>
 
-#include "ArchiveOpenCallback.h"
+#include <ArchiveOpenCallback.h>
 
 using namespace NWindows;
 

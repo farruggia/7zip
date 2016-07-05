@@ -3,10 +3,10 @@
 #ifndef __ZIP_REGISTRY_H
 #define __ZIP_REGISTRY_H
 
-#include "../../../Common/MyTypes.h"
-#include "../../../Common/MyString.h"
+#include <../../../Common/MyTypes.h>
+#include <../../../Common/MyString.h>
 
-#include "ExtractMode.h"
+#include <ExtractMode.h>
 
 namespace NExtract
 {

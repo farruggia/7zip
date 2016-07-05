@@ -1,19 +1,19 @@
 // Bz2Handler.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Common/ComTry.h"
+#include <../../Common/ComTry.h>
 
-#include "../Common/ProgressUtils.h"
-#include "../Common/RegisterArc.h"
-#include "../Common/StreamUtils.h"
+#include <../Common/ProgressUtils.h>
+#include <../Common/RegisterArc.h>
+#include <../Common/StreamUtils.h>
 
-#include "../Compress/BZip2Decoder.h"
-#include "../Compress/BZip2Encoder.h"
-#include "../Compress/CopyCoder.h"
+#include <../Compress/BZip2Decoder.h>
+#include <../Compress/BZip2Encoder.h>
+#include <../Compress/CopyCoder.h>
 
-#include "Common/DummyOutStream.h"
-#include "Common/HandlerOut.h"
+#include <Common/DummyOutStream.h>
+#include <Common/HandlerOut.h>
 
 using namespace NWindows;
 

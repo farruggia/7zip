@@ -1,10 +1,10 @@
 // InBuffer.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/Alloc.h"
+#include <../../../C/Alloc.h>
 
-#include "InBuffer.h"
+#include <InBuffer.h>
 
 CInBufferBase::CInBufferBase() throw():
   _buf(0),

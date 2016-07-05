@@ -1,11 +1,11 @@
 // OpenCallbackConsole.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "OpenCallbackConsole.h"
+#include <OpenCallbackConsole.h>
 
-#include "ConsoleClose.h"
-#include "UserInputUtils.h"
+#include <ConsoleClose.h>
+#include <UserInputUtils.h>
 
 static HRESULT CheckBreak2()
 {

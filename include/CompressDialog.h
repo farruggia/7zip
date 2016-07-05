@@ -3,17 +3,17 @@
 #ifndef __COMPRESS_DIALOG_H
 #define __COMPRESS_DIALOG_H
 
-#include "../../../Common/Wildcard.h"
+#include <../../../Common/Wildcard.h>
 
-#include "../../../Windows/Control/ComboBox.h"
-#include "../../../Windows/Control/Edit.h"
+#include <../../../Windows/Control/ComboBox.h>
+#include <../../../Windows/Control/Edit.h>
 
-#include "../Common/LoadCodecs.h"
-#include "../Common/ZipRegistry.h"
+#include <../Common/LoadCodecs.h>
+#include <../Common/ZipRegistry.h>
 
-#include "../FileManager/DialogSize.h"
+#include <../FileManager/DialogSize.h>
 
-#include "CompressDialogRes.h"
+#include <CompressDialogRes.h>
 
 namespace NCompressDialog
 {

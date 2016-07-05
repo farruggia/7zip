@@ -3,11 +3,11 @@
 #ifndef __7Z_METHOD_PROPS_H
 #define __7Z_METHOD_PROPS_H
 
-#include "../../Common/MyString.h"
+#include <../../Common/MyString.h>
 
-#include "../../Windows/PropVariant.h"
+#include <../../Windows/PropVariant.h>
 
-#include "../ICoder.h"
+#include <../ICoder.h>
 
 bool StringToBool(const UString &s, bool &res);
 HRESULT PROPVARIANT_to_bool(const PROPVARIANT &prop, bool &dest);

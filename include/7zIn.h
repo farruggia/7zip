@@ -3,17 +3,17 @@
 #ifndef __7Z_IN_H
 #define __7Z_IN_H
 
-#include "../../../Common/MyCom.h"
+#include <../../../Common/MyCom.h>
 
-#include "../../../Windows/PropVariant.h"
+#include <../../../Windows/PropVariant.h>
 
-#include "../../IPassword.h"
-#include "../../IStream.h"
+#include <../../IPassword.h>
+#include <../../IStream.h>
 
-#include "../../Common/CreateCoder.h"
-#include "../../Common/InBuffer.h"
+#include <../../Common/CreateCoder.h>
+#include <../../Common/InBuffer.h>
 
-#include "7zItem.h"
+#include <7zItem.h>
  
 namespace NArchive {
 namespace N7z {

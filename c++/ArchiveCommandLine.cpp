@@ -1,6 +1,6 @@
 // ArchiveCommandLine.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 #undef printf
 #undef sprintf
 
@@ -11,24 +11,24 @@
 #endif
 #include <stdio.h>
 
-#include "../../../Common/ListFileUtils.h"
-#include "../../../Common/StringConvert.h"
-#include "../../../Common/StringToInt.h"
+#include <../../../Common/ListFileUtils.h>
+#include <../../../Common/StringConvert.h>
+#include <../../../Common/StringToInt.h>
 
-#include "../../../Windows/FileDir.h"
-#include "../../../Windows/FileName.h"
+#include <../../../Windows/FileDir.h>
+#include <../../../Windows/FileName.h>
 #ifdef _WIN32
-#include "../../../Windows/FileMapping.h"
-#include "../../../Windows/Synchronization.h"
+#include <../../../Windows/FileMapping.h>
+#include <../../../Windows/Synchronization.h>
 #else
-#include "myPrivate.h"
+#include <myPrivate.h>
 #endif
 
-#include "ArchiveCommandLine.h"
-#include "EnumDirItems.h"
-#include "SortUtils.h"
-#include "Update.h"
-#include "UpdateAction.h"
+#include <ArchiveCommandLine.h>
+#include <EnumDirItems.h>
+#include <SortUtils.h>
+#include <Update.h>
+#include <UpdateAction.h>
 
 extern bool g_CaseSensitive;
 

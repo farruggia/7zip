@@ -6,15 +6,15 @@ specified in "A Password Based File Encryption Utility".
 Note: you must include MyAes.cpp to project to initialize AES tables
 */
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/CpuArch.h"
+#include <../../../C/CpuArch.h>
 
-#include "../Common/StreamUtils.h"
+#include <../Common/StreamUtils.h>
 
-#include "Pbkdf2HmacSha1.h"
-#include "RandGen.h"
-#include "WzAes.h"
+#include <Pbkdf2HmacSha1.h>
+#include <RandGen.h>
+#include <WzAes.h>
 
 // define it if you don't want to use speed-optimized version of NSha1::Pbkdf2Hmac
 // #define _NO_WZAES_OPTIMIZATIONS

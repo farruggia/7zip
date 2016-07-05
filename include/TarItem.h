@@ -3,9 +3,9 @@
 #ifndef __ARCHIVE_TAR_ITEM_H
 #define __ARCHIVE_TAR_ITEM_H
 
-#include "../Common/ItemNameUtils.h"
+#include <../Common/ItemNameUtils.h>
 
-#include "TarHeader.h"
+#include <TarHeader.h>
 
 namespace NArchive {
 namespace NTar {

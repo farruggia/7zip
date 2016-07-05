@@ -1,29 +1,29 @@
 // XzHandler.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/Alloc.h"
-#include "../../../C/XzCrc64.h"
-#include "../../../C/XzEnc.h"
+#include <../../../C/Alloc.h>
+#include <../../../C/XzCrc64.h>
+#include <../../../C/XzEnc.h>
 
-#include "../../Common/ComTry.h"
-#include "../../Common/Defs.h"
-#include "../../Common/IntToString.h"
+#include <../../Common/ComTry.h>
+#include <../../Common/Defs.h>
+#include <../../Common/IntToString.h>
 
-#include "../ICoder.h"
+#include <../ICoder.h>
 
-#include "../Common/CWrappers.h"
-#include "../Common/ProgressUtils.h"
-#include "../Common/RegisterArc.h"
-#include "../Common/StreamUtils.h"
+#include <../Common/CWrappers.h>
+#include <../Common/ProgressUtils.h>
+#include <../Common/RegisterArc.h>
+#include <../Common/StreamUtils.h>
 
-#include "../Compress/CopyCoder.h"
+#include <../Compress/CopyCoder.h>
 
-#include "IArchive.h"
+#include <IArchive.h>
 
-#include "Common/HandlerOut.h"
+#include <Common/HandlerOut.h>
 
-#include "XzHandler.h"
+#include <XzHandler.h>
 
 using namespace NWindows;
 

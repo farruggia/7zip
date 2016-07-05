@@ -4,7 +4,7 @@
 #ifndef __DELTA_H
 #define __DELTA_H
 
-#include "7zTypes.h"
+#include <7zTypes.h>
 
 EXTERN_C_BEGIN
 

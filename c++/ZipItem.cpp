@@ -1,16 +1,16 @@
 // Archive/ZipItem.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../../C/CpuArch.h"
-#include "../../../../C/7zCrc.h"
+#include <../../../../C/CpuArch.h>
+#include <../../../../C/7zCrc.h>
 
-#include "../../../Common/MyLinux.h"
-#include "../../../Common/StringConvert.h"
+#include <../../../Common/MyLinux.h>
+#include <../../../Common/StringConvert.h>
 
-#include "../Common/ItemNameUtils.h"
+#include <../Common/ItemNameUtils.h>
 
-#include "ZipItem.h"
+#include <ZipItem.h>
 
 namespace NArchive {
 namespace NZip {

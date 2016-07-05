@@ -3,9 +3,9 @@
 #ifndef __PLUGIN_LOADER_H
 #define __PLUGIN_LOADER_H
 
-#include "../../../Windows/DLL.h"
+#include <../../../Windows/DLL.h>
 
-#include "IFolder.h"
+#include <IFolder.h>
 
 class CPluginLibrary: public NWindows::NDLL::CLibrary
 {

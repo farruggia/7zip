@@ -3,8 +3,8 @@
 #ifndef __COMMON_MYMAP_H
 #define __COMMON_MYMAP_H
 
-#include "MyTypes.h"
-#include "MyVector.h"
+#include <MyTypes.h>
+#include <MyVector.h>
 
 class CMap32
 {

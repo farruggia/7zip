@@ -3,12 +3,12 @@
 #ifndef __CREATE_CODER_H
 #define __CREATE_CODER_H
 
-#include "../../Common/MyCom.h"
-#include "../../Common/MyString.h"
+#include <../../Common/MyCom.h>
+#include <../../Common/MyString.h>
 
-#include "../ICoder.h"
+#include <../ICoder.h>
 
-#include "MethodId.h"
+#include <MethodId.h>
 
 /*
   if EXTERNAL_CODECS is not defined, the code supports only codecs that

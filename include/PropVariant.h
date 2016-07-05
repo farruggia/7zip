@@ -3,9 +3,9 @@
 #ifndef __WINDOWS_PROP_VARIANT_H
 #define __WINDOWS_PROP_VARIANT_H
 
-#include "../Common/MyTypes.h"
-#include "../Common/MyWindows.h"
-#include "../Common/MyString.h"
+#include <../Common/MyTypes.h>
+#include <../Common/MyWindows.h>
+#include <../Common/MyString.h>
 
 namespace NWindows {
 namespace NCOM {

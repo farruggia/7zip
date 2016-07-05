@@ -1,25 +1,25 @@
 // Windows/FileDir.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 #ifndef _UNICODE
-#include "../Common/StringConvert.h"
+#include <../Common/StringConvert.h>
 #endif
 
-#include "FileDir.h"
-#include "FileFind.h"
-#include "FileName.h"
+#include <FileDir.h>
+#include <FileFind.h>
+#include <FileName.h>
 
 using namespace NWindows;
 using namespace NFile;
 using namespace NName;
 
-#include "../Common/StringConvert.h"
-#include "../Common/IntToString.h"
+#include <../Common/StringConvert.h>
+#include <../Common/IntToString.h>
 
 #define NEED_NAME_WINDOWS_TO_UNIX
-#include "myPrivate.h"
-#include "Windows/Synchronization.h"
+#include <myPrivate.h>
+#include <Windows/Synchronization.h>
 
 #include <unistd.h> // rmdir
 #include <errno.h>

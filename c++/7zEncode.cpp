@@ -1,16 +1,16 @@
 // 7zEncode.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Common/CreateCoder.h"
-#include "../../Common/FilterCoder.h"
-#include "../../Common/LimitedStreams.h"
-#include "../../Common/InOutTempBuffer.h"
-#include "../../Common/ProgressUtils.h"
-#include "../../Common/StreamObjects.h"
+#include <../../Common/CreateCoder.h>
+#include <../../Common/FilterCoder.h>
+#include <../../Common/LimitedStreams.h>
+#include <../../Common/InOutTempBuffer.h>
+#include <../../Common/ProgressUtils.h>
+#include <../../Common/StreamObjects.h>
 
-#include "7zEncode.h"
-#include "7zSpecStream.h"
+#include <7zEncode.h>
+#include <7zSpecStream.h>
 
 namespace NArchive {
 namespace N7z {

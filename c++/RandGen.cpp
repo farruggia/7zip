@@ -1,12 +1,12 @@
 // RandGen.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 #ifndef _7ZIP_ST
-#include "../../Windows/Synchronization.h"
+#include <../../Windows/Synchronization.h>
 #endif
 
-#include "RandGen.h"
+#include <RandGen.h>
 
 #ifndef _WIN32
 #include <unistd.h>

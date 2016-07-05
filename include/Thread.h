@@ -3,11 +3,11 @@
 #ifndef __WINDOWS_THREAD_H
 #define __WINDOWS_THREAD_H
 
-#include "Defs.h"
+#include <Defs.h>
 
 extern "C"
 {
-#include "../../C/Threads.h"
+#include <../../C/Threads.h>
 }
 
 namespace NWindows {

@@ -1,12 +1,12 @@
 // ExtractingFilePath.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../Common/Wildcard.h"
+#include <../../../Common/Wildcard.h>
 
-#include "../../../Windows/FileName.h"
+#include <../../../Windows/FileName.h>
 
-#include "ExtractingFilePath.h"
+#include <ExtractingFilePath.h>
 
 static void ReplaceIncorrectChars(UString &s)
 {

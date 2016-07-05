@@ -1,8 +1,8 @@
 // CoderMixer2.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "CoderMixer2.h"
+#include <CoderMixer2.h>
 
 #ifdef USE_MIXER_ST
 

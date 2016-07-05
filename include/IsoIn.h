@@ -3,13 +3,13 @@
 #ifndef __ARCHIVE_ISO_IN_H
 #define __ARCHIVE_ISO_IN_H
 
-#include "../../../Common/IntToString.h"
-#include "../../../Common/MyCom.h"
+#include <../../../Common/IntToString.h>
+#include <../../../Common/MyCom.h>
 
-#include "../../IStream.h"
+#include <../../IStream.h>
 
-#include "IsoHeader.h"
-#include "IsoItem.h"
+#include <IsoHeader.h>
+#include <IsoItem.h>
 
 namespace NArchive {
 namespace NIso {

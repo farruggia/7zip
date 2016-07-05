@@ -1,8 +1,8 @@
 // 7zFolderInStream.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "7zFolderInStream.h"
+#include <7zFolderInStream.h>
 
 namespace NArchive {
 namespace N7z {

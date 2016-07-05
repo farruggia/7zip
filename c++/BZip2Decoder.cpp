@@ -1,11 +1,11 @@
 // BZip2Decoder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/Alloc.h"
+#include <../../../C/Alloc.h>
 
-#include "BZip2Decoder.h"
-#include "Mtf8.h"
+#include <BZip2Decoder.h>
+#include <Mtf8.h>
 
 namespace NCompress {
 namespace NBZip2 {

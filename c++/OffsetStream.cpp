@@ -1,10 +1,10 @@
 // OffsetStream.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Common/Defs.h"
+#include <../../Common/Defs.h>
 
-#include "OffsetStream.h"
+#include <OffsetStream.h>
 
 HRESULT COffsetOutStream::Init(IOutStream *stream, UInt64 offset)
 {

@@ -3,10 +3,10 @@
 #ifndef __PASSWORD_DIALOG_H
 #define __PASSWORD_DIALOG_H
 
-#include "../../../Windows/Control/Dialog.h"
-#include "../../../Windows/Control/Edit.h"
+#include <../../../Windows/Control/Dialog.h>
+#include <../../../Windows/Control/Edit.h>
 
-#include "PasswordDialogRes.h"
+#include <PasswordDialogRes.h>
 
 class CPasswordDialog: public NWindows::NControl::CModalDialog
 {

@@ -1,10 +1,10 @@
 // TempFiles.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../Windows/FileDir.h"
+#include <../../../Windows/FileDir.h>
 
-#include "TempFiles.h"
+#include <TempFiles.h>
 
 using namespace NWindows;
 using namespace NFile;

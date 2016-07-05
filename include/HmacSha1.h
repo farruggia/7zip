@@ -4,7 +4,7 @@
 #ifndef __CRYPTO_HMAC_SHA1_H
 #define __CRYPTO_HMAC_SHA1_H
 
-#include "Sha1Cls.h"
+#include <Sha1Cls.h>
 
 namespace NCrypto {
 namespace NSha1 {

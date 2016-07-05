@@ -1,14 +1,14 @@
 // 7zOut.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../../C/7zCrc.h"
+#include <../../../../C/7zCrc.h>
 
-#include "../../../Common/AutoPtr.h"
+#include <../../../Common/AutoPtr.h>
 
-#include "../../Common/StreamObjects.h"
+#include <../../Common/StreamObjects.h>
 
-#include "7zOut.h"
+#include <7zOut.h>
 
 namespace NArchive {
 namespace N7z {

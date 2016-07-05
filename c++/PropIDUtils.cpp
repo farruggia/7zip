@@ -1,18 +1,18 @@
 // PropIDUtils.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../../C/CpuArch.h"
+#include <../../../../C/CpuArch.h>
 
-#include "../../../Common/IntToString.h"
-#include "../../../Common/StringConvert.h"
+#include <../../../Common/IntToString.h>
+#include <../../../Common/StringConvert.h>
 
-#include "../../../Windows/FileIO.h"
-#include "../../../Windows/PropVariantConv.h"
+#include <../../../Windows/FileIO.h>
+#include <../../../Windows/PropVariantConv.h>
 
-#include "../../PropID.h"
+#include <../../PropID.h>
 
-#include "PropIDUtils.h"
+#include <PropIDUtils.h>
 
 #define Get16(x) GetUi16(x)
 #define Get32(x) GetUi32(x)

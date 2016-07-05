@@ -1,29 +1,29 @@
 // GzHandler.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 // #include  <stdio.h>
 
-#include "../../../C/CpuArch.h"
+#include <../../../C/CpuArch.h>
 
-#include "../../Common/ComTry.h"
-#include "../../Common/Defs.h"
-#include "../../Common/StringConvert.h"
+#include <../../Common/ComTry.h>
+#include <../../Common/Defs.h>
+#include <../../Common/StringConvert.h>
 
-#include "../../Windows/PropVariant.h"
-#include "../../Windows/TimeUtils.h"
+#include <../../Windows/PropVariant.h>
+#include <../../Windows/TimeUtils.h>
 
-#include "../Common/ProgressUtils.h"
-#include "../Common/RegisterArc.h"
-#include "../Common/StreamUtils.h"
+#include <../Common/ProgressUtils.h>
+#include <../Common/RegisterArc.h>
+#include <../Common/StreamUtils.h>
 
-#include "../Compress/CopyCoder.h"
-#include "../Compress/DeflateDecoder.h"
-#include "../Compress/DeflateEncoder.h"
+#include <../Compress/CopyCoder.h>
+#include <../Compress/DeflateDecoder.h>
+#include <../Compress/DeflateEncoder.h>
 
-#include "Common/HandlerOut.h"
-#include "Common/InStreamWithCRC.h"
-#include "Common/OutStreamWithCRC.h"
+#include <Common/HandlerOut.h>
+#include <Common/InStreamWithCRC.h>
+#include <Common/OutStreamWithCRC.h>
 
 #define Get32(p) GetUi32(p)
 

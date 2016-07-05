@@ -1,9 +1,9 @@
 /* Bra86.c -- Converter for x86 code (BCJ)
 2013-11-12 : Igor Pavlov : Public domain */
 
-#include "Precomp.h"
+#include <Precomp.h>
 
-#include "Bra.h"
+#include <Bra.h>
 
 #define Test86MSByte(b) ((((b) + 1) & 0xFE) == 0)
 

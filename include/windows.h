@@ -17,7 +17,7 @@
 
 /* BEGIN #include <windef.h> */
 
-#include "Common/MyWindows.h" // FIXED
+#include <MyWindows.h> // FIXED
 
 #ifndef CONST
 #define CONST const

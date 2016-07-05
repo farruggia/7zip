@@ -6,7 +6,7 @@
 
 #include <stddef.h>
 
-#include "7zTypes.h"
+#include <7zTypes.h>
 
 EXTERN_C_BEGIN
 

@@ -3,10 +3,10 @@
 #ifndef __SPLIT_DIALOG_H
 #define __SPLIT_DIALOG_H
 
-#include "../../../Windows/Control/Dialog.h"
-#include "../../../Windows/Control/ComboBox.h"
+#include <../../../Windows/Control/Dialog.h>
+#include <../../../Windows/Control/ComboBox.h>
 
-#include "SplitDialogRes.h"
+#include <SplitDialogRes.h>
 
 class CSplitDialog: public NWindows::NControl::CModalDialog
 {

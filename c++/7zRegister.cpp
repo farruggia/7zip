@@ -1,10 +1,10 @@
 // 7zRegister.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Common/RegisterArc.h"
+#include <../../Common/RegisterArc.h>
 
-#include "7zHandler.h"
+#include <7zHandler.h>
 
 namespace NArchive {
 namespace N7z {

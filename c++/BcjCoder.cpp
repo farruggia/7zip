@@ -1,8 +1,8 @@
 // BcjCoder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "BcjCoder.h"
+#include <BcjCoder.h>
 
 STDMETHODIMP CBcjCoder::Init()
 {

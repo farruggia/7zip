@@ -3,13 +3,13 @@
 #ifndef __HASH_CALC_H
 #define __HASH_CALC_H
 
-#include "../../../Common/Wildcard.h"
+#include <../../../Common/Wildcard.h>
 
-#include "../../Common/CreateCoder.h"
-#include "../../Common/MethodProps.h"
+#include <../../Common/CreateCoder.h>
+#include <../../Common/MethodProps.h>
 
-#include "DirItem.h"
-#include "Property.h"
+#include <DirItem.h>
+#include <Property.h>
 
 const unsigned k_HashCalc_DigestSize_Max = 64;
 

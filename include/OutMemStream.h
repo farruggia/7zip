@@ -3,9 +3,9 @@
 #ifndef __OUT_MEM_STREAM_H
 #define __OUT_MEM_STREAM_H
 
-#include "../../Common/MyCom.h"
+#include <../../Common/MyCom.h>
 
-#include "MemBlocks.h"
+#include <MemBlocks.h>
 
 class COutMemStream:
   public IOutStream,

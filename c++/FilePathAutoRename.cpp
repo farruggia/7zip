@@ -1,13 +1,13 @@
 // FilePathAutoRename.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Common/Defs.h"
-#include "../../Common/IntToString.h"
+#include <../../Common/Defs.h>
+#include <../../Common/IntToString.h>
 
-#include "../../Windows/FileFind.h"
+#include <../../Windows/FileFind.h>
 
-#include "FilePathAutoRename.h"
+#include <FilePathAutoRename.h>
 
 using namespace NWindows;
 

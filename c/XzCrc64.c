@@ -1,10 +1,10 @@
 /* XzCrc64.c -- CRC64 calculation
 2015-03-01 : Igor Pavlov : Public domain */
 
-#include "Precomp.h"
+#include <Precomp.h>
 
-#include "XzCrc64.h"
-#include "CpuArch.h"
+#include <XzCrc64.h>
+#include <CpuArch.h>
 
 #define kCrc64Poly UINT64_CONST(0xC96C5795D7870F42)
 

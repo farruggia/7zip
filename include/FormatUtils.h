@@ -3,8 +3,8 @@
 #ifndef __FORMAT_UTILS_H
 #define __FORMAT_UTILS_H
 
-#include "../../../Common/MyTypes.h"
-#include "../../../Common/MyString.h"
+#include <../../../Common/MyTypes.h>
+#include <../../../Common/MyString.h>
 
 UString NumberToString(UInt64 number);
 

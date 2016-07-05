@@ -1,6 +1,6 @@
 // 7zIn.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 #ifdef _WIN32
 #include <wchar.h>
@@ -8,14 +8,14 @@
 #include <ctype.h>
 #endif
 
-#include "../../../../C/7zCrc.h"
-#include "../../../../C/CpuArch.h"
+#include <../../../../C/7zCrc.h>
+#include <../../../../C/CpuArch.h>
 
-#include "../../Common/StreamObjects.h"
-#include "../../Common/StreamUtils.h"
+#include <../../Common/StreamObjects.h>
+#include <../../Common/StreamUtils.h>
 
-#include "7zDecode.h"
-#include "7zIn.h"
+#include <7zDecode.h>
+#include <7zIn.h>
 
 #define Get16(p) GetUi16(p)
 #define Get32(p) GetUi32(p)

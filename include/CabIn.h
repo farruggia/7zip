@@ -3,12 +3,12 @@
 #ifndef __ARCHIVE_CAB_IN_H
 #define __ARCHIVE_CAB_IN_H
 
-#include "../../../Common/MyBuffer.h"
-#include "../../../Common/MyCom.h"
+#include <../../../Common/MyBuffer.h>
+#include <../../../Common/MyCom.h>
 
-#include "../../Common/InBuffer.h"
+#include <../../Common/InBuffer.h>
 
-#include "CabItem.h"
+#include <CabItem.h>
 
 namespace NArchive {
 namespace NCab {

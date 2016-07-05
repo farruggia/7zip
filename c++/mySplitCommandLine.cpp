@@ -1,13 +1,13 @@
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../Common/StringConvert.h"
+#include <../Common/StringConvert.h>
 
-#include "myPrivate.h"
-#include "Windows/System.h"
-#include "7zip/MyVersion.h"
-#include "Common/StdOutStream.h"
-#include "Common/IntToString.h"
-#include "../C/CpuArch.h"
+#include <myPrivate.h>
+#include <Windows/System.h>
+#include <7zip/MyVersion.h>
+#include <Common/StdOutStream.h>
+#include <Common/IntToString.h>
+#include <../C/CpuArch.h>
 
 #ifdef ENV_HAVE_LOCALE
 #include <locale.h>

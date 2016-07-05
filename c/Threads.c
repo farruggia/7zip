@@ -1,6 +1,6 @@
 /* Threads.c */
 
-#include "Threads.h"
+#include <Threads.h>
 
 #ifdef ENV_BEOS
 #include <kernel/OS.h>

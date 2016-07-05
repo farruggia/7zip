@@ -1,11 +1,11 @@
 // UserInputUtils.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../Common/StdInStream.h"
-#include "../../../Common/StringConvert.h"
+#include <../../../Common/StdInStream.h>
+#include <../../../Common/StringConvert.h>
 
-#include "UserInputUtils.h"
+#include <UserInputUtils.h>
 
 #ifdef USE_FLTK
 // the programs like file-roller or xarchiver do not support archives with password
@@ -18,7 +18,7 @@
 #ifdef ENV_HAVE_GETPASS
 #include <pwd.h>
 #include <unistd.h>
-#include "Common/MyException.h"
+#include <Common/MyException.h>
 #endif
 #endif
 

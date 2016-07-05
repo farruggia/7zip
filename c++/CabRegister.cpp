@@ -1,10 +1,10 @@
 // CabRegister.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Common/RegisterArc.h"
+#include <../../Common/RegisterArc.h>
 
-#include "CabHandler.h"
+#include <CabHandler.h>
 
 namespace NArchive {
 namespace NCab {

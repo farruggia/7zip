@@ -3,7 +3,7 @@
 #ifndef __COMMON_TEXT_CONFIG_H
 #define __COMMON_TEXT_CONFIG_H
 
-#include "MyString.h"
+#include <MyString.h>
 
 struct CTextConfigPair
 {

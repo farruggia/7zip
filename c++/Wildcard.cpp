@@ -1,8 +1,8 @@
 // Common/Wildcard.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "Wildcard.h"
+#include <Wildcard.h>
 
 bool g_CaseSensitive =
   #ifdef _WIN32

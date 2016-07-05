@@ -1,9 +1,9 @@
 // UTFConvert.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "MyTypes.h"
-#include "UTFConvert.h"
+#include <MyTypes.h>
+#include <UTFConvert.h>
 
 #ifdef _WIN32
 #define _WCHART_IS_16BIT 1

@@ -1,8 +1,8 @@
 // BitlDecoder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "BitlDecoder.h"
+#include <BitlDecoder.h>
 
 namespace NBitl {
 

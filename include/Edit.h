@@ -3,8 +3,8 @@
 #ifndef __WINDOWS_CONTROL_EDIT_H
 #define __WINDOWS_CONTROL_EDIT_H
 
-#include "Windows/Window.h"
-#include "Windows/Defs.h"
+#include <Windows/Window.h>
+#include <Windows/Defs.h>
 
 namespace NWindows {
 namespace NControl {

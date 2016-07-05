@@ -1,30 +1,30 @@
 // ZipUpdate.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../../C/Alloc.h"
+#include <../../../../C/Alloc.h>
 
-#include "../../../Common/AutoPtr.h"
-#include "../../../Common/Defs.h"
-#include "../../../Common/StringConvert.h"
+#include <../../../Common/AutoPtr.h>
+#include <../../../Common/Defs.h>
+#include <../../../Common/StringConvert.h>
 
-#include "../../../Windows/TimeUtils.h"
-#include "../../../Windows/Thread.h"
+#include <../../../Windows/TimeUtils.h>
+#include <../../../Windows/Thread.h>
 
-#include "../../Common/CreateCoder.h"
-#include "../../Common/LimitedStreams.h"
-#include "../../Common/OutMemStream.h"
-#include "../../Common/ProgressUtils.h"
+#include <../../Common/CreateCoder.h>
+#include <../../Common/LimitedStreams.h>
+#include <../../Common/OutMemStream.h>
+#include <../../Common/ProgressUtils.h>
 #ifndef _7ZIP_ST
-#include "../../Common/ProgressMt.h"
+#include <../../Common/ProgressMt.h>
 #endif
-#include "../../Common/StreamUtils.h"
+#include <../../Common/StreamUtils.h>
 
-#include "../../Compress/CopyCoder.h"
+#include <../../Compress/CopyCoder.h>
 
-#include "ZipAddCommon.h"
-#include "ZipOut.h"
-#include "ZipUpdate.h"
+#include <ZipAddCommon.h>
+#include <ZipOut.h>
+#include <ZipUpdate.h>
 
 using namespace NWindows;
 using namespace NSynchronization;

@@ -3,9 +3,9 @@
 #ifndef __UPDATE_GUI_H
 #define __UPDATE_GUI_H
 
-#include "../Common/Update.h"
+#include <../Common/Update.h>
 
-#include "UpdateCallbackGUI.h"
+#include <UpdateCallbackGUI.h>
 
 /*
   callback->FailedFiles contains names of files for that there were problems.

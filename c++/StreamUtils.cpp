@@ -1,8 +1,8 @@
 // StreamUtils.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "StreamUtils.h"
+#include <StreamUtils.h>
 
 static const UInt32 kBlockSize = ((UInt32)1 << 31);
 

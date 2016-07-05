@@ -1,14 +1,14 @@
 // HandlerOut.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 #ifndef _7ZIP_ST
-#include "../../../Windows/System.h"
+#include <../../../Windows/System.h>
 #endif
 
-#include "../Common/ParseProperties.h"
+#include <../Common/ParseProperties.h>
 
-#include "HandlerOut.h"
+#include <HandlerOut.h>
 
 using namespace NWindows;
 

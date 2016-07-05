@@ -1,18 +1,18 @@
 // TarHandlerOut.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../Common/ComTry.h"
-#include "../../../Common/Defs.h"
-#include "../../../Common/MyLinux.h"
-#include "../../../Common/StringConvert.h"
-#include "../../../Common/UTFConvert.h"
+#include <../../../Common/ComTry.h>
+#include <../../../Common/Defs.h>
+#include <../../../Common/MyLinux.h>
+#include <../../../Common/StringConvert.h>
+#include <../../../Common/UTFConvert.h>
 
-#include "../../../Windows/PropVariant.h"
-#include "../../../Windows/TimeUtils.h"
+#include <../../../Windows/PropVariant.h>
+#include <../../../Windows/TimeUtils.h>
 
-#include "TarHandler.h"
-#include "TarUpdate.h"
+#include <TarHandler.h>
+#include <TarUpdate.h>
 
 using namespace NWindows;
 

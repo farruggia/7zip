@@ -1,8 +1,8 @@
 // DummyOutStream.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "DummyOutStream.h"
+#include <DummyOutStream.h>
 
 STDMETHODIMP CDummyOutStream::Write(const void *data, UInt32 size, UInt32 *processedSize)
 {

@@ -1,7 +1,7 @@
 /* LzmaEnc.c -- LZMA Encoder
 2015-11-08 : Igor Pavlov : Public domain */
 
-#include "Precomp.h"
+#include <Precomp.h>
 
 #include <string.h>
 
@@ -12,11 +12,11 @@
 #include <stdio.h>
 #endif
 
-#include "LzmaEnc.h"
+#include <LzmaEnc.h>
 
-#include "LzFind.h"
+#include <LzFind.h>
 #ifndef _7ZIP_ST
-#include "LzFindMt.h"
+#include <LzFindMt.h>
 #endif
 
 #ifdef SHOW_STAT

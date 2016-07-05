@@ -3,11 +3,11 @@
 #ifndef __WORK_DIR_H
 #define __WORK_DIR_H
 
-#include "../../../Windows/FileDir.h"
+#include <../../../Windows/FileDir.h>
 
-#include "../../Common/FileStreams.h"
+#include <../../Common/FileStreams.h>
 
-#include "ZipRegistry.h"
+#include <ZipRegistry.h>
 
 FString GetWorkDir(const NWorkDir::CInfo &workDirInfo, const FString &path, FString &fileName);
 

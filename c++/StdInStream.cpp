@@ -1,12 +1,12 @@
 // Common/StdInStream.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 #include <tchar.h>
 
-#include "StdInStream.h"
-#include "StringConvert.h"
-#include "UTFConvert.h"
+#include <StdInStream.h>
+#include <StringConvert.h>
+#include <UTFConvert.h>
 
 static const char kNewLineChar = '\n';
 
@@ -20,7 +20,7 @@ static const char *kIllegalCharMessage = "Illegal character in input stream";
 
 #ifdef _UNICODE
 #define NEED_NAME_WINDOWS_TO_UNIX
-#include "myPrivate.h"
+#include <myPrivate.h>
 #endif
 
 CStdInStream g_StdIn(stdin);

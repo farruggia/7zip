@@ -1,6 +1,6 @@
 // Common/MyString.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 #ifdef _WIN32
 #include <wchar.h>
@@ -9,10 +9,10 @@
 #endif
 
 #if !defined(_UNICODE) || !defined(USE_UNICODE_FSTRING)
-#include "StringConvert.h"
+#include <StringConvert.h>
 #endif
 
-#include "MyString.h"
+#include <MyString.h>
 
 #define MY_STRING_NEW(_T_, _size_) new _T_[_size_]
 // #define MY_STRING_NEW(_T_, _size_) ((_T_ *)my_new((size_t)(_size_) * sizeof(_T_)))

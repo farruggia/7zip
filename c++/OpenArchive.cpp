@@ -1,6 +1,6 @@
 // OpenArchive.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 // #define SHOW_DEBUG_INFO
 
@@ -8,28 +8,28 @@
 #include <stdio.h>
 #endif
 
-#include "../../../../C/CpuArch.h"
+#include <../../../../C/CpuArch.h>
 
-#include "../../../Common/ComTry.h"
-#include "../../../Common/IntToString.h"
-#include "../../../Common/StringConvert.h"
-#include "../../../Common/StringToInt.h"
-#include "../../../Common/Wildcard.h"
+#include <../../../Common/ComTry.h>
+#include <../../../Common/IntToString.h>
+#include <../../../Common/StringConvert.h>
+#include <../../../Common/StringToInt.h>
+#include <../../../Common/Wildcard.h>
 
-#include "../../../Windows/FileDir.h"
+#include <../../../Windows/FileDir.h>
 
-#include "../../Common/FileStreams.h"
-#include "../../Common/LimitedStreams.h"
-#include "../../Common/ProgressUtils.h"
-#include "../../Common/StreamUtils.h"
+#include <../../Common/FileStreams.h>
+#include <../../Common/LimitedStreams.h>
+#include <../../Common/ProgressUtils.h>
+#include <../../Common/StreamUtils.h>
 
-#include "../../Compress/CopyCoder.h"
+#include <../../Compress/CopyCoder.h>
 
-#include "DefaultName.h"
-#include "OpenArchive.h"
+#include <DefaultName.h>
+#include <OpenArchive.h>
 
 #ifndef _SFX
-#include "SetProperties.h"
+#include <SetProperties.h>
 #endif
 
 #ifdef SHOW_DEBUG_INFO

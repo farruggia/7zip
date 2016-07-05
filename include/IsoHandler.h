@@ -3,12 +3,12 @@
 #ifndef __ISO_HANDLER_H
 #define __ISO_HANDLER_H
 
-#include "../../../Common/MyCom.h"
+#include <../../../Common/MyCom.h>
 
-#include "../IArchive.h"
+#include <../IArchive.h>
 
-#include "IsoIn.h"
-#include "IsoItem.h"
+#include <IsoIn.h>
+#include <IsoItem.h>
 
 namespace NArchive {
 namespace NIso {

@@ -3,9 +3,9 @@
 #ifndef __STREAM_BINDER_H
 #define __STREAM_BINDER_H
 
-#include "../../Windows/Synchronization.h"
+#include <../../Windows/Synchronization.h>
 
-#include "../IStream.h"
+#include <../IStream.h>
 
 /*
 We don't use probably UNSAFE version:

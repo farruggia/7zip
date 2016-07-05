@@ -1,14 +1,14 @@
 // FindSignature.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 #include <string.h>
 
-#include "../../../Common/MyBuffer.h"
+#include <../../../Common/MyBuffer.h>
 
-#include "../../Common/StreamUtils.h"
+#include <../../Common/StreamUtils.h>
 
-#include "FindSignature.h"
+#include <FindSignature.h>
 
 HRESULT FindSignatureInStream(ISequentialInStream *stream,
     const Byte *signature, unsigned signatureSize,

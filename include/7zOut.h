@@ -3,13 +3,13 @@
 #ifndef __7Z_OUT_H
 #define __7Z_OUT_H
 
-#include "7zCompressionMode.h"
-#include "7zEncode.h"
-#include "7zHeader.h"
-#include "7zItem.h"
+#include <7zCompressionMode.h>
+#include <7zEncode.h>
+#include <7zHeader.h>
+#include <7zItem.h>
 
-#include "../../Common/OutBuffer.h"
-#include "../../Common/StreamUtils.h"
+#include <../../Common/OutBuffer.h>
+#include <../../Common/StreamUtils.h>
 
 namespace NArchive {
 namespace N7z {

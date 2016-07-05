@@ -3,15 +3,15 @@
 #ifndef __WINDOWS_SYNCHRONIZATION_H
 #define __WINDOWS_SYNCHRONIZATION_H
 
-#include "Defs.h"
+#include <Defs.h>
 
 extern "C" 
 { 
-#include "../../C/Threads.h"
+#include <../../C/Threads.h>
 }
 
 #ifdef _WIN32
-#include "Handle.h"
+#include <Handle.h>
 #endif
 
 namespace NWindows {
@@ -180,7 +180,7 @@ public:
 }}
 
 #ifndef _WIN32
-#include "Synchronization2.h"
+#include <Synchronization2.h>
 #endif
 
 #endif

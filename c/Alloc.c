@@ -1,7 +1,7 @@
 /* Alloc.c -- Memory allocation functions
 2015-02-21 : Igor Pavlov : Public domain */
 
-#include "Precomp.h"
+#include <Precomp.h>
 
 #ifdef _WIN32
 #include <windows.h>
@@ -22,7 +22,7 @@
 #endif
 #endif
 
-#include "Alloc.h"
+#include <Alloc.h>
 
 /* #define _SZ_ALLOC_DEBUG */
 

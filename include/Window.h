@@ -3,8 +3,8 @@
 #ifndef __WINDOWS_WINDOW_H
 #define __WINDOWS_WINDOW_H
 
-#include "Windows/Defs.h"
-#include "Common/MyString.h"
+#include <Windows/Defs.h>
+#include <Common/MyString.h>
 
 namespace NWindows {
 

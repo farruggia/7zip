@@ -3,7 +3,7 @@
 #ifndef __HASH_GUI_H
 #define __HASH_GUI_H
 
-#include "../Common/HashCalc.h"
+#include <../Common/HashCalc.h>
 
 HRESULT HashCalcGUI(
     DECL_EXTERNAL_CODECS_LOC_VARS

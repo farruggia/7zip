@@ -3,13 +3,13 @@
 #ifndef __7Z_FOLDER_IN_STREAM_H
 #define __7Z_FOLDER_IN_STREAM_H
 
-#include "../../../../C/7zCrc.h"
+#include <../../../../C/7zCrc.h>
 
-#include "../../../Common/MyCom.h"
-#include "../../../Common/MyVector.h"
+#include <../../../Common/MyCom.h>
+#include <../../../Common/MyVector.h>
 
-#include "../../ICoder.h"
-#include "../IArchive.h"
+#include <../../ICoder.h>
+#include <../IArchive.h>
 
 namespace NArchive {
 namespace N7z {

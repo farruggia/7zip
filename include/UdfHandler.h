@@ -3,11 +3,11 @@
 #ifndef __UDF_HANDLER_H
 #define __UDF_HANDLER_H
 
-#include "../../../Common/MyCom.h"
+#include <../../../Common/MyCom.h>
 
-#include "../IArchive.h"
+#include <../IArchive.h>
 
-#include "UdfIn.h"
+#include <UdfIn.h>
 
 namespace NArchive {
 namespace NUdf {

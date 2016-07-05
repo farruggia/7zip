@@ -3,15 +3,15 @@
 #ifndef __TAR_HANDLER_H
 #define __TAR_HANDLER_H
 
-#include "../../../Common/MyCom.h"
+#include <../../../Common/MyCom.h>
 
-#include "../../../Windows/PropVariant.h"
+#include <../../../Windows/PropVariant.h>
 
-#include "../../Compress/CopyCoder.h"
+#include <../../Compress/CopyCoder.h>
 
-#include "../IArchive.h"
+#include <../IArchive.h>
 
-#include "TarIn.h"
+#include <TarIn.h>
 
 namespace NArchive {
 namespace NTar {

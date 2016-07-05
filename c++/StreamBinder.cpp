@@ -1,10 +1,10 @@
 // StreamBinder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Common/MyCom.h"
+#include <../../Common/MyCom.h>
 
-#include "StreamBinder.h"
+#include <StreamBinder.h>
 
 class CBinderInStream:
   public ISequentialInStream,

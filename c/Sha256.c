@@ -2,13 +2,13 @@
 2015-11-14 : Igor Pavlov : Public domain
 This code is based on public domain code from Wei Dai's Crypto++ library. */
 
-#include "Precomp.h"
+#include <Precomp.h>
 
 #include <string.h>
 
-#include "CpuArch.h"
-#include "RotateDefs.h"
-#include "Sha256.h"
+#include <CpuArch.h>
+#include <RotateDefs.h>
+#include <Sha256.h>
 
 /* define it for speed optimization */
 #ifndef _SFX

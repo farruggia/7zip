@@ -1,12 +1,12 @@
 // Sha1Reg.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../C/Sha1.h"
+#include <../../C/Sha1.h>
 
-#include "../Common/MyCom.h"
+#include <../Common/MyCom.h>
 
-#include "../7zip/Common/RegisterCodec.h"
+#include <../7zip/Common/RegisterCodec.h>
 
 class CSha1Hasher:
   public IHasher,

@@ -3,11 +3,11 @@
 #ifndef __OPEN_ARCHIVE_H
 #define __OPEN_ARCHIVE_H
 
-#include "../../../Windows/PropVariant.h"
+#include <../../../Windows/PropVariant.h>
 
-#include "ArchiveOpenCallback.h"
-#include "LoadCodecs.h"
-#include "Property.h"
+#include <ArchiveOpenCallback.h>
+#include <LoadCodecs.h>
+#include <Property.h>
 
 #ifndef _SFX
 

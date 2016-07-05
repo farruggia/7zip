@@ -4,9 +4,9 @@ This code is based on:
   PPMd var.I (2002): Dmitry Shkarin : Public domain
   Carryless rangecoder (1999): Dmitry Subbotin : Public domain */
 
-#include "Precomp.h"
+#include <Precomp.h>
 
-#include "Ppmd8.h"
+#include <Ppmd8.h>
 
 #define kTop (1 << 24)
 #define kBot (1 << 15)

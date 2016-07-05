@@ -1,8 +1,8 @@
 // UpdateProduce.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "UpdateProduce.h"
+#include <UpdateProduce.h>
 
 using namespace NUpdateArchive;
 

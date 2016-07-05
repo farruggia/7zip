@@ -1,10 +1,10 @@
 // 7zProperties.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "7zProperties.h"
-#include "7zHeader.h"
-#include "7zHandler.h"
+#include <7zProperties.h>
+#include <7zHeader.h>
+#include <7zHandler.h>
 
 // #define _MULTI_PACK
 

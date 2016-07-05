@@ -3,8 +3,8 @@
 #ifndef __VIRT_THREAD_H
 #define __VIRT_THREAD_H
 
-#include "../../Windows/Synchronization.h"
-#include "../../Windows/Thread.h"
+#include <../../Windows/Synchronization.h>
+#include <../../Windows/Thread.h>
 
 struct CVirtThread
 {

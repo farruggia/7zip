@@ -1,18 +1,18 @@
 // SplitHandler.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Common/ComTry.h"
-#include "../../Common/MyString.h"
+#include <../../Common/ComTry.h>
+#include <../../Common/MyString.h>
 
-#include "../../Windows/PropVariant.h"
+#include <../../Windows/PropVariant.h>
 
-#include "../Common/ProgressUtils.h"
-#include "../Common/RegisterArc.h"
+#include <../Common/ProgressUtils.h>
+#include <../Common/RegisterArc.h>
 
-#include "../Compress/CopyCoder.h"
+#include <../Compress/CopyCoder.h>
 
-#include "Common/MultiStream.h"
+#include <Common/MultiStream.h>
 
 using namespace NWindows;
 

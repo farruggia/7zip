@@ -3,13 +3,13 @@
 #ifndef __NSIS_HANDLER_H
 #define __NSIS_HANDLER_H
 
-#include "../../../Common/MyCom.h"
+#include <../../../Common/MyCom.h>
 
-#include "../../Common/CreateCoder.h"
+#include <../../Common/CreateCoder.h>
 
-#include "../IArchive.h"
+#include <../IArchive.h>
 
-#include "NsisIn.h"
+#include <NsisIn.h>
 
 namespace NArchive {
 namespace NNsis {

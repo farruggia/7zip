@@ -3,14 +3,14 @@
 #ifndef __BROWSE_DIALOG_H
 #define __BROWSE_DIALOG_H
 
-#include "../../../Common/MyString.h"
+#include <../../../Common/MyString.h>
 
 /* FIXME
 bool MyBrowseForFolder(HWND owner, LPCWSTR title, LPCWSTR path, UString &resultPath);
 bool MyBrowseForFile(HWND owner, LPCWSTR title, LPCWSTR path, LPCWSTR filterDescription, LPCWSTR filter, UString &resultPath);
 */
-#include "Windows/CommonDialog.h"
-#include "Windows/Shell.h"
+#include <Windows/CommonDialog.h>
+#include <Windows/Shell.h>
 
 #define MyBrowseForFolder(h, title, initialFolder, resultPath) \
   NShell::BrowseForFolder(h, title, initialFolder, resultPath)

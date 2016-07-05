@@ -3,18 +3,18 @@
 #ifndef __ARCHIVE_WIM_IN_H
 #define __ARCHIVE_WIM_IN_H
 
-#include "../../../../C/Alloc.h"
+#include <../../../../C/Alloc.h>
 
-#include "../../../Common/MyBuffer.h"
-#include "../../../Common/MyXml.h"
+#include <../../../Common/MyBuffer.h>
+#include <../../../Common/MyXml.h>
 
-#include "../../../Windows/PropVariant.h"
+#include <../../../Windows/PropVariant.h>
 
-#include "../../Compress/CopyCoder.h"
-#include "../../Compress/LzmsDecoder.h"
-#include "../../Compress/LzxDecoder.h"
+#include <../../Compress/CopyCoder.h>
+#include <../../Compress/LzmsDecoder.h>
+#include <../../Compress/LzxDecoder.h>
 
-#include "../IArchive.h"
+#include <../IArchive.h>
 
 namespace NArchive {
 namespace NWim {

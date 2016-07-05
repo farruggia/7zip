@@ -1,12 +1,12 @@
 // StreamObjects.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 #include <stdlib.h>
 
-#include "../../../C/Alloc.h"
+#include <../../../C/Alloc.h>
 
-#include "StreamObjects.h"
+#include <StreamObjects.h>
 
 STDMETHODIMP CBufferInStream::Read(void *data, UInt32 size, UInt32 *processedSize)
 {

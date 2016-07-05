@@ -3,7 +3,7 @@
 #ifndef __COMMON_WILDCARD_H
 #define __COMMON_WILDCARD_H
 
-#include "MyString.h"
+#include <MyString.h>
 
 int CompareFileNames(const wchar_t *s1, const wchar_t *s2) STRING_UNICODE_THROW;
 #ifndef USE_UNICODE_FSTRING

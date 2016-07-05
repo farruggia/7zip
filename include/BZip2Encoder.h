@@ -3,22 +3,22 @@
 #ifndef __COMPRESS_BZIP2_ENCODER_H
 #define __COMPRESS_BZIP2_ENCODER_H
 
-#include "../../Common/Defs.h"
-#include "../../Common/MyCom.h"
+#include <../../Common/Defs.h>
+#include <../../Common/MyCom.h>
 
 #ifndef _7ZIP_ST
-#include "../../Windows/Synchronization.h"
-#include "../../Windows/Thread.h"
+#include <../../Windows/Synchronization.h>
+#include <../../Windows/Thread.h>
 #endif
 
-#include "../ICoder.h"
+#include <../ICoder.h>
 
-#include "../Common/InBuffer.h"
-#include "../Common/OutBuffer.h"
+#include <../Common/InBuffer.h>
+#include <../Common/OutBuffer.h>
 
-#include "BitmEncoder.h"
-#include "BZip2Const.h"
-#include "BZip2Crc.h"
+#include <BitmEncoder.h>
+#include <BZip2Const.h>
+#include <BZip2Crc.h>
 
 namespace NCompress {
 namespace NBZip2 {

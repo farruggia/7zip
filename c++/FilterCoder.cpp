@@ -1,11 +1,11 @@
 // FilterCoder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Common/Defs.h"
+#include <../../Common/Defs.h>
 
-#include "FilterCoder.h"
-#include "StreamUtils.h"
+#include <FilterCoder.h>
+#include <StreamUtils.h>
 
 /*
   AES filters need 16-bytes alignment for HARDWARE-AES instructions.

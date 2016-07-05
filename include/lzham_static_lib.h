@@ -1,7 +1,7 @@
 #pragma once
 
 #define LZHAM_STATIC_LIB 1
-#include "lzham.h"
+#include <lzham.h>
 
 #ifdef __cplusplus
 // Like lzham_dynamic_lib, except it sets the function pointer members to point directly to the C functions in lzhamlib

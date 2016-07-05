@@ -1,8 +1,8 @@
 // MultiStream.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "MultiStream.h"
+#include <MultiStream.h>
 
 STDMETHODIMP CMultiStream::Read(void *data, UInt32 size, UInt32 *processedSize)
 {

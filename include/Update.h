@@ -3,16 +3,16 @@
 #ifndef __COMMON_UPDATE_H
 #define __COMMON_UPDATE_H
 
-#include "../../../Common/Wildcard.h"
+#include <../../../Common/Wildcard.h>
 
-#include "ArchiveOpenCallback.h"
-#include "LoadCodecs.h"
-#include "OpenArchive.h"
-#include "Property.h"
-#include "UpdateAction.h"
-#include "UpdateCallback.h"
+#include <ArchiveOpenCallback.h>
+#include <LoadCodecs.h>
+#include <OpenArchive.h>
+#include <Property.h>
+#include <UpdateAction.h>
+#include <UpdateCallback.h>
 
-#include "DirItem.h"
+#include <DirItem.h>
 
 enum EArcNameMode
 {

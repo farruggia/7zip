@@ -1,13 +1,13 @@
 // PpmdZip.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/CpuArch.h"
+#include <../../../C/CpuArch.h>
 
-#include "../Common/RegisterCodec.h"
-#include "../Common/StreamUtils.h"
+#include <../Common/RegisterCodec.h>
+#include <../Common/StreamUtils.h>
 
-#include "PpmdZip.h"
+#include <PpmdZip.h>
 
 namespace NCompress {
 namespace NPpmdZip {

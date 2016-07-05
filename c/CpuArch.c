@@ -1,9 +1,9 @@
 /* CpuArch.c -- CPU specific code
 2015-03-25: Igor Pavlov : Public domain */
 
-#include "Precomp.h"
+#include <Precomp.h>
 
-#include "CpuArch.h"
+#include <CpuArch.h>
 
 #ifdef _7ZIP_ASM
 #ifdef MY_CPU_X86_OR_AMD64

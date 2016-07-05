@@ -1,25 +1,25 @@
 // ZipHandlerOut.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../Common/ComTry.h"
-#include "../../../Common/StringConvert.h"
-#include "../../../Common/StringToInt.h"
+#include <../../../Common/ComTry.h>
+#include <../../../Common/StringConvert.h>
+#include <../../../Common/StringToInt.h>
 
-#include "../../../Windows/PropVariant.h"
-#include "../../../Windows/TimeUtils.h"
+#include <../../../Windows/PropVariant.h>
+#include <../../../Windows/TimeUtils.h>
 
-#include "../../IPassword.h"
+#include <../../IPassword.h>
 
-#include "../../Common/OutBuffer.h"
+#include <../../Common/OutBuffer.h>
 
-#include "../../Crypto/WzAes.h"
+#include <../../Crypto/WzAes.h>
 
-#include "../Common/ItemNameUtils.h"
-#include "../Common/ParseProperties.h"
+#include <../Common/ItemNameUtils.h>
+#include <../Common/ParseProperties.h>
 
-#include "ZipHandler.h"
-#include "ZipUpdate.h"
+#include <ZipHandler.h>
+#include <ZipUpdate.h>
 
 using namespace NWindows;
 using namespace NCOM;

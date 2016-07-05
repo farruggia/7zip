@@ -3,9 +3,9 @@
 #ifndef __REGISTER_CODEC_H
 #define __REGISTER_CODEC_H
 
-#include "../Common/MethodId.h"
+#include <MethodId.h>
 
-#include "../ICoder.h"
+#include <ICoder.h>
 
 typedef void * (*CreateCodecP)();
 

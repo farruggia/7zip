@@ -5,9 +5,9 @@
 
 #include <string.h>
 
-#include "../../C/Alloc.h"
+#include <../../C/Alloc.h>
 
-#include "MyString.h"
+#include <MyString.h>
 
 class CDynLimBuf
 {

@@ -1,10 +1,10 @@
 // Windows/FileIO.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "FileIO.h"
-#include "Defs.h"
-#include "../Common/StringConvert.h"
+#include <FileIO.h>
+#include <Defs.h>
+#include <../Common/StringConvert.h>
 
 #include <time.h>
 #include <sys/types.h>
@@ -13,7 +13,7 @@
 #include <fcntl.h>
 
 #define NEED_NAME_WINDOWS_TO_UNIX
-#include "myPrivate.h"
+#include <myPrivate.h>
 
 #include <sys/types.h>
 #include <utime.h>

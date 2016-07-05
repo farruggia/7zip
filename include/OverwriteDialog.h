@@ -3,10 +3,10 @@
 #ifndef __OVERWRITE_DIALOG_H
 #define __OVERWRITE_DIALOG_H
 
-#include "../../../Windows/Control/Dialog.h"
+#include <../../../Windows/Control/Dialog.h>
 
-#include "DialogSize.h"
-#include "OverwriteDialogRes.h"
+#include <DialogSize.h>
+#include <OverwriteDialogRes.h>
 
 namespace NOverwriteDialog
 {

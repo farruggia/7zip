@@ -3,9 +3,9 @@
 #ifndef __IPROGRESS_H
 #define __IPROGRESS_H
 
-#include "../Common/MyTypes.h"
+#include <../Common/MyTypes.h>
 
-#include "IDecl.h"
+#include <IDecl.h>
 
 #define INTERFACE_IProgress(x) \
   STDMETHOD(SetTotal)(UInt64 total) x; \

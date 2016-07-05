@@ -4,7 +4,7 @@
 #ifndef __LZMA2_ENC_H
 #define __LZMA2_ENC_H
 
-#include "LzmaEnc.h"
+#include <LzmaEnc.h>
 
 EXTERN_C_BEGIN
 

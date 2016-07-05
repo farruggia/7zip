@@ -3,7 +3,7 @@
 #ifndef __LZ_OUT_WINDOW_H
 #define __LZ_OUT_WINDOW_H
 
-#include "../Common/OutBuffer.h"
+#include <../Common/OutBuffer.h>
 
 #ifndef _NO_EXCEPTIONS
 typedef COutBufferException CLzOutWindowException;

@@ -1,10 +1,10 @@
 // Windows/PropVariant.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../Common/Defs.h"
+#include <../Common/Defs.h>
 
-#include "PropVariant.h"
+#include <PropVariant.h>
 
 namespace NWindows {
 namespace NCOM {

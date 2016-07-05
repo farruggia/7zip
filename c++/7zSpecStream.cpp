@@ -1,8 +1,8 @@
 // 7zSpecStream.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "7zSpecStream.h"
+#include <7zSpecStream.h>
 
 STDMETHODIMP CSequentialInStreamSizeCount2::Read(void *data, UInt32 size, UInt32 *processedSize)
 {

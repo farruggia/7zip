@@ -3,9 +3,9 @@
 #ifndef __IMPLODE_HUFFMAN_DECODER_H
 #define __IMPLODE_HUFFMAN_DECODER_H
 
-#include "../Common/InBuffer.h"
+#include <../Common/InBuffer.h>
 
-#include "BitlDecoder.h"
+#include <BitlDecoder.h>
 
 namespace NCompress {
 namespace NImplode {

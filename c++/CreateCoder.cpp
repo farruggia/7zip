@@ -1,14 +1,14 @@
 // CreateCoder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Windows/Defs.h"
-#include "../../Windows/PropVariant.h"
+#include <../../Windows/Defs.h>
+#include <../../Windows/PropVariant.h>
 
-#include "CreateCoder.h"
+#include <CreateCoder.h>
 
-#include "FilterCoder.h"
-#include "RegisterCodec.h"
+#include <FilterCoder.h>
+#include <RegisterCodec.h>
 
 static const unsigned kNumCodecsMax = 64;
 unsigned g_NumCodecs = 0;

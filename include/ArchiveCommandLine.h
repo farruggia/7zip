@@ -3,12 +3,12 @@
 #ifndef __ARCHIVE_COMMAND_LINE_H
 #define __ARCHIVE_COMMAND_LINE_H
 
-#include "../../../Common/CommandLineParser.h"
-#include "../../../Common/Wildcard.h"
+#include <../../../Common/CommandLineParser.h>
+#include <../../../Common/Wildcard.h>
 
-#include "Extract.h"
-#include "HashCalc.h"
-#include "Update.h"
+#include <Extract.h>
+#include <HashCalc.h>
+#include <Update.h>
 
 struct CArcCmdLineException: public UString
 {

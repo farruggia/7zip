@@ -1,14 +1,14 @@
 // ShrinkDecoder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/Alloc.h"
+#include <../../../C/Alloc.h>
 
-#include "../Common/InBuffer.h"
-#include "../Common/OutBuffer.h"
+#include <../Common/InBuffer.h>
+#include <../Common/OutBuffer.h>
 
-#include "BitlDecoder.h"
-#include "ShrinkDecoder.h"
+#include <BitlDecoder.h>
+#include <ShrinkDecoder.h>
 
 namespace NCompress {
 namespace NShrink {

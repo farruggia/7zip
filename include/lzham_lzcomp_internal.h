@@ -1,9 +1,9 @@
 // File: lzham_lzcomp_internal.h
 // See Copyright Notice and license at the end of include/lzham.h
 #pragma once
-#include "lzham_match_accel.h"
-#include "lzham_symbol_codec.h"
-#include "lzham_lzbase.h"
+#include <lzham_match_accel.h>
+#include <lzham_symbol_codec.h>
+#include <lzham_lzbase.h>
 
 namespace lzham
 {

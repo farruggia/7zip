@@ -3,9 +3,9 @@
 #ifndef __WINDOWS_FILENAME_H
 #define __WINDOWS_FILENAME_H
 
-#include "../../C/7zTypes.h"
+#include <../../C/7zTypes.h>
 
-#include "../Common/MyString.h"
+#include <../Common/MyString.h>
 
 namespace NWindows {
 namespace NFile {

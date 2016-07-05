@@ -3,7 +3,7 @@
 #ifndef __WINDOWS_DLL_H
 #define __WINDOWS_DLL_H
 
-#include "../Common/MyString.h"
+#include <../Common/MyString.h>
 
 typedef void * HMODULE;
 // #define LOAD_LIBRARY_AS_DATAFILE 0

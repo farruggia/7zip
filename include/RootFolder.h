@@ -3,9 +3,9 @@
 #ifndef __ROOT_FOLDER_H
 #define __ROOT_FOLDER_H
 
-#include "../../../Common/MyString.h"
+#include <../../../Common/MyString.h>
 
-#include "IFolder.h"
+#include <IFolder.h>
 
 const unsigned kNumRootFolderItems_Max = 4;
 

@@ -3,30 +3,30 @@
 #ifndef __EXTRACT_CALLBACK_H
 #define __EXTRACT_CALLBACK_H
 
-#include "../../../../C/Alloc.h"
+#include <../../../../C/Alloc.h>
 
-#include "../../../Common/MyCom.h"
-#include "../../../Common/StringConvert.h"
+#include <../../../Common/MyCom.h>
+#include <../../../Common/StringConvert.h>
 
 #ifndef _SFX
-#include "../Agent/IFolderArchive.h"
+#include <../Agent/IFolderArchive.h>
 #endif
 
-#include "../Common/ArchiveExtractCallback.h"
-#include "../Common/ArchiveOpenCallback.h"
+#include <../Common/ArchiveExtractCallback.h>
+#include <../Common/ArchiveOpenCallback.h>
 
 #ifndef _NO_CRYPTO
-#include "../../IPassword.h"
+#include <../../IPassword.h>
 #endif
 
 #ifndef _SFX
-#include "IFolder.h"
+#include <IFolder.h>
 #endif
 
-#include "ProgressDialog2.h"
+#include <ProgressDialog2.h>
 
 #ifdef LANG
-#include "LangUtils.h"
+#include <LangUtils.h>
 #endif
 
 #ifndef _SFX

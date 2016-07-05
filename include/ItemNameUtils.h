@@ -3,7 +3,7 @@
 #ifndef __ARCHIVE_ITEM_NAME_UTILS_H
 #define __ARCHIVE_ITEM_NAME_UTILS_H
 
-#include "../../../Common/MyString.h"
+#include <../../../Common/MyString.h>
 
 namespace NArchive {
 namespace NItemName {

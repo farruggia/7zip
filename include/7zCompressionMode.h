@@ -3,8 +3,8 @@
 #ifndef __7Z_COMPRESSION_MODE_H
 #define __7Z_COMPRESSION_MODE_H
 
-#include "../../Common/MethodId.h"
-#include "../../Common/MethodProps.h"
+#include <../../Common/MethodId.h>
+#include <../../Common/MethodProps.h>
 
 namespace NArchive {
 namespace N7z {

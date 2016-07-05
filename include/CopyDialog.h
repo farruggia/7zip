@@ -3,10 +3,10 @@
 #ifndef __COPY_DIALOG_H
 #define __COPY_DIALOG_H
 
-#include "../../../Windows/Control/ComboBox.h"
-#include "../../../Windows/Control/Dialog.h"
+#include <../../../Windows/Control/ComboBox.h>
+#include <../../../Windows/Control/Dialog.h>
 
-#include "CopyDialogRes.h"
+#include <CopyDialogRes.h>
 
 const int kCopyDialog_NumInfoLines = 11;
 

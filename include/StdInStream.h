@@ -5,8 +5,8 @@
 
 #include <stdio.h>
 
-#include "MyString.h"
-#include "MyTypes.h"
+#include <MyString.h>
+#include <MyTypes.h>
 
 class CStdInStream
 {

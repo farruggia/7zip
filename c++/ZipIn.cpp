@@ -1,17 +1,17 @@
 // Archive/ZipIn.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 // #include <stdio.h>
 
-#include "../../../Common/DynamicBuffer.h"
+#include <../../../Common/DynamicBuffer.h>
 
-#include "../../Common/LimitedStreams.h"
-#include "../../Common/StreamUtils.h"
+#include <../../Common/LimitedStreams.h>
+#include <../../Common/StreamUtils.h>
 
-#include "../IArchive.h"
+#include <../IArchive.h>
 
-#include "ZipIn.h"
+#include <ZipIn.h>
 
 #define Get16(p) GetUi16(p)
 #define Get32(p) GetUi32(p)

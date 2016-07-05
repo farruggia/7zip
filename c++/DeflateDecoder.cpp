@@ -1,8 +1,8 @@
 // DeflateDecoder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "DeflateDecoder.h"
+#include <DeflateDecoder.h>
 
 namespace NCompress {
 namespace NDeflate {

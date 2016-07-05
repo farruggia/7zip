@@ -3,8 +3,8 @@
 #ifndef __MY_COM_H
 #define __MY_COM_H
 
-#include "MyWindows.h"
-#include "NewHandler.h"
+#include <MyWindows.h>
+#include <NewHandler.h>
 
 #ifndef RINOK
 #define RINOK(x) { HRESULT __result_ = (x); if (__result_ != S_OK) return __result_; }

@@ -3,12 +3,12 @@
 #ifndef __LZX_DECODER_H
 #define __LZX_DECODER_H
 
-#include "../../../C/CpuArch.h"
+#include <../../../C/CpuArch.h>
 
-#include "../../Common/MyCom.h"
+#include <../../Common/MyCom.h>
 
-#include "HuffmanDecoder.h"
-#include "Lzx.h"
+#include <HuffmanDecoder.h>
+#include <Lzx.h>
 
 namespace NCompress {
 namespace NLzx {

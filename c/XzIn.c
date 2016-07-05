@@ -1,13 +1,13 @@
 /* XzIn.c - Xz input
 2015-11-08 : Igor Pavlov : Public domain */
 
-#include "Precomp.h"
+#include <Precomp.h>
 
 #include <string.h>
 
-#include "7zCrc.h"
-#include "CpuArch.h"
-#include "Xz.h"
+#include <7zCrc.h>
+#include <CpuArch.h>
+#include <Xz.h>
 
 SRes Xz_ReadHeader(CXzStreamFlags *p, ISeqInStream *inStream)
 {

@@ -3,10 +3,10 @@
 #ifndef __WINDOWS_FILE_DIR_H
 #define __WINDOWS_FILE_DIR_H
 
-#include "../Common/MyString.h"
-#include "../Common/MyVector.h"
+#include <../Common/MyString.h>
+#include <../Common/MyVector.h>
 
-#include "FileIO.h"
+#include <FileIO.h>
 
 #ifdef ENV_UNIX
 #include <sys/stat.h> // ino_t

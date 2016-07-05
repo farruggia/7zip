@@ -1,8 +1,8 @@
 // VirtThread.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "VirtThread.h"
+#include <VirtThread.h>
 
 static THREAD_FUNC_DECL CoderThread(void *p)
 {

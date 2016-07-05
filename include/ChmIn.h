@@ -3,12 +3,12 @@
 #ifndef __ARCHIVE_CHM_IN_H
 #define __ARCHIVE_CHM_IN_H
 
-#include "../../../Common/MyBuffer.h"
-#include "../../../Common/MyString.h"
+#include <../../../Common/MyBuffer.h>
+#include <../../../Common/MyString.h>
 
-#include "../../IStream.h"
+#include <../../IStream.h>
 
-#include "../../Common/InBuffer.h"
+#include <../../Common/InBuffer.h>
 
 namespace NArchive {
 namespace NChm {

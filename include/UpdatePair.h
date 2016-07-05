@@ -3,10 +3,10 @@
 #ifndef __UPDATE_PAIR_H
 #define __UPDATE_PAIR_H
 
-#include "DirItem.h"
-#include "UpdateAction.h"
+#include <DirItem.h>
+#include <UpdateAction.h>
 
-#include "../../Archive/IArchive.h"
+#include <../../Archive/IArchive.h>
 
 struct CUpdatePair
 {

@@ -3,9 +3,9 @@
 #ifndef __ARCHIVE_CAB_ITEM_H
 #define __ARCHIVE_CAB_ITEM_H
 
-#include "../../../Common/MyString.h"
+#include <../../../Common/MyString.h>
 
-#include "CabHeader.h"
+#include <CabHeader.h>
 
 namespace NArchive {
 namespace NCab {

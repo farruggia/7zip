@@ -2,11 +2,11 @@
 2015-09-28 : Igor Pavlov : Public domain
 This code is based on PPMd var.I (2002): Dmitry Shkarin : Public domain */
 
-#include "Precomp.h"
+#include <Precomp.h>
 
 #include <string.h>
 
-#include "Ppmd8.h"
+#include <Ppmd8.h>
 
 const Byte PPMD8_kExpEscape[16] = { 25, 14, 9, 7, 5, 5, 4, 4, 4, 3, 3, 3, 2, 2, 2, 2 };
 static const UInt16 kInitBinEsc[] = { 0x3CDD, 0x1F3F, 0x59BF, 0x48F3, 0x64A1, 0x5ABC, 0x6632, 0x6051};

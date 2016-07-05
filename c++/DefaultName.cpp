@@ -1,8 +1,8 @@
 // DefaultName.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "DefaultName.h"
+#include <DefaultName.h>
 
 static UString GetDefaultName3(const UString &fileName,
     const UString &extension, const UString &addSubExtension)

@@ -1,7 +1,7 @@
 #pragma once
 
 #define LZHAM_DYNAMIC_LIB 1
-#include "lzham.h"
+#include <lzham.h>
 
 #ifdef _XBOX
    #define LZHAM_DLL_FILENAME       "lzham_x360.dll"
@@ -97,7 +97,7 @@ public:
       funcs[] =
       {
 #define LZHAM_DLL_FUNC_NAME(x) { #x, (void**)&x },
-#include "lzham_exports.inc"
+#include <lzham_exports.inc>
 #undef LZHAM_DLL_FUNC_NAME
       };
 

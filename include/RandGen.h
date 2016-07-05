@@ -3,7 +3,7 @@
 #ifndef __CRYPTO_RAND_GEN_H
 #define __CRYPTO_RAND_GEN_H
 
-#include "../../../C/Sha256.h"
+#include <../../../C/Sha256.h>
 
 class CRandomGenerator
 {

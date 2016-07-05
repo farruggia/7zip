@@ -1,9 +1,9 @@
 /* BraIA64.c -- Converter for IA-64 code
 2013-11-12 : Igor Pavlov : Public domain */
 
-#include "Precomp.h"
+#include <Precomp.h>
 
-#include "Bra.h"
+#include <Bra.h>
 
 static const Byte kBranchTable[32] =
 {

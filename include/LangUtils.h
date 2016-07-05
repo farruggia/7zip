@@ -3,7 +3,7 @@
 #ifndef __LANG_UTILS_H
 #define __LANG_UTILS_H
 
-#include "../../../Windows/ResourceString.h"
+#include <../../../Windows/ResourceString.h>
 
 #ifdef LANG
 

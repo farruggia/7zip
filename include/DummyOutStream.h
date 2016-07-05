@@ -3,9 +3,9 @@
 #ifndef __DUMMY_OUT_STREAM_H
 #define __DUMMY_OUT_STREAM_H
 
-#include "../../../Common/MyCom.h"
+#include <../../../Common/MyCom.h>
 
-#include "../../IStream.h"
+#include <../../IStream.h>
 
 class CDummyOutStream:
   public ISequentialOutStream,

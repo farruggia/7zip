@@ -3,13 +3,13 @@
 #ifndef __FILTER_CODER_H
 #define __FILTER_CODER_H
 
-#include "../../../C/Alloc.h"
+#include <../../../C/Alloc.h>
 
-#include "../../Common/MyCom.h"
-#include "../ICoder.h"
+#include <../../Common/MyCom.h>
+#include <../ICoder.h>
 
 #ifndef _NO_CRYPTO
-#include "../IPassword.h"
+#include <../IPassword.h>
 #endif
 
 #define MY_QUERYINTERFACE_ENTRY_AG(i, sub0, sub) else if (iid == IID_ ## i) \

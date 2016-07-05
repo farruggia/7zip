@@ -3,12 +3,12 @@
 #ifndef __COMPRESS_IMPLODE_DECODER_H
 #define __COMPRESS_IMPLODE_DECODER_H
 
-#include "../../Common/MyCom.h"
+#include <../../Common/MyCom.h>
 
-#include "../ICoder.h"
+#include <../ICoder.h>
 
-#include "ImplodeHuffmanDecoder.h"
-#include "LzOutWindow.h"
+#include <ImplodeHuffmanDecoder.h>
+#include <LzOutWindow.h>
 
 namespace NCompress {
 namespace NImplode {

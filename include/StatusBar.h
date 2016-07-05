@@ -3,8 +3,8 @@
 #ifndef __WINDOWS_CONTROL_STATUSBAR_H
 #define __WINDOWS_CONTROL_STATUSBAR_H
 
-#include "Windows/Window.h"
-#include "Windows/Defs.h"
+#include <Windows/Window.h>
+#include <Windows/Defs.h>
 
 class wxStatusBar;
 

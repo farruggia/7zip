@@ -1,12 +1,12 @@
 // BranchRegister.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/Bra.h"
+#include <../../../C/Bra.h>
 
-#include "../Common/RegisterCodec.h"
+#include <../Common/RegisterCodec.h>
 
-#include "BranchMisc.h"
+#include <BranchMisc.h>
 
 #define CREATE_BRA(n) \
     REGISTER_FILTER_CREATE(CreateBra_Decoder_ ## n, CBranchCoder(n ## _Convert, false)) \

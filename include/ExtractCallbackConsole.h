@@ -3,17 +3,17 @@
 #ifndef __EXTRACT_CALLBACK_CONSOLE_H
 #define __EXTRACT_CALLBACK_CONSOLE_H
 
-#include "../../../Common/StdOutStream.h"
+#include <../../../Common/StdOutStream.h>
 
-#include "../../IPassword.h"
+#include <../../IPassword.h>
 
-#include "../../Archive/IArchive.h"
+#include <../../Archive/IArchive.h>
 
-#include "../Common/ArchiveExtractCallback.h"
+#include <../Common/ArchiveExtractCallback.h>
 
-#include "PercentPrinter.h"
+#include <PercentPrinter.h>
 
-#include "OpenCallbackConsole.h"
+#include <OpenCallbackConsole.h>
 
 class CExtractScanConsole: public IDirItemsCallback
 {

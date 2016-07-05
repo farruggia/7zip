@@ -4,7 +4,7 @@
 #ifndef __BCJ2_H
 #define __BCJ2_H
 
-#include "7zTypes.h"
+#include <7zTypes.h>
 
 EXTERN_C_BEGIN
 

@@ -3,9 +3,9 @@
 #ifndef __UNIQ_BLOCKS_H
 #define __UNIQ_BLOCKS_H
 
-#include "../../Common/MyTypes.h"
-#include "../../Common/MyBuffer.h"
-#include "../../Common/MyVector.h"
+#include <../../Common/MyTypes.h>
+#include <../../Common/MyBuffer.h>
+#include <../../Common/MyVector.h>
 
 struct CUniqBlocks
 {

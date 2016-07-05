@@ -3,7 +3,7 @@
 #ifndef __COMMON_INT_TO_STRING_H
 #define __COMMON_INT_TO_STRING_H
 
-#include "MyTypes.h"
+#include <MyTypes.h>
 
 void ConvertUInt32ToString(UInt32 value, char *s) throw();
 void ConvertUInt64ToString(UInt64 value, char *s) throw();

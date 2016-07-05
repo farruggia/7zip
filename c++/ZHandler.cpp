@@ -1,18 +1,18 @@
 // ZHandler.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Common/ComTry.h"
+#include <../../Common/ComTry.h>
 
-#include "../../Windows/PropVariant.h"
+#include <../../Windows/PropVariant.h>
 
-#include "../Common/ProgressUtils.h"
-#include "../Common/RegisterArc.h"
-#include "../Common/StreamUtils.h"
+#include <../Common/ProgressUtils.h>
+#include <../Common/RegisterArc.h>
+#include <../Common/StreamUtils.h>
 
-#include "../Compress/ZDecoder.h"
+#include <../Compress/ZDecoder.h>
 
-#include "Common/DummyOutStream.h"
+#include <Common/DummyOutStream.h>
 
 namespace NArchive {
 namespace NZ {

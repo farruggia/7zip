@@ -1,7 +1,7 @@
 // File: lzham_symbol_codec.h
 // See Copyright Notice and license at the end of include/lzham.h
 #pragma once
-#include "lzham_prefix_coding.h"
+#include <lzham_prefix_coding.h>
 
 namespace lzham
 {

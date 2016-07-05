@@ -1,11 +1,11 @@
 // HashCon.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../Common/IntToString.h"
+#include <../../../Common/IntToString.h>
 
-#include "ConsoleClose.h"
-#include "HashCon.h"
+#include <ConsoleClose.h>
+#include <HashCon.h>
 
 static const wchar_t *kEmptyFileAlias = L"[Content]";
 

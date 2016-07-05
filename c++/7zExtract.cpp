@@ -1,15 +1,15 @@
 // 7zExtract.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../../C/7zCrc.h"
+#include <../../../../C/7zCrc.h>
 
-#include "../../../Common/ComTry.h"
+#include <../../../Common/ComTry.h>
 
-#include "../../Common/ProgressUtils.h"
+#include <../../Common/ProgressUtils.h>
 
-#include "7zDecode.h"
-#include "7zHandler.h"
+#include <7zDecode.h>
+#include <7zHandler.h>
 
 // EXTERN_g_ExternalCodecs
 

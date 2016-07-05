@@ -3,20 +3,20 @@
 #ifndef __AGENT_AGENT_H
 #define __AGENT_AGENT_H
 
-#include "../../../Common/MyCom.h"
+#include <../../../Common/MyCom.h>
 
-#include "../../../Windows/PropVariant.h"
+#include <../../../Windows/PropVariant.h>
 
-#include "../Common/OpenArchive.h"
-#include "../Common/UpdateAction.h"
+#include <../Common/OpenArchive.h>
+#include <../Common/UpdateAction.h>
 
 #ifdef NEW_FOLDER_INTERFACE
-#include "../FileManager/IFolder.h"
-#include "../Common/LoadCodecs.h"
+#include <../FileManager/IFolder.h>
+#include <../Common/LoadCodecs.h>
 #endif
 
-#include "AgentProxy.h"
-#include "IFolderArchive.h"
+#include <AgentProxy.h>
+#include <IFolderArchive.h>
 
 extern CCodecs *g_CodecsObj;
 HRESULT LoadGlobalCodecs();

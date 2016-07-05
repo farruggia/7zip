@@ -1,27 +1,27 @@
 // ExtractCallbackConsole.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../Common/IntToString.h"
-#include "../../../Common/Wildcard.h"
+#include <../../../Common/IntToString.h>
+#include <../../../Common/Wildcard.h>
 
-#include "../../../Windows/FileDir.h"
-#include "../../../Windows/FileFind.h"
-#include "../../../Windows/TimeUtils.h"
-#include "../../../Windows/ErrorMsg.h"
-#include "../../../Windows/PropVariantConv.h"
+#include <../../../Windows/FileDir.h>
+#include <../../../Windows/FileFind.h>
+#include <../../../Windows/TimeUtils.h>
+#include <../../../Windows/ErrorMsg.h>
+#include <../../../Windows/PropVariantConv.h>
 
 #ifndef _7ZIP_ST
-#include "../../../Windows/Synchronization.h"
+#include <../../../Windows/Synchronization.h>
 #endif
 
-#include "../../Common/FilePathAutoRename.h"
+#include <../../Common/FilePathAutoRename.h>
 
-#include "../Common/ExtractingFilePath.h"
+#include <../Common/ExtractingFilePath.h>
 
-#include "ConsoleClose.h"
-#include "ExtractCallbackConsole.h"
-#include "UserInputUtils.h"
+#include <ConsoleClose.h>
+#include <ExtractCallbackConsole.h>
+#include <UserInputUtils.h>
 
 using namespace NWindows;
 using namespace NFile;

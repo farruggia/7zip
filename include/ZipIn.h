@@ -3,14 +3,14 @@
 #ifndef __ZIP_IN_H
 #define __ZIP_IN_H
 
-#include "../../../Common/MyCom.h"
+#include <../../../Common/MyCom.h>
 
-#include "../../IStream.h"
+#include <../../IStream.h>
 
-#include "../../Common/InBuffer.h"
+#include <../../Common/InBuffer.h>
 
-#include "ZipHeader.h"
-#include "ZipItem.h"
+#include <ZipHeader.h>
+#include <ZipItem.h>
 
 API_FUNC_IsArc IsArc_Zip(const Byte *p, size_t size);
 

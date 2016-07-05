@@ -2,13 +2,13 @@
 2015-05-10 : Igor Pavlov : Public domain
 This code is based on public domain code of Steve Reid from Wei Dai's Crypto++ library. */
 
-#include "Precomp.h"
+#include <Precomp.h>
 
 #include <string.h>
 
-#include "CpuArch.h"
-#include "RotateDefs.h"
-#include "Sha1.h"
+#include <CpuArch.h>
+#include <RotateDefs.h>
+#include <Sha1.h>
 
 // define it for speed optimization
 // #define _SHA1_UNROLL

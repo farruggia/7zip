@@ -7,17 +7,17 @@
 #ifndef __COMPRESS_RAR3_DECODER_H
 #define __COMPRESS_RAR3_DECODER_H
 
-#include "../../../C/Ppmd7.h"
+#include <../../../C/Ppmd7.h>
 
-#include "../../Common/MyCom.h"
+#include <../../Common/MyCom.h>
 
-#include "../ICoder.h"
+#include <../ICoder.h>
 
-#include "../Common/InBuffer.h"
+#include <../Common/InBuffer.h>
 
-#include "BitmDecoder.h"
-#include "HuffmanDecoder.h"
-#include "Rar3Vm.h"
+#include <BitmDecoder.h>
+#include <HuffmanDecoder.h>
+#include <Rar3Vm.h>
 
 namespace NCompress {
 namespace NRar3 {

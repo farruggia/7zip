@@ -1,12 +1,12 @@
 // Bcj2Coder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/Alloc.h"
+#include <../../../C/Alloc.h>
 
-#include "../Common/StreamUtils.h"
+#include <../Common/StreamUtils.h>
 
-#include "Bcj2Coder.h"
+#include <Bcj2Coder.h>
 
 namespace NCompress {
 namespace NBcj2 {

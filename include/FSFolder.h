@@ -3,15 +3,15 @@
 #ifndef __FS_FOLDER_H
 #define __FS_FOLDER_H
 
-#include "../../../Common/MyCom.h"
-#include "../../../Common/MyBuffer.h"
+#include <../../../Common/MyCom.h>
+#include <../../../Common/MyBuffer.h>
 
-#include "../../../Windows/FileFind.h"
+#include <../../../Windows/FileFind.h>
 
-#include "../../Archive/IArchive.h"
+#include <../../Archive/IArchive.h>
 
-#include "IFolder.h"
-#include "TextPairs.h"
+#include <IFolder.h>
+#include <TextPairs.h>
 
 namespace NFsFolder {
 

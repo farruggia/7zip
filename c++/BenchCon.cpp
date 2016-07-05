@@ -1,11 +1,11 @@
 // BenchCon.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../Common/Bench.h"
+#include <../Common/Bench.h>
 
-#include "BenchCon.h"
-#include "ConsoleClose.h"
+#include <BenchCon.h>
+#include <ConsoleClose.h>
 
 struct CPrintBenchCallback: public IBenchPrintCallback
 {

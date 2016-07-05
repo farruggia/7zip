@@ -3,10 +3,10 @@
 #ifndef __IN_OUT_TEMP_BUFFER_H
 #define __IN_OUT_TEMP_BUFFER_H
 
-#include "../../Common/MyCom.h"
-#include "../../Windows/FileDir.h"
+#include <../../Common/MyCom.h>
+#include <../../Windows/FileDir.h>
 
-#include "../IStream.h"
+#include <../IStream.h>
 
 class CInOutTempBuffer
 {

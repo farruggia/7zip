@@ -3,17 +3,17 @@
 #ifndef __7Z_HANDLER_H
 #define __7Z_HANDLER_H
 
-#include "../../ICoder.h"
-#include "../IArchive.h"
+#include <../../ICoder.h>
+#include <../IArchive.h>
 
-#include "../../Common/CreateCoder.h"
+#include <../../Common/CreateCoder.h>
 
 #ifndef EXTRACT_ONLY
-#include "../Common/HandlerOut.h"
+#include <../Common/HandlerOut.h>
 #endif
 
-#include "7zCompressionMode.h"
-#include "7zIn.h"
+#include <7zCompressionMode.h>
+#include <7zIn.h>
 
 namespace NArchive {
 namespace N7z {

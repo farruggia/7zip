@@ -1,8 +1,8 @@
 // ProgressUtils.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "ProgressUtils.h"
+#include <ProgressUtils.h>
 
 CLocalProgress::CLocalProgress():
     ProgressOffset(0),

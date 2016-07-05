@@ -1,28 +1,28 @@
 // UpdateCallback.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 #ifndef _7ZIP_ST
-#include "../../../Windows/Synchronization.h"
+#include <../../../Windows/Synchronization.h>
 #endif
 
-#include "../../../Common/ComTry.h"
-#include "../../../Common/IntToString.h"
-#include "../../../Common/StringConvert.h"
-#include "../../../Common/Wildcard.h"
+#include <../../../Common/ComTry.h>
+#include <../../../Common/IntToString.h>
+#include <../../../Common/StringConvert.h>
+#include <../../../Common/Wildcard.h>
 
-#include "../../../Windows/FileDir.h"
-#include "../../../Windows/FileName.h"
-#include "../../../Windows/PropVariant.h"
-#include "../../../Windows/Synchronization.h"
+#include <../../../Windows/FileDir.h>
+#include <../../../Windows/FileName.h>
+#include <../../../Windows/PropVariant.h>
+#include <../../../Windows/Synchronization.h>
 
-#include "../../Common/StreamObjects.h"
+#include <../../Common/StreamObjects.h>
 
-#include "UpdateCallback.h"
+#include <UpdateCallback.h>
 
 #if defined(_WIN32) && !defined(UNDER_CE)
 #define _USE_SECURITY_CODE
-#include "../../../Windows/SecurityUtils.h"
+#include <../../../Windows/SecurityUtils.h>
 #endif
 
 using namespace NWindows;

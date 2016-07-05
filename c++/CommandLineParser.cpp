@@ -1,8 +1,8 @@
 // CommandLineParser.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "CommandLineParser.h"
+#include <CommandLineParser.h>
 
 static bool IsString1PrefixedByString2_NoCase(const wchar_t *u, const char *a)
 {

@@ -3,36 +3,36 @@
 #ifndef __PANEL_H
 #define __PANEL_H
 
-#include "../../../../C/Alloc.h"
+#include <../../../../C/Alloc.h>
 
-#include "../../../Common/Defs.h"
-#include "../../../Common/MyCom.h"
+#include <../../../Common/Defs.h>
+#include <../../../Common/MyCom.h>
 
-#include "../../../Windows/DLL.h"
-#include "../../../Windows/FileDir.h"
-#include "../../../Windows/FileFind.h"
-#include "../../../Windows/FileName.h"
-// #include "../../../Windows/Handle.h"
-#include "../../../Windows/Synchronization.h"
+#include <../../../Windows/DLL.h>
+#include <../../../Windows/FileDir.h>
+#include <../../../Windows/FileFind.h>
+#include <../../../Windows/FileName.h>
+// #include <../../../Windows/Handle.h>
+#include <../../../Windows/Synchronization.h>
 
-#include "../../../Windows/Control/ComboBox.h"
-#include "../../../Windows/Control/Edit.h"
-#include "../../../Windows/Control/ListView.h"
-// FIXME #include "../../../Windows/Control/ReBar.h"
-#include "../../../Windows/Control/Static.h"
-#include "../../../Windows/Control/StatusBar.h"
-// FIXME #include "../../../Windows/Control/ToolBar.h"
-#include "../../../Windows/Control/Window2.h"
+#include <../../../Windows/Control/ComboBox.h>
+#include <../../../Windows/Control/Edit.h>
+#include <../../../Windows/Control/ListView.h>
+// FIXME #include <../../../Windows/Control/ReBar.h>
+#include <../../../Windows/Control/Static.h>
+#include <../../../Windows/Control/StatusBar.h>
+// FIXME #include <../../../Windows/Control/ToolBar.h>
+#include <../../../Windows/Control/Window2.h>
 
-#include "../../Archive/IArchive.h"
+#include <../../Archive/IArchive.h>
 
-#include "ExtractCallback.h"
+#include <ExtractCallback.h>
 
-#include "AppState.h"
-#include "IFolder.h"
-// FIXME #include "MyCom2.h"
-#include "ProgressDialog2.h"
-#include "SysIconUtils.h"
+#include <AppState.h>
+#include <IFolder.h>
+// FIXME #include <MyCom2.h>
+#include <ProgressDialog2.h>
+#include <SysIconUtils.h>
 
 #ifdef UNDER_CE
 #define NON_CE_VAR(_v_)

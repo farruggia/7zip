@@ -3,9 +3,9 @@
 #ifndef __COMPRESS_COPY_CODER_H
 #define __COMPRESS_COPY_CODER_H
 
-#include "../../Common/MyCom.h"
+#include <../../Common/MyCom.h>
 
-#include "../ICoder.h"
+#include <../ICoder.h>
 
 namespace NCompress {
 

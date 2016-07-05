@@ -1,8 +1,8 @@
 // File: lzham_match_accel.h
 // See Copyright Notice and license at the end of include/lzham.h
 #pragma once
-#include "lzham_lzbase.h"
-#include "lzham_threading.h"
+#include <lzham_lzbase.h>
+#include <lzham_threading.h>
 
 namespace lzham
 {

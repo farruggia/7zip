@@ -1,10 +1,10 @@
 // PropId.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Common/MyWindows.h"
+#include <../../Common/MyWindows.h>
 
-#include "../PropID.h"
+#include <../PropID.h>
 
 // VARTYPE
 const Byte k7z_PROPID_To_VARTYPE[kpid_NUM_DEFINED] =

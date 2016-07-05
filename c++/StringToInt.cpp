@@ -1,8 +1,8 @@
 // Common/StringToInt.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "StringToInt.h"
+#include <StringToInt.h>
 
 static const UInt32 k_UInt32_max = 0xFFFFFFFF;
 static const UInt64 k_UInt64_max = UINT64_CONST(0xFFFFFFFFFFFFFFFF);

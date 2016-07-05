@@ -2,7 +2,7 @@
 // See Copyright Notice and license at the end of include/lzham.h
 #pragma once
 
-#include "lzham_lzdecompbase.h"
+#include <lzham_lzdecompbase.h>
 
 //#define LZHAM_LZVERIFY
 //#define LZHAM_DISABLE_RAW_BLOCKS

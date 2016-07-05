@@ -1,16 +1,16 @@
 // HashCalc.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../../C/Alloc.h"
+#include <../../../../C/Alloc.h>
 
-#include "../../../Common/StringToInt.h"
+#include <../../../Common/StringToInt.h>
 
-#include "../../Common/FileStreams.h"
-#include "../../Common/StreamUtils.h"
+#include <../../Common/FileStreams.h>
+#include <../../Common/StreamUtils.h>
 
-#include "EnumDirItems.h"
-#include "HashCalc.h"
+#include <EnumDirItems.h>
+#include <HashCalc.h>
 
 using namespace NWindows;
 

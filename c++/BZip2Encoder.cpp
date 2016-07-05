@@ -1,14 +1,14 @@
 // BZip2Encoder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/Alloc.h"
-#include "../../../C/BwtSort.h"
-#include "../../../C/HuffEnc.h"
+#include <../../../C/Alloc.h>
+#include <../../../C/BwtSort.h>
+#include <../../../C/HuffEnc.h>
 
-#include "BZip2Crc.h"
-#include "BZip2Encoder.h"
-#include "Mtf8.h"
+#include <BZip2Crc.h>
+#include <BZip2Encoder.h>
+#include <Mtf8.h>
 
 namespace NCompress {
 namespace NBZip2 {

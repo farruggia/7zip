@@ -3,13 +3,13 @@
 #ifndef __ARCHIVE_ZIP_ITEM_H
 #define __ARCHIVE_ZIP_ITEM_H
 
-#include "../../../../C/CpuArch.h"
+#include <../../../../C/CpuArch.h>
 
-#include "../../../Common/MyBuffer.h"
-#include "../../../Common/MyString.h"
-#include "../../../Common/UTFConvert.h"
+#include <../../../Common/MyBuffer.h>
+#include <../../../Common/MyString.h>
+#include <../../../Common/UTFConvert.h>
 
-#include "ZipHeader.h"
+#include <ZipHeader.h>
 
 namespace NArchive {
 namespace NZip {

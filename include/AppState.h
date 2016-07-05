@@ -3,9 +3,9 @@
 #ifndef __APP_STATE_H
 #define __APP_STATE_H
 
-#include "../../../Windows/Synchronization.h"
+#include <../../../Windows/Synchronization.h>
 
-#include "ViewSettings.h"
+#include <ViewSettings.h>
 
 class CFastFolders
 {

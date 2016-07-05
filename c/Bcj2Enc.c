@@ -1,7 +1,7 @@
 /* Bcj2Enc.c -- BCJ2 Encoder (Converter for x86 code)
 2014-11-10 : Igor Pavlov : Public domain */
 
-#include "Precomp.h"
+#include <Precomp.h>
 
 /* #define SHOW_STAT */
 
@@ -15,8 +15,8 @@
 #include <windows.h>
 #include <string.h>
 
-#include "Bcj2.h"
-#include "CpuArch.h"
+#include <Bcj2.h>
+#include <CpuArch.h>
 
 #define CProb UInt16
 

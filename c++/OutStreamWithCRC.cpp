@@ -1,8 +1,8 @@
 // OutStreamWithCRC.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "OutStreamWithCRC.h"
+#include <OutStreamWithCRC.h>
 
 STDMETHODIMP COutStreamWithCRC::Write(const void *data, UInt32 size, UInt32 *processedSize)
 {

@@ -4,8 +4,8 @@
 #define __PLUGIN_INTERFACE_H
 
 /*
-#include "../../../Common/Types.h"
-#include "../../IDecl.h"
+#include <../../../Common/Types.h>
+#include <../../IDecl.h>
 
 #define PLUGIN_INTERFACE(i, x) DECL_INTERFACE(i, 0x0A, x)
 

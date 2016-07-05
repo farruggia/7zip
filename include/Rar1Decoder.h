@@ -5,15 +5,15 @@
 #ifndef __COMPRESS_RAR1_DECODER_H
 #define __COMPRESS_RAR1_DECODER_H
 
-#include "../../Common/MyCom.h"
+#include <../../Common/MyCom.h>
 
-#include "../ICoder.h"
+#include <../ICoder.h>
 
-#include "../Common/InBuffer.h"
+#include <../Common/InBuffer.h>
 
-#include "BitmDecoder.h"
-#include "HuffmanDecoder.h"
-#include "LzOutWindow.h"
+#include <BitmDecoder.h>
+#include <HuffmanDecoder.h>
+#include <LzOutWindow.h>
 
 namespace NCompress {
 namespace NRar1 {

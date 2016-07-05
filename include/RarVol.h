@@ -3,9 +3,9 @@
 #ifndef __ARCHIVE_RAR_VOL_H
 #define __ARCHIVE_RAR_VOL_H
 
-#include "../../../Common/StringConvert.h"
+#include <../../../Common/StringConvert.h>
 
-#include "RarHeader.h"
+#include <RarHeader.h>
 
 namespace NArchive {
 namespace NRar {

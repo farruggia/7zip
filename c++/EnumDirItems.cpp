@@ -1,21 +1,21 @@
 // EnumDirItems.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 #include <wchar.h>
 
-#include "../../../Common/Wildcard.h"
+#include <../../../Common/Wildcard.h>
 
-#include "../../../Windows/FileDir.h"
-#include "../../../Windows/FileIO.h"
-#include "../../../Windows/FileName.h"
+#include <../../../Windows/FileDir.h>
+#include <../../../Windows/FileIO.h>
+#include <../../../Windows/FileName.h>
 
 #if defined(_WIN32) && !defined(UNDER_CE)
 #define _USE_SECURITY_CODE
-#include "../../../Windows/SecurityUtils.h"
+#include <../../../Windows/SecurityUtils.h>
 #endif
 
-#include "EnumDirItems.h"
+#include <EnumDirItems.h>
 
 #define UNDER_CE 1 // FIXME
 

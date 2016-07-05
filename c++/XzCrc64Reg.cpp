@@ -1,13 +1,13 @@
 // XzCrc64Reg.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../C/CpuArch.h"
-#include "../../C/XzCrc64.h"
+#include <CpuArch.h>
+#include <XzCrc64.h>
 
-#include "../Common/MyCom.h"
+#include <MyCom.h>
 
-#include "../7zip/Common/RegisterCodec.h"
+#include <RegisterCodec.h>
 
 class CXzCrc64Hasher:
   public IHasher,

@@ -1,10 +1,10 @@
 // ZipOut.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Common/OffsetStream.h"
+#include <../../Common/OffsetStream.h>
 
-#include "ZipOut.h"
+#include <ZipOut.h>
 
 namespace NArchive {
 namespace NZip {

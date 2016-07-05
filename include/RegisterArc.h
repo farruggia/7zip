@@ -3,7 +3,7 @@
 #ifndef __REGISTER_ARC_H
 #define __REGISTER_ARC_H
 
-#include "../Archive/IArchive.h"
+#include <../Archive/IArchive.h>
 
 struct CArcInfo
 {

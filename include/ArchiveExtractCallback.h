@@ -3,23 +3,23 @@
 #ifndef __ARCHIVE_EXTRACT_CALLBACK_H
 #define __ARCHIVE_EXTRACT_CALLBACK_H
 
-#include "../../../Common/MyCom.h"
-#include "../../../Common/Wildcard.h"
+#include <../../../Common/MyCom.h>
+#include <../../../Common/Wildcard.h>
 
-#include "../../../Windows/FileDir.h"
+#include <../../../Windows/FileDir.h>
 
-#include "../../IPassword.h"
+#include <../../IPassword.h>
 
-#include "../../Common/FileStreams.h"
-#include "../../Common/ProgressUtils.h"
+#include <../../Common/FileStreams.h>
+#include <../../Common/ProgressUtils.h>
 
-#include "../../Archive/IArchive.h"
+#include <../../Archive/IArchive.h>
 
-#include "ExtractMode.h"
-#include "IFileExtractCallback.h"
-#include "OpenArchive.h"
+#include <ExtractMode.h>
+#include <IFileExtractCallback.h>
+#include <OpenArchive.h>
 
-#include "HashCalc.h"
+#include <HashCalc.h>
 
 #ifndef _SFX
 

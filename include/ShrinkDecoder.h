@@ -3,9 +3,9 @@
 #ifndef __COMPRESS_SHRINK_DECODER_H
 #define __COMPRESS_SHRINK_DECODER_H
 
-#include "../../Common/MyCom.h"
+#include <../../Common/MyCom.h>
 
-#include "../ICoder.h"
+#include <../ICoder.h>
 
 namespace NCompress {
 namespace NShrink {

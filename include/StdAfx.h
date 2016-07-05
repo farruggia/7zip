@@ -4,7 +4,7 @@
 #define __STDAFX_H
 
 
-#include "config.h"
+#include <config.h>
 
 #define MAXIMUM_WAIT_OBJECTS 64
 
@@ -14,10 +14,10 @@
 #include <pthread.h>
 #endif
 
-#include "Common/Common.h"
-#include "Common/MyWindows.h"
-#include "Common/MyTypes.h"
-#include "Common/MyString.h" // FIXME
+#include <Common.h>
+#include <MyWindows.h>
+#include <MyTypes.h>
+#include <MyString.h> // FIXME
 
 #include <windows.h>
 

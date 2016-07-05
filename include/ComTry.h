@@ -3,9 +3,9 @@
 #ifndef __COM_TRY_H
 #define __COM_TRY_H
 
-#include "MyWindows.h"
-// #include "Exception.h"
-// #include "NewHandler.h"
+#include <MyWindows.h>
+// #include <Exception.h>
+// #include <NewHandler.h>
 
 #define COM_TRY_BEGIN try {
 #define COM_TRY_END } catch(const char * s) { throw s ; } \

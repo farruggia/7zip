@@ -1,16 +1,16 @@
 // SetProperties.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../Common/MyCom.h"
-#include "../../../Common/MyString.h"
-#include "../../../Common/StringToInt.h"
+#include <../../../Common/MyCom.h>
+#include <../../../Common/MyString.h>
+#include <../../../Common/StringToInt.h>
 
-#include "../../../Windows/PropVariant.h"
+#include <../../../Windows/PropVariant.h>
 
-#include "../../Archive/IArchive.h"
+#include <../../Archive/IArchive.h>
 
-#include "SetProperties.h"
+#include <SetProperties.h>
 
 using namespace NWindows;
 using namespace NCOM;

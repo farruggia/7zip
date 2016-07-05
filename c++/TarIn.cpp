@@ -1,16 +1,16 @@
 // TarIn.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../../C/CpuArch.h"
+#include <../../../../C/CpuArch.h>
 
-#include "../../../Common/StringToInt.h"
+#include <../../../Common/StringToInt.h>
 
-#include "../../Common/StreamUtils.h"
+#include <../../Common/StreamUtils.h>
 
-#include "../IArchive.h"
+#include <../IArchive.h>
 
-#include "TarIn.h"
+#include <TarIn.h>
 
 namespace NArchive {
 namespace NTar {

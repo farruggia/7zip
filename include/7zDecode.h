@@ -3,9 +3,9 @@
 #ifndef __7Z_DECODE_H
 #define __7Z_DECODE_H
 
-#include "../Common/CoderMixer2.h"
+#include <../Common/CoderMixer2.h>
 
-#include "7zIn.h"
+#include <7zIn.h>
 
 namespace NArchive {
 namespace N7z {

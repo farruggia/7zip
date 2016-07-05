@@ -1,12 +1,12 @@
 // 7zDecode.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Common/LimitedStreams.h"
-#include "../../Common/ProgressUtils.h"
-#include "../../Common/StreamObjects.h"
+#include <../../Common/LimitedStreams.h>
+#include <../../Common/ProgressUtils.h>
+#include <../../Common/StreamObjects.h>
 
-#include "7zDecode.h"
+#include <7zDecode.h>
 
 namespace NArchive {
 namespace N7z {

@@ -6,8 +6,8 @@
 #include <stdio.h>
 #include <sys/types.h>
 
-#include "MyTypes.h"
-#include "MyWindows.h"
+#include <MyTypes.h>
+#include <MyWindows.h>
 
 #ifdef _WIN32
 #ifdef _MSC_VER

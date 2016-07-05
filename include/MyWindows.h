@@ -12,7 +12,7 @@
 #include <stddef.h> // for wchar_t
 #include <string.h>
 
-#include "MyGuidDef.h"
+#include <MyGuidDef.h>
 
 typedef char CHAR;
 typedef unsigned char UCHAR;

@@ -1,10 +1,10 @@
 // Compress/CopyCoder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/Alloc.h"
+#include <../../../C/Alloc.h>
 
-#include "CopyCoder.h"
+#include <CopyCoder.h>
 
 namespace NCompress {
 

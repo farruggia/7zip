@@ -1,11 +1,11 @@
 // LimitedStreams.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 #include <string.h>
 
-#include "LimitedStreams.h"
-#include "../../Common/Defs.h"
+#include <LimitedStreams.h>
+#include <../../Common/Defs.h>
 
 STDMETHODIMP CLimitedSequentialInStream::Read(void *data, UInt32 size, UInt32 *processedSize)
 {

@@ -3,8 +3,8 @@
 #ifndef __7ZIP_BENCH_H
 #define __7ZIP_BENCH_H
 
-#include "../../Common/CreateCoder.h"
-#include "../../UI/Common/Property.h"
+#include <../../Common/CreateCoder.h>
+#include <../../UI/Common/Property.h>
 
 struct CBenchInfo
 {

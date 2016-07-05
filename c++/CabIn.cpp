@@ -1,15 +1,15 @@
 // Archive/CabIn.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 // #include <stdio.h>
 
-#include "../../../../C/CpuArch.h"
+#include <../../../../C/CpuArch.h>
 
-#include "../../Common/LimitedStreams.h"
-#include "../../Common/StreamUtils.h"
+#include <../../Common/LimitedStreams.h>
+#include <../../Common/StreamUtils.h>
 
-#include "CabIn.h"
+#include <CabIn.h>
 
 #define Get16(p) GetUi16(p)
 #define Get32(p) GetUi32(p)

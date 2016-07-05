@@ -289,15 +289,15 @@ const bool c_lzham_big_endian_platform = !c_lzham_little_endian_platform;
    #include <inttypes.h>
 #endif
 
-#include "lzham.h"
-#include "lzham_config.h"
-#include "lzham_types.h"
-#include "lzham_assert.h"
-#include "lzham_platform.h"
+#include <lzham.h>
+#include <lzham_config.h>
+#include <lzham_types.h>
+#include <lzham_assert.h>
+#include <lzham_platform.h>
 
-#include "lzham_helpers.h"
-#include "lzham_traits.h"
-#include "lzham_mem.h"
-#include "lzham_math.h"
-#include "lzham_utils.h"
-#include "lzham_vector.h"
+#include <lzham_helpers.h>
+#include <lzham_traits.h>
+#include <lzham_mem.h>
+#include <lzham_math.h>
+#include <lzham_utils.h>
+#include <lzham_vector.h>

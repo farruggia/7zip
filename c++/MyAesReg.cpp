@@ -1,10 +1,10 @@
 // MyAesReg.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../Common/RegisterCodec.h"
+#include <../Common/RegisterCodec.h>
 
-#include "MyAes.h"
+#include <MyAes.h>
 
 REGISTER_FILTER_E(AES256CBC,
     NCrypto::CAesCbcDecoder(32),

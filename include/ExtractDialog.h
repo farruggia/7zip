@@ -3,17 +3,17 @@
 #ifndef __EXTRACT_DIALOG_H
 #define __EXTRACT_DIALOG_H
 
-#include "ExtractDialogRes.h"
+#include <ExtractDialogRes.h>
 
-#include "../../../Windows/Control/ComboBox.h"
-#include "../../../Windows/Control/Edit.h"
+#include <../../../Windows/Control/ComboBox.h>
+#include <../../../Windows/Control/Edit.h>
 
-#include "../Common/ExtractMode.h"
+#include <../Common/ExtractMode.h>
 
-#include "../FileManager/DialogSize.h"
+#include <../FileManager/DialogSize.h>
 
 #ifndef NO_REGISTRY
-#include "../Common/ZipRegistry.h"
+#include <../Common/ZipRegistry.h>
 #endif
 
 namespace NExtractionDialog

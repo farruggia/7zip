@@ -3,9 +3,9 @@
 #ifndef __HANDLER_CONT_H
 #define __HANDLER_CONT_H
 
-#include "../../Common/MyCom.h"
+#include <../../Common/MyCom.h>
 
-#include "IArchive.h"
+#include <IArchive.h>
 
 namespace NArchive {
 

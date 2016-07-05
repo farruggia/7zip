@@ -1,8 +1,8 @@
 // UpdateAction.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "UpdateAction.h"
+#include <UpdateAction.h>
 
 namespace NUpdateArchive {
 

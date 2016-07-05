@@ -1,7 +1,7 @@
 /* XzDec.c -- Xz Decode
 2015-11-09 : Igor Pavlov : Public domain */
 
-#include "Precomp.h"
+#include <Precomp.h>
 
 /* #define XZ_DUMP */
 
@@ -12,19 +12,19 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "7zCrc.h"
-#include "Alloc.h"
-#include "Bra.h"
-#include "CpuArch.h"
-#include "Delta.h"
-#include "Lzma2Dec.h"
+#include <7zCrc.h>
+#include <Alloc.h>
+#include <Bra.h>
+#include <CpuArch.h>
+#include <Delta.h>
+#include <Lzma2Dec.h>
 
 #ifdef USE_SUBBLOCK
-#include "Bcj3Dec.c"
-#include "SbDec.c"
+#include <Bcj3Dec.c>
+#include <SbDec.c>
 #endif
 
-#include "Xz.h"
+#include <Xz.h>
 
 #define XZ_CHECK_SIZE_MAX 64
 

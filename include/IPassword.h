@@ -3,10 +3,10 @@
 #ifndef __IPASSWORD_H
 #define __IPASSWORD_H
 
-#include "../Common/MyTypes.h"
-#include "../Common/MyUnknown.h"
+#include <../Common/MyTypes.h>
+#include <../Common/MyUnknown.h>
 
-#include "IDecl.h"
+#include <IDecl.h>
 
 #define PASSWORD_INTERFACE(i, x) DECL_INTERFACE(i, 5, x)
 

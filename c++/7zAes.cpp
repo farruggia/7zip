@@ -1,22 +1,22 @@
 // 7zAes.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/Sha256.h"
+#include <../../../C/Sha256.h>
 
-#include "../../Common/ComTry.h"
+#include <../../Common/ComTry.h>
 
 #ifndef _7ZIP_ST
-#include "../../Windows/Synchronization.h"
+#include <../../Windows/Synchronization.h>
 #endif
 
-#include "../Common/StreamUtils.h"
+#include <../Common/StreamUtils.h>
 
-#include "7zAes.h"
-#include "MyAes.h"
+#include <7zAes.h>
+#include <MyAes.h>
 
 #ifndef EXTRACT_ONLY
-#include "RandGen.h"
+#include <RandGen.h>
 #endif
 
 namespace NCrypto {

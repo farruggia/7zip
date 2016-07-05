@@ -3,9 +3,9 @@
 #ifndef __CRYPTO_RAR20_CRYPTO_H
 #define __CRYPTO_RAR20_CRYPTO_H
 
-#include "../../Common/MyCom.h"
+#include <../../Common/MyCom.h>
 
-#include "../ICoder.h"
+#include <../ICoder.h>
 
 namespace NCrypto {
 namespace NRar2 {

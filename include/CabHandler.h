@@ -3,11 +3,11 @@
 #ifndef __CAB_HANDLER_H
 #define __CAB_HANDLER_H
 
-#include "../../../Common/MyCom.h"
+#include <../../../Common/MyCom.h>
 
-#include "../IArchive.h"
+#include <../IArchive.h>
 
-#include "CabIn.h"
+#include <CabIn.h>
 
 namespace NArchive {
 namespace NCab {

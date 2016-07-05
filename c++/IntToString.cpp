@@ -1,8 +1,8 @@
 // Common/IntToString.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "IntToString.h"
+#include <IntToString.h>
 
 #define CONVERT_INT_TO_STR(charType, tempSize) \
   unsigned char temp[tempSize]; unsigned i = 0; \

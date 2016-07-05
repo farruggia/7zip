@@ -3,15 +3,15 @@
 #ifndef __ARCHIVE_NSIS_IN_H
 #define __ARCHIVE_NSIS_IN_H
 
-#include "../../../../C/CpuArch.h"
+#include <../../../../C/CpuArch.h>
 
-#include "../../../Common/DynLimBuf.h"
-#include "../../../Common/MyBuffer.h"
-#include "../../../Common/MyCom.h"
-#include "../../../Common/StringConvert.h"
-#include "../../../Common/UTFConvert.h"
+#include <../../../Common/DynLimBuf.h>
+#include <../../../Common/MyBuffer.h>
+#include <../../../Common/MyCom.h>
+#include <../../../Common/StringConvert.h>
+#include <../../../Common/UTFConvert.h>
 
-#include "NsisDecode.h"
+#include <NsisDecode.h>
 
 /* If NSIS_SCRIPT is defined, it will decompile NSIS script to [NSIS].nsi file.
    The code is much larger in that case. */

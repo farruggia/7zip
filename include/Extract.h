@@ -3,16 +3,16 @@
 #ifndef __EXTRACT_H
 #define __EXTRACT_H
 
-#include "../../../Windows/FileFind.h"
+#include <../../../Windows/FileFind.h>
 
-#include "../../Archive/IArchive.h"
+#include <../../Archive/IArchive.h>
 
-#include "ArchiveExtractCallback.h"
-#include "ArchiveOpenCallback.h"
-#include "ExtractMode.h"
-#include "Property.h"
+#include <ArchiveExtractCallback.h>
+#include <ArchiveOpenCallback.h>
+#include <ExtractMode.h>
+#include <Property.h>
 
-#include "../Common/LoadCodecs.h"
+#include <../Common/LoadCodecs.h>
 
 struct CExtractOptionsBase
 {

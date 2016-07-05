@@ -1,10 +1,10 @@
 // CopyRegister.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../Common/RegisterCodec.h"
+#include <../Common/RegisterCodec.h>
 
-#include "CopyCoder.h"
+#include <CopyCoder.h>
 
 REGISTER_CODEC_CREATE(CreateCodec, NCompress::CCopyCoder())
 

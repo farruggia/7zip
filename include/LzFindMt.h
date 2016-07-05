@@ -4,8 +4,8 @@
 #ifndef __LZ_FIND_MT_H
 #define __LZ_FIND_MT_H
 
-#include "LzFind.h"
-#include "Threads.h"
+#include <LzFind.h>
+#include <Threads.h>
 
 EXTERN_C_BEGIN
 

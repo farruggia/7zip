@@ -9,7 +9,7 @@ If you need the compatibility with original PPMd var.H, you can use external Ran
 #ifndef __PPMD7_H
 #define __PPMD7_H
 
-#include "Ppmd.h"
+#include <Ppmd.h>
 
 EXTERN_C_BEGIN
 

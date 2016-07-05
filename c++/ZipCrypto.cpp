@@ -1,13 +1,13 @@
 // Crypto/ZipCrypto.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/7zCrc.h"
+#include <../../../C/7zCrc.h>
 
-#include "../Common/StreamUtils.h"
+#include <../Common/StreamUtils.h>
 
-#include "RandGen.h"
-#include "ZipCrypto.h"
+#include <RandGen.h>
+#include <ZipCrypto.h>
 
 namespace NCrypto {
 namespace NZip {

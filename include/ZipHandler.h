@@ -3,14 +3,14 @@
 #ifndef __ZIP_HANDLER_H
 #define __ZIP_HANDLER_H
 
-#include "../../../Common/DynamicBuffer.h"
-#include "../../ICoder.h"
-#include "../IArchive.h"
+#include <../../../Common/DynamicBuffer.h>
+#include <../../ICoder.h>
+#include <../IArchive.h>
 
-#include "../../Common/CreateCoder.h"
+#include <../../Common/CreateCoder.h>
 
-#include "ZipIn.h"
-#include "ZipCompressionMode.h"
+#include <ZipIn.h>
+#include <ZipCompressionMode.h>
 
 namespace NArchive {
 namespace NZip {

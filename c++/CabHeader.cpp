@@ -1,8 +1,8 @@
 // CabHeader.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "CabHeader.h"
+#include <CabHeader.h>
 
 namespace NArchive {
 namespace NCab {

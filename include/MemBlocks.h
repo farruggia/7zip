@@ -3,11 +3,11 @@
 #ifndef __MEM_BLOCKS_H
 #define __MEM_BLOCKS_H
 
-#include "../../Common/MyVector.h"
+#include <../../Common/MyVector.h>
 
-#include "../../Windows/Synchronization.h"
+#include <../../Windows/Synchronization.h>
 
-#include "../IStream.h"
+#include <../IStream.h>
 
 class CMemBlockManager
 {

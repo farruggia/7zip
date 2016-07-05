@@ -1,8 +1,8 @@
 // BZip2Crc.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "BZip2Crc.h"
+#include <BZip2Crc.h>
 
 UInt32 CBZip2Crc::Table[256];
 

@@ -1,11 +1,11 @@
 // MyWindows.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 #ifndef _WIN32
 
-#include "MyWindows.h"
-#include "MyTypes.h"
+#include <MyWindows.h>
+#include <MyTypes.h>
 #include <stdlib.h> /* FIXED <malloc.h> */
 
 static inline void *AllocateForBSTR(size_t cb) { return ::malloc(cb); }

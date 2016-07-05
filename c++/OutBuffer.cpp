@@ -1,10 +1,10 @@
 // OutBuffer.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/Alloc.h"
+#include <../../../C/Alloc.h>
 
-#include "OutBuffer.h"
+#include <OutBuffer.h>
 
 bool COutBuffer::Create(UInt32 bufSize) throw()
 {

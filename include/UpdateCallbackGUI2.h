@@ -3,7 +3,7 @@
 #ifndef __UPDATE_CALLBACK_GUI2_H
 #define __UPDATE_CALLBACK_GUI2_H
 
-#include "../FileManager/ProgressDialog2.h"
+#include <../FileManager/ProgressDialog2.h>
 
 class CUpdateCallbackGUI2
 {

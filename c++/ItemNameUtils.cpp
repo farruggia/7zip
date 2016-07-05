@@ -1,8 +1,8 @@
 // Archive/Common/ItemNameUtils.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "ItemNameUtils.h"
+#include <ItemNameUtils.h>
 
 namespace NArchive {
 namespace NItemName {

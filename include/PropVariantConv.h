@@ -3,7 +3,7 @@
 #ifndef __PROP_VARIANT_CONV_H
 #define __PROP_VARIANT_CONV_H
 
-#include "../Common/MyTypes.h"
+#include <../Common/MyTypes.h>
 
 // provide at least 32 bytes for buffer including zero-end
 bool ConvertFileTimeToString(const FILETIME &ft, char *s, bool includeTime = true, bool includeSeconds = true) throw();

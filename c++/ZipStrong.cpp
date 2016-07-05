@@ -1,14 +1,14 @@
 // Crypto/ZipStrong.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/7zCrc.h"
-#include "../../../C/CpuArch.h"
+#include <../../../C/7zCrc.h>
+#include <../../../C/CpuArch.h>
 
-#include "../Common/StreamUtils.h"
+#include <../Common/StreamUtils.h>
 
-#include "Sha1Cls.h"
-#include "ZipStrong.h"
+#include <Sha1Cls.h>
+#include <ZipStrong.h>
 
 namespace NCrypto {
 namespace NZipStrong {

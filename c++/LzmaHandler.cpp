@@ -1,23 +1,23 @@
 // LzmaHandler.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/CpuArch.h"
+#include <../../../C/CpuArch.h>
 
-#include "../../Common/ComTry.h"
-#include "../../Common/IntToString.h"
+#include <../../Common/ComTry.h>
+#include <../../Common/IntToString.h>
 
-#include "../../Windows/PropVariant.h"
+#include <../../Windows/PropVariant.h>
 
-#include "../Common/FilterCoder.h"
-#include "../Common/ProgressUtils.h"
-#include "../Common/RegisterArc.h"
-#include "../Common/StreamUtils.h"
+#include <../Common/FilterCoder.h>
+#include <../Common/ProgressUtils.h>
+#include <../Common/RegisterArc.h>
+#include <../Common/StreamUtils.h>
 
-#include "../Compress/BcjCoder.h"
-#include "../Compress/LzmaDecoder.h"
+#include <../Compress/BcjCoder.h>
+#include <../Compress/LzmaDecoder.h>
 
-#include "Common/DummyOutStream.h"
+#include <Common/DummyOutStream.h>
 
 using namespace NWindows;
 

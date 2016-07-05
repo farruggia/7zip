@@ -1,19 +1,19 @@
 // Extract.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../../C/Sort.h"
+#include <../../../../C/Sort.h>
 
-#include "../../../Common/StringConvert.h"
+#include <../../../Common/StringConvert.h>
 
-#include "../../../Windows/FileDir.h"
-#include "../../../Windows/PropVariant.h"
-#include "../../../Windows/PropVariantConv.h"
+#include <../../../Windows/FileDir.h>
+#include <../../../Windows/PropVariant.h>
+#include <../../../Windows/PropVariantConv.h>
 
-#include "../Common/ExtractingFilePath.h"
+#include <../Common/ExtractingFilePath.h>
 
-#include "Extract.h"
-#include "SetProperties.h"
+#include <Extract.h>
+#include <SetProperties.h>
 
 using namespace NWindows;
 using namespace NFile;

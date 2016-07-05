@@ -1,8 +1,8 @@
 // 7zHeader.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "7zHeader.h"
+#include <7zHeader.h>
 
 namespace NArchive {
 namespace N7z {

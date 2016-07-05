@@ -1,8 +1,8 @@
 // Common/StringConvert.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "StringConvert.h"
+#include <StringConvert.h>
 extern "C"
 {
 int global_use_utf16_conversion = 0;
@@ -91,7 +91,7 @@ AString UnicodeStringToMultiByte(const UString &srcString, UINT codePage)
 #else /* __APPLE_CC__ */
 
 
-#include "UTFConvert.h"
+#include <UTFConvert.h>
 
 UString MultiByteToUnicodeString(const AString &srcString, UINT codePage)
 {

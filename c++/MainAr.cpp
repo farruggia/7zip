@@ -1,17 +1,17 @@
 // MainAr.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../Common/MyException.h"
-#include "../../../Common/StdOutStream.h"
+#include <../../../Common/MyException.h>
+#include <../../../Common/StdOutStream.h>
 
-#include "../../../Windows/ErrorMsg.h"
-#include "../../../Windows/NtCheck.h"
+#include <../../../Windows/ErrorMsg.h>
+#include <../../../Windows/NtCheck.h>
 
-#include "../Common/ArchiveCommandLine.h"
-#include "../Common/ExitCode.h"
+#include <../Common/ArchiveCommandLine.h>
+#include <../Common/ExitCode.h>
 
-#include "ConsoleClose.h"
+#include <ConsoleClose.h>
 
 using namespace NWindows;
 

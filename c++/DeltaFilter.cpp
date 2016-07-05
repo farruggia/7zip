@@ -1,14 +1,14 @@
 // DeltaFilter.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/Delta.h"
+#include <../../../C/Delta.h>
 
-#include "../../Common/MyCom.h"
+#include <../../Common/MyCom.h>
 
-#include "../ICoder.h"
+#include <../ICoder.h>
 
-#include "../Common/RegisterCodec.h"
+#include <../Common/RegisterCodec.h>
 
 struct CDelta
 {

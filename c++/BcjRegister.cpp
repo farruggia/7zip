@@ -1,10 +1,10 @@
 // BcjRegister.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../Common/RegisterCodec.h"
+#include <../Common/RegisterCodec.h>
 
-#include "BcjCoder.h"
+#include <BcjCoder.h>
 
 REGISTER_FILTER_E(BCJ,
     CBcjCoder(false),

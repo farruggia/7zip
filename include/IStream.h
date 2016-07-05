@@ -3,10 +3,10 @@
 #ifndef __ISTREAM_H
 #define __ISTREAM_H
 
-#include "../Common/MyTypes.h"
-#include "../Common/MyWindows.h"
+#include <../Common/MyTypes.h>
+#include <../Common/MyWindows.h>
 
-#include "IDecl.h"
+#include <IDecl.h>
 
 #define STREAM_INTERFACE_SUB(i, base, x) DECL_INTERFACE_SUB(i, base, 3, x)
 #define STREAM_INTERFACE(i, x) STREAM_INTERFACE_SUB(i, IUnknown, x)

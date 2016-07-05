@@ -1,11 +1,11 @@
 // Windows/FileFind.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "FileFind.h"
-#include "FileIO.h"
+#include <FileFind.h>
+#include <FileIO.h>
 
-#include "../Common/StringConvert.h"
+#include <../Common/StringConvert.h>
 
 
 #ifndef _UNICODE
@@ -17,7 +17,7 @@ extern bool g_IsNT;
 #include <errno.h>
 
 #define NEED_NAME_WINDOWS_TO_UNIX
-#include "myPrivate.h"
+#include <myPrivate.h>
 
 // #define TRACEN(u) u;
 #define TRACEN(u)  /* */

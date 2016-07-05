@@ -1,11 +1,11 @@
 // PropVariantConvert.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../Common/IntToString.h"
+#include <../Common/IntToString.h>
 
-#include "Defs.h"
-#include "PropVariantConv.h"
+#include <Defs.h>
+#include <PropVariantConv.h>
 
 #define UINT_TO_STR_2(c, val) { s[0] = (c); s[1] = (char)('0' + (val) / 10); s[2] = (char)('0' + (val) % 10); s += 3; }
 

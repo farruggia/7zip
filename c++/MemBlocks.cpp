@@ -1,11 +1,11 @@
 // MemBlocks.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/Alloc.h"
+#include <../../../C/Alloc.h>
 
-#include "MemBlocks.h"
-#include "StreamUtils.h"
+#include <MemBlocks.h>
+#include <StreamUtils.h>
 
 bool CMemBlockManager::AllocateSpace(size_t numBlocks)
 {

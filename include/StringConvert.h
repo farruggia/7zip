@@ -3,8 +3,8 @@
 #ifndef __COMMON_STRING_CONVERT_H
 #define __COMMON_STRING_CONVERT_H
 
-#include "MyString.h"
-#include "MyWindows.h"
+#include <MyString.h>
+#include <MyWindows.h>
 
 UString MultiByteToUnicodeString(const AString &srcString, UINT codePage = CP_ACP);
 

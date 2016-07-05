@@ -3,8 +3,8 @@
 #ifndef __IN_BUFFER_H
 #define __IN_BUFFER_H
 
-#include "../../Common/MyException.h"
-#include "../IStream.h"
+#include <../../Common/MyException.h>
+#include <../IStream.h>
 
 #ifndef _NO_EXCEPTIONS
 struct CInBufferException: public CSystemException

@@ -1,13 +1,13 @@
 // Lzma2Register.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../Common/RegisterCodec.h"
+#include <../Common/RegisterCodec.h>
 
-#include "Lzma2Decoder.h"
+#include <Lzma2Decoder.h>
 
 #ifndef EXTRACT_ONLY
-#include "Lzma2Encoder.h"
+#include <Lzma2Encoder.h>
 #endif
 
 REGISTER_CODEC_E(LZMA2,

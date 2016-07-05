@@ -3,7 +3,7 @@
 #ifndef __HANDLER_OUT_H
 #define __HANDLER_OUT_H
 
-#include "../../Common/MethodProps.h"
+#include <../../Common/MethodProps.h>
 
 namespace NArchive {
 

@@ -1,13 +1,13 @@
 // InOutTempBuffer.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/7zCrc.h"
+#include <../../../C/7zCrc.h>
 
-#include "../../Common/Defs.h"
+#include <../../Common/Defs.h>
 
-#include "InOutTempBuffer.h"
-#include "StreamUtils.h"
+#include <InOutTempBuffer.h>
+#include <StreamUtils.h>
 
 using namespace NWindows;
 using namespace NFile;

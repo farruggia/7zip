@@ -3,17 +3,17 @@
 #ifndef __UPDATE_CALLBACK_H
 #define __UPDATE_CALLBACK_H
 
-#include "../../../Common/MyCom.h"
+#include <../../../Common/MyCom.h>
 
-#include "../../Common/FileStreams.h"
+#include <../../Common/FileStreams.h>
 
-#include "../../IPassword.h"
-#include "../../ICoder.h"
+#include <../../IPassword.h>
+#include <../../ICoder.h>
 
-#include "../Common/UpdatePair.h"
-#include "../Common/UpdateProduce.h"
+#include <../Common/UpdatePair.h>
+#include <../Common/UpdateProduce.h>
 
-#include "OpenArchive.h"
+#include <OpenArchive.h>
 
 #define INTERFACE_IUpdateCallbackUI(x) \
   virtual HRESULT WriteSfx(const wchar_t *name, UInt64 size) x; \

@@ -1,10 +1,10 @@
 // PercentPrinter.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../Common/IntToString.h"
+#include <../../../Common/IntToString.h>
 
-#include "PercentPrinter.h"
+#include <PercentPrinter.h>
 
 static const unsigned kPercentsSize = 4;
 

@@ -1,13 +1,13 @@
 // Lzma2Encoder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/Alloc.h"
+#include <../../../C/Alloc.h>
 
-#include "../Common/CWrappers.h"
-#include "../Common/StreamUtils.h"
+#include <../Common/CWrappers.h>
+#include <../Common/StreamUtils.h>
 
-#include "Lzma2Encoder.h"
+#include <Lzma2Encoder.h>
 
 namespace NCompress {
 

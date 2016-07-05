@@ -3,10 +3,10 @@
 #ifndef __LISTVIEW_DIALOG_H
 #define __LISTVIEW_DIALOG_H
 
-#include "../../../Windows/Control/Dialog.h"
-#include "../../../Windows/Control/ListView.h"
+#include <../../../Windows/Control/Dialog.h>
+#include <../../../Windows/Control/ListView.h>
 
-#include "ListViewDialogRes.h"
+#include <ListViewDialogRes.h>
 
 class CListViewDialog: public NWindows::NControl::CModalDialog
 {

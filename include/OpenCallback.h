@@ -3,18 +3,18 @@
 #ifndef __OPEN_CALLBACK_H
 #define __OPEN_CALLBACK_H
 
-#include "../../../Common/MyCom.h"
+#include <../../../Common/MyCom.h>
 
-#include "../../../Windows/FileFind.h"
+#include <../../../Windows/FileFind.h>
 
-#include "../../IPassword.h"
+#include <../../IPassword.h>
 
-#include "../../Archive/IArchive.h"
+#include <../../Archive/IArchive.h>
 
 #ifdef _SFX
-#include "ProgressDialog.h"
+#include <ProgressDialog.h>
 #else
-#include "ProgressDialog2.h"
+#include <ProgressDialog2.h>
 #endif
 
 

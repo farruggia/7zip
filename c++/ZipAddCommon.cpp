@@ -1,27 +1,27 @@
 // ZipAddCommon.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../../C/7zCrc.h"
-#include "../../../../C/Alloc.h"
+#include <../../../../C/7zCrc.h>
+#include <../../../../C/Alloc.h>
 
-#include "../../../Windows/PropVariant.h"
+#include <../../../Windows/PropVariant.h>
 
-#include "../../ICoder.h"
-#include "../../IPassword.h"
-#include "../../MyVersion.h"
+#include <../../ICoder.h>
+#include <../../IPassword.h>
+#include <../../MyVersion.h>
 
-#include "../../Common/CreateCoder.h"
-#include "../../Common/StreamObjects.h"
-#include "../../Common/StreamUtils.h"
+#include <../../Common/CreateCoder.h>
+#include <../../Common/StreamObjects.h>
+#include <../../Common/StreamUtils.h>
 
-#include "../../Compress/LzmaEncoder.h"
-#include "../../Compress/PpmdZip.h"
+#include <../../Compress/LzmaEncoder.h>
+#include <../../Compress/PpmdZip.h>
 
-#include "../Common/InStreamWithCRC.h"
+#include <../Common/InStreamWithCRC.h>
 
-#include "ZipAddCommon.h"
-#include "ZipHeader.h"
+#include <ZipAddCommon.h>
+#include <ZipHeader.h>
 
 namespace NArchive {
 namespace NZip {

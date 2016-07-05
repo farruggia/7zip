@@ -3,12 +3,12 @@
 #ifndef __ZIP_OUT_H
 #define __ZIP_OUT_H
 
-#include "../../../Common/MyCom.h"
+#include <../../../Common/MyCom.h>
 
-#include "../../IStream.h"
-#include "../../Common/OutBuffer.h"
+#include <../../IStream.h>
+#include <../../Common/OutBuffer.h>
 
-#include "ZipItem.h"
+#include <ZipItem.h>
 
 namespace NArchive {
 namespace NZip {

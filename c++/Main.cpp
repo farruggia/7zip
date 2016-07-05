@@ -1,61 +1,61 @@
 // Main.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../Common/MyWindows.h"
+#include <../../../Common/MyWindows.h>
 
 #ifdef _WIN32
 #include <Psapi.h>
 #else
-#include "myPrivate.h"
+#include <myPrivate.h>
 #endif
 
-#include "../../../../C/CpuArch.h"
+#include <../../../../C/CpuArch.h>
 
 #if defined( _7ZIP_LARGE_PAGES)
-#include "../../../../C/Alloc.h"
+#include <../../../../C/Alloc.h>
 #endif
 
-#include "../../../Common/MyInitGuid.h"
+#include <../../../Common/MyInitGuid.h>
 
-#include "../../../Common/CommandLineParser.h"
-#include "../../../Common/IntToString.h"
-#include "../../../Common/MyException.h"
-#include "../../../Common/StringConvert.h"
-#include "../../../Common/StringToInt.h"
-#include "../../../Common/UTFConvert.h"
+#include <../../../Common/CommandLineParser.h>
+#include <../../../Common/IntToString.h>
+#include <../../../Common/MyException.h>
+#include <../../../Common/StringConvert.h>
+#include <../../../Common/StringToInt.h>
+#include <../../../Common/UTFConvert.h>
 
-#include "../../../Windows/ErrorMsg.h"
+#include <../../../Windows/ErrorMsg.h>
 
 #ifdef _WIN32
-#include "../../../Windows/MemoryLock.h"
+#include <../../../Windows/MemoryLock.h>
 #endif
 
-#include "../../../Windows/TimeUtils.h"
+#include <../../../Windows/TimeUtils.h>
 
-#include "../Common/ArchiveCommandLine.h"
-#include "../Common/ExitCode.h"
-#include "../Common/Extract.h"
+#include <../Common/ArchiveCommandLine.h>
+#include <../Common/ExitCode.h>
+#include <../Common/Extract.h>
 
 #ifdef EXTERNAL_CODECS
-#include "../Common/LoadCodecs.h"
+#include <../Common/LoadCodecs.h>
 #endif
 
-#include "../../Common/RegisterCodec.h"
+#include <../../Common/RegisterCodec.h>
 
-#include "BenchCon.h"
-#include "ConsoleClose.h"
-#include "ExtractCallbackConsole.h"
-#include "List.h"
-#include "OpenCallbackConsole.h"
-#include "UpdateCallbackConsole.h"
+#include <BenchCon.h>
+#include <ConsoleClose.h>
+#include <ExtractCallbackConsole.h>
+#include <List.h>
+#include <OpenCallbackConsole.h>
+#include <UpdateCallbackConsole.h>
 
-#include "HashCon.h"
+#include <HashCon.h>
 
 #ifdef PROG_VARIANT_R
-#include "../../../../C/7zVersion.h"
+#include <../../../../C/7zVersion.h>
 #else
-#include "../../MyVersion.h"
+#include <../../MyVersion.h>
 #endif
 
 #include <chrono>

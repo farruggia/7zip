@@ -1,10 +1,10 @@
 // TarOut.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Common/StreamUtils.h"
+#include <../../Common/StreamUtils.h>
 
-#include "TarOut.h"
+#include <TarOut.h>
 
 namespace NArchive {
 namespace NTar {

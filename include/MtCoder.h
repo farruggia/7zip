@@ -4,7 +4,7 @@
 #ifndef __MT_CODER_H
 #define __MT_CODER_H
 
-#include "Threads.h"
+#include <Threads.h>
 
 EXTERN_C_BEGIN
 

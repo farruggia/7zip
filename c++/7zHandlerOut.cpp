@@ -1,17 +1,17 @@
 // 7zHandlerOut.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../Common/ComTry.h"
-#include "../../../Common/StringToInt.h"
-#include "../../../Common/Wildcard.h"
+#include <../../../Common/ComTry.h>
+#include <../../../Common/StringToInt.h>
+#include <../../../Common/Wildcard.h>
 
-#include "../Common/ItemNameUtils.h"
-#include "../Common/ParseProperties.h"
+#include <../Common/ItemNameUtils.h>
+#include <../Common/ParseProperties.h>
 
-#include "7zHandler.h"
-#include "7zOut.h"
-#include "7zUpdate.h"
+#include <7zHandler.h>
+#include <7zOut.h>
+#include <7zUpdate.h>
 
 using namespace NWindows;
 

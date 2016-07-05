@@ -1,15 +1,15 @@
 // UpdatePair.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 #include <time.h>
 
-#include "../../../Common/Wildcard.h"
+#include <../../../Common/Wildcard.h>
 
-#include "../../../Windows/TimeUtils.h"
+#include <../../../Windows/TimeUtils.h>
 
-#include "SortUtils.h"
-#include "UpdatePair.h"
+#include <SortUtils.h>
+#include <UpdatePair.h>
 
 using namespace NWindows;
 using namespace NTime;

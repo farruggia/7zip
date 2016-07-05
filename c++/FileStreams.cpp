@@ -1,6 +1,6 @@
 // FileStreams.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 #ifndef _WIN32
 #include <fcntl.h>
@@ -9,11 +9,11 @@
 #endif
 
 #ifdef SUPPORT_DEVICE_FILE
-#include "../../../C/Alloc.h"
-#include "../../Common/Defs.h"
+#include <../../../C/Alloc.h>
+#include <../../Common/Defs.h>
 #endif
 
-#include "FileStreams.h"
+#include <FileStreams.h>
 
 static inline HRESULT ConvertBoolToHRESULT(bool result)
 {

@@ -1,10 +1,10 @@
 // QuantumDecoder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Common/Defs.h"
+#include <../../Common/Defs.h>
 
-#include "QuantumDecoder.h"
+#include <QuantumDecoder.h>
 
 namespace NCompress {
 namespace NQuantum {

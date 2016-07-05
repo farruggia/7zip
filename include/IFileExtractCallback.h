@@ -3,12 +3,12 @@
 #ifndef __I_FILE_EXTRACT_CALLBACK_H
 #define __I_FILE_EXTRACT_CALLBACK_H
 
-#include "../../../Common/MyString.h"
+#include <../../../Common/MyString.h>
 
-#include "../../IDecl.h"
+#include <../../IDecl.h>
 
-#include "LoadCodecs.h"
-#include "OpenArchive.h"
+#include <LoadCodecs.h>
+#include <OpenArchive.h>
 
 namespace NOverwriteAnswer
 {

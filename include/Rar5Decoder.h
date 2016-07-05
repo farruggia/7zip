@@ -5,17 +5,17 @@
 #ifndef __COMPRESS_RAR5_DECODER_H
 #define __COMPRESS_RAR5_DECODER_H
 
-#include "../../../C/Alloc.h"
-#include "../../../C/CpuArch.h"
+#include <../../../C/Alloc.h>
+#include <../../../C/CpuArch.h>
 
-#include "../../Common/MyBuffer.h"
-#include "../../Common/MyCom.h"
-#include "../../Common/MyException.h"
-#include "../../Common/MyVector.h"
+#include <../../Common/MyBuffer.h>
+#include <../../Common/MyCom.h>
+#include <../../Common/MyException.h>
+#include <../../Common/MyVector.h>
 
-#include "../ICoder.h"
+#include <../ICoder.h>
 
-#include "HuffmanDecoder.h"
+#include <HuffmanDecoder.h>
 
 namespace NCompress {
 namespace NRar5 {

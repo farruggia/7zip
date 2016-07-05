@@ -3,7 +3,7 @@
 #ifndef __COMMON_BUFFER_H
 #define __COMMON_BUFFER_H
 
-#include "Defs.h"
+#include <Defs.h>
 
 template <class T> class CBuffer
 {

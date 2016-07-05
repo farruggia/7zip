@@ -1,12 +1,12 @@
 // CWrappers.h
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/Alloc.h"
+#include <../../../C/Alloc.h>
 
-#include "CWrappers.h"
+#include <CWrappers.h>
 
-#include "StreamUtils.h"
+#include <StreamUtils.h>
 
 #define PROGRESS_UNKNOWN_VALUE ((UInt64)(Int64)-1)
 

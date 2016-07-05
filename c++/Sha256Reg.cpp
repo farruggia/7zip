@@ -1,12 +1,12 @@
 // Sha256Reg.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../C/Sha256.h"
+#include <../../C/Sha256.h>
 
-#include "../Common/MyCom.h"
+#include <../Common/MyCom.h>
 
-#include "../7zip/Common/RegisterCodec.h"
+#include <../7zip/Common/RegisterCodec.h>
 
 class CSha256Hasher:
   public IHasher,

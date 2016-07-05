@@ -1,7 +1,7 @@
 // File: lzham_prefix_coding.h
 // See Copyright Notice and license at the end of include/lzham.h
 #pragma once
-#include "lzham_huffman_codes.h"
+#include <lzham_huffman_codes.h>
 
 namespace lzham
 {

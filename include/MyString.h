@@ -18,9 +18,9 @@ wchar_t * wmemcpy(wchar_t *dest, const wchar_t *src, size_t num);
 wchar_t * wcsstr(const wchar_t *wcs1, const wchar_t *wcs2);
 #endif
 
-#include "MyWindows.h"
-#include "MyTypes.h"
-#include "MyVector.h"
+#include <MyWindows.h>
+#include <MyTypes.h>
+#include <MyVector.h>
 
 #ifdef _WIN32
 #define IS_PATH_SEPAR(c) ((c) == '\\' || (c) == '/')

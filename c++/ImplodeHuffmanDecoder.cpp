@@ -1,8 +1,8 @@
 // ImplodeHuffmanDecoder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "ImplodeHuffmanDecoder.h"
+#include <ImplodeHuffmanDecoder.h>
 
 namespace NCompress {
 namespace NImplode {

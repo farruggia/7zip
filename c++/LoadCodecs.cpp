@@ -31,26 +31,26 @@ EXPORT_CODECS
 */
 
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../../C/7zVersion.h"
+#include <../../../../C/7zVersion.h>
 
-#include "../../../Common/MyCom.h"
-#include "../../../Common/StringToInt.h"
-#include "../../../Common/StringConvert.h"
+#include <../../../Common/MyCom.h>
+#include <../../../Common/StringToInt.h>
+#include <../../../Common/StringConvert.h>
 
-#include "../../../Windows/PropVariant.h"
+#include <../../../Windows/PropVariant.h>
 
-#include "LoadCodecs.h"
+#include <LoadCodecs.h>
 
 using namespace NWindows;
 
 #ifdef NEW_FOLDER_INTERFACE
-#include "../../../Common/StringToInt.h"
+#include <../../../Common/StringToInt.h>
 #endif
 
-#include "../../ICoder.h"
-#include "../../Common/RegisterArc.h"
+#include <../../ICoder.h>
+#include <../../Common/RegisterArc.h>
 
 #ifdef EXTERNAL_CODECS
 
@@ -60,18 +60,18 @@ using namespace NWindows;
 
 #ifdef NEW_FOLDER_INTERFACE
 extern HINSTANCE g_hInstance;
-#include "../../../Windows/ResourceString.h"
+#include <../../../Windows/ResourceString.h>
 static const UINT kIconTypesResId = 100;
 #endif
 
 #ifdef EXTERNAL_CODECS
 
-#include "../../../Windows/FileFind.h"
-#include "../../../Windows/DLL.h"
+#include <../../../Windows/FileFind.h>
+#include <../../../Windows/DLL.h>
 
 #ifdef _WIN32
-#include "../../../Windows/FileName.h"
-#include "../../../Windows/Registry.h"
+#include <../../../Windows/FileName.h>
+#include <../../../Windows/Registry.h>
 #endif
 
 using namespace NFile;

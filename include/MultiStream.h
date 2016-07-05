@@ -3,10 +3,10 @@
 #ifndef __MULTI_STREAM_H
 #define __MULTI_STREAM_H
 
-#include "../../../Common/MyCom.h"
-#include "../../../Common/MyVector.h"
+#include <../../../Common/MyCom.h>
+#include <../../../Common/MyVector.h>
 
-#include "../../IStream.h"
+#include <../../IStream.h>
 
 class CMultiStream:
   public IInStream,

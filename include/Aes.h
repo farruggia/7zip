@@ -4,7 +4,7 @@
 #ifndef __AES_H
 #define __AES_H
 
-#include "7zTypes.h"
+#include <7zTypes.h>
 
 EXTERN_C_BEGIN
 

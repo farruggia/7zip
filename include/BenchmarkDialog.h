@@ -3,16 +3,16 @@
 #ifndef __BENCHMARK_DIALOG_H
 #define __BENCHMARK_DIALOG_H
 
-#include "../../../Windows/Synchronization.h"
+#include <../../../Windows/Synchronization.h>
 
-#include "../../../Windows/Control/ComboBox.h"
-#include "../../../Windows/Control/Edit.h"
+#include <../../../Windows/Control/ComboBox.h>
+#include <../../../Windows/Control/Edit.h>
 
-#include "../Common/Bench.h"
+#include <../Common/Bench.h>
 
-#include "../FileManager/DialogSize.h"
+#include <../FileManager/DialogSize.h>
 
-#include "BenchmarkDialogRes.h"
+#include <BenchmarkDialogRes.h>
 
 struct CBenchInfo2 : public CBenchInfo
 {

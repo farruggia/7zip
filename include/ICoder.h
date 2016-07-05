@@ -3,7 +3,7 @@
 #ifndef __ICODER_H
 #define __ICODER_H
 
-#include "IStream.h"
+#include <IStream.h>
 
 #define CODER_INTERFACE(i, x) DECL_INTERFACE(i, 4, x)
 

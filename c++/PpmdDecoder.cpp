@@ -1,14 +1,14 @@
 // PpmdDecoder.cpp
 // 2009-03-11 : Igor Pavlov : Public domain
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/Alloc.h"
-#include "../../../C/CpuArch.h"
+#include <../../../C/Alloc.h>
+#include <../../../C/CpuArch.h>
 
-#include "../Common/StreamUtils.h"
+#include <../Common/StreamUtils.h>
 
-#include "PpmdDecoder.h"
+#include <PpmdDecoder.h>
 
 namespace NCompress {
 namespace NPpmd {

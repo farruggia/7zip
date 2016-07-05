@@ -3,13 +3,13 @@
 #ifndef __7Z_UPDATE_H
 #define __7Z_UPDATE_H
 
-#include "../IArchive.h"
+#include <../IArchive.h>
 
-// #include "../../Common/UniqBlocks.h"
+// #include <../../Common/UniqBlocks.h>
 
-#include "7zCompressionMode.h"
-#include "7zIn.h"
-#include "7zOut.h"
+#include <7zCompressionMode.h>
+#include <7zIn.h>
+#include <7zOut.h>
 
 namespace NArchive {
 namespace N7z {

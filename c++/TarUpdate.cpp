@@ -1,16 +1,16 @@
 // TarUpdate.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../Windows/TimeUtils.h"
+#include <../../../Windows/TimeUtils.h>
 
-#include "../../Common/LimitedStreams.h"
-#include "../../Common/ProgressUtils.h"
+#include <../../Common/LimitedStreams.h>
+#include <../../Common/ProgressUtils.h>
 
-#include "../../Compress/CopyCoder.h"
+#include <../../Compress/CopyCoder.h>
 
-#include "TarOut.h"
-#include "TarUpdate.h"
+#include <TarOut.h>
+#include <TarUpdate.h>
 
 namespace NArchive {
 namespace NTar {

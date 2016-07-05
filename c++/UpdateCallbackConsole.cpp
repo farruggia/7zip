@@ -1,18 +1,18 @@
 // UpdateCallbackConsole.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../Common/IntToString.h"
+#include <../../../Common/IntToString.h>
 
-#include "../../../Windows/ErrorMsg.h"
+#include <../../../Windows/ErrorMsg.h>
 
 #ifndef _7ZIP_ST
-#include "../../../Windows/Synchronization.h"
+#include <../../../Windows/Synchronization.h>
 #endif
 
-#include "ConsoleClose.h"
-#include "UserInputUtils.h"
-#include "UpdateCallbackConsole.h"
+#include <ConsoleClose.h>
+#include <UserInputUtils.h>
+#include <UpdateCallbackConsole.h>
 
 using namespace NWindows;
 

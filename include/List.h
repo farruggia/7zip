@@ -3,9 +3,9 @@
 #ifndef __LIST_H
 #define __LIST_H
 
-#include "../../../Common/Wildcard.h"
+#include <../../../Common/Wildcard.h>
 
-#include "../Common/LoadCodecs.h"
+#include <../Common/LoadCodecs.h>
 
 HRESULT ListArchives(CCodecs *codecs,
     const CObjectVector<COpenType> &types,

@@ -3,12 +3,12 @@
 #ifndef __7Z_ITEM_H
 #define __7Z_ITEM_H
 
-#include "../../../Common/MyBuffer.h"
-#include "../../../Common/MyString.h"
+#include <../../../Common/MyBuffer.h>
+#include <../../../Common/MyString.h>
 
-#include "../../Common/MethodId.h"
+#include <../../Common/MethodId.h>
 
-#include "7zHeader.h"
+#include <7zHeader.h>
 
 namespace NArchive {
 namespace N7z {

@@ -1,10 +1,10 @@
 // SortUtils.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../Common/Wildcard.h"
+#include <../../../Common/Wildcard.h>
 
-#include "SortUtils.h"
+#include <SortUtils.h>
 
 static int CompareStrings(const unsigned *p1, const unsigned *p2, void *param)
 {

@@ -1,10 +1,10 @@
 // ZipRegister.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Common/RegisterArc.h"
+#include <../../Common/RegisterArc.h>
 
-#include "ZipHandler.h"
+#include <ZipHandler.h>
 
 namespace NArchive {
 namespace NZip {

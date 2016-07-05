@@ -1,12 +1,12 @@
 // Lzma2Decoder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../../C/Alloc.h"
+#include <../../../C/Alloc.h>
 
-#include "../Common/StreamUtils.h"
+#include <../Common/StreamUtils.h>
 
-#include "Lzma2Decoder.h"
+#include <Lzma2Decoder.h>
 
 static HRESULT SResToHRESULT(SRes res)
 {

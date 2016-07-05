@@ -3,10 +3,10 @@
 #ifndef __FS_DRIVES_H
 #define __FS_DRIVES_H
 
-#include "../../../Common/MyCom.h"
-#include "../../../Common/MyString.h"
+#include <../../../Common/MyCom.h>
+#include <../../../Common/MyString.h>
 
-#include "IFolder.h"
+#include <IFolder.h>
 
 struct CDriveInfo
 {

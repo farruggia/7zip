@@ -1,10 +1,10 @@
 // ImplodeDecoder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "../../Common/Defs.h"
+#include <../../Common/Defs.h>
 
-#include "ImplodeDecoder.h"
+#include <ImplodeDecoder.h>
 
 namespace NCompress {
 namespace NImplode {

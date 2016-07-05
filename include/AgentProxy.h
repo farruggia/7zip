@@ -3,7 +3,7 @@
 #ifndef __AGENT_PROXY_H
 #define __AGENT_PROXY_H
 
-#include "../Common/OpenArchive.h"
+#include <../Common/OpenArchive.h>
 
 struct CProxyFile
 {

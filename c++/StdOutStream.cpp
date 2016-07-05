@@ -1,13 +1,13 @@
 // Common/StdOutStream.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 #include <tchar.h>
 
-#include "IntToString.h"
-#include "StdOutStream.h"
-#include "StringConvert.h"
-#include "UTFConvert.h"
+#include <IntToString.h>
+#include <StdOutStream.h>
+#include <StringConvert.h>
+#include <UTFConvert.h>
 
 static const char kNewLineChar =  '\n';
 

@@ -3,7 +3,7 @@
 #ifndef __COMMON_LANG_H
 #define __COMMON_LANG_H
 
-#include "MyString.h"
+#include <MyString.h>
 
 class CLang
 {

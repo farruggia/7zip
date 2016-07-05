@@ -1,6 +1,6 @@
 // LzxDecoder.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
 #include <string.h>
 
@@ -13,9 +13,9 @@
 #define PRF(x)
 #endif
 
-#include "../../../C/Alloc.h"
+#include <../../../C/Alloc.h>
 
-#include "LzxDecoder.h"
+#include <LzxDecoder.h>
 
 namespace NCompress {
 namespace NLzx {

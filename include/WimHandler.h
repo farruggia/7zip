@@ -3,9 +3,9 @@
 #ifndef __ARCHIVE_WIM_HANDLER_H
 #define __ARCHIVE_WIM_HANDLER_H
 
-#include "../../../Common/MyCom.h"
+#include <../../../Common/MyCom.h>
 
-#include "WimIn.h"
+#include <WimIn.h>
 
 namespace NArchive {
 namespace NWim {

@@ -1,12 +1,12 @@
 /* Xz.c - Xz
 2015-05-01 : Igor Pavlov : Public domain */
 
-#include "Precomp.h"
+#include <Precomp.h>
 
-#include "7zCrc.h"
-#include "CpuArch.h"
-#include "Xz.h"
-#include "XzCrc64.h"
+#include <7zCrc.h>
+#include <CpuArch.h>
+#include <Xz.h>
+#include <XzCrc64.h>
 
 const Byte XZ_SIG[XZ_SIG_SIZE] = { 0xFD, '7', 'z', 'X', 'Z', 0 };
 const Byte XZ_FOOTER_SIG[XZ_FOOTER_SIG_SIZE] = { 'Y', 'Z' };

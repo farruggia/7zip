@@ -3,13 +3,13 @@
 #ifndef __ZIP_UPDATE_H
 #define __ZIP_UPDATE_H
 
-#include "../../ICoder.h"
-#include "../IArchive.h"
+#include <../../ICoder.h>
+#include <../IArchive.h>
 
-#include "../../Common/CreateCoder.h"
+#include <../../Common/CreateCoder.h>
 
-#include "ZipCompressionMode.h"
-#include "ZipIn.h"
+#include <ZipCompressionMode.h>
+#include <ZipIn.h>
 
 namespace NArchive {
 namespace NZip {

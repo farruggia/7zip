@@ -1,8 +1,8 @@
 // OutMemStream.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "OutMemStream.h"
+#include <OutMemStream.h>
 
 void COutMemStream::Free()
 {

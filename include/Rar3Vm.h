@@ -5,9 +5,9 @@
 #ifndef __COMPRESS_RAR3_VM_H
 #define __COMPRESS_RAR3_VM_H
 
-#include "../../../C/CpuArch.h"
+#include <../../../C/CpuArch.h>
 
-#include "../../Common/MyVector.h"
+#include <../../Common/MyVector.h>
 
 #define RARVM_STANDARD_FILTERS
 // #define RARVM_VM_ENABLE

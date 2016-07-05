@@ -1,8 +1,8 @@
 // BranchMisc.cpp
 
-#include "StdAfx.h"
+#include <StdAfx.h>
 
-#include "BranchMisc.h"
+#include <BranchMisc.h>
 
 STDMETHODIMP CBranchCoder::Init()
 {

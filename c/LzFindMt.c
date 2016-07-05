@@ -1,11 +1,11 @@
 /* LzFindMt.c -- multithreaded Match finder for LZ algorithms
 2015-10-15 : Igor Pavlov : Public domain */
 
-#include "Precomp.h"
+#include <Precomp.h>
 
-#include "LzHash.h"
+#include <LzHash.h>
 
-#include "LzFindMt.h"
+#include <LzFindMt.h>
 
 static void MtSync_Construct(CMtSync *p)
 {
