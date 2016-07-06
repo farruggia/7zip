@@ -3,13 +3,13 @@
 #ifndef __7Z_HANDLER_H
 #define __7Z_HANDLER_H
 
-#include <../../ICoder.h>
-#include <../IArchive.h>
+#include <ICoder.h>
+#include <IArchive.h>
 
-#include <../../Common/CreateCoder.h>
+#include <CreateCoder.h>
 
 #ifndef EXTRACT_ONLY
-#include <../Common/HandlerOut.h>
+#include <HandlerOut.h>
 #endif
 
 #include <7zCompressionMode.h>

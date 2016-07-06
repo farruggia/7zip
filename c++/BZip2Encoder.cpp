@@ -2,9 +2,9 @@
 
 #include <StdAfx.h>
 
-#include <../../../C/Alloc.h>
-#include <../../../C/BwtSort.h>
-#include <../../../C/HuffEnc.h>
+#include <Alloc.h>
+#include <BwtSort.h>
+#include <HuffEnc.h>
 
 #include <BZip2Crc.h>
 #include <BZip2Encoder.h>

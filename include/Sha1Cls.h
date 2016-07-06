@@ -3,7 +3,7 @@
 #ifndef __CRYPTO_SHA1_H
 #define __CRYPTO_SHA1_H
 
-#include <../../../C/Sha1.h>
+#include <Sha1.h>
 
 namespace NCrypto {
 namespace NSha1 {

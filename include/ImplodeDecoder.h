@@ -3,9 +3,9 @@
 #ifndef __COMPRESS_IMPLODE_DECODER_H
 #define __COMPRESS_IMPLODE_DECODER_H
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../ICoder.h>
+#include <ICoder.h>
 
 #include <ImplodeHuffmanDecoder.h>
 #include <LzOutWindow.h>

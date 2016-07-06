@@ -2,10 +2,10 @@
 
 #include <StdAfx.h>
 
-#include <../../../C/CpuArch.h>
+#include <CpuArch.h>
 
-#include <../Common/RegisterCodec.h>
-#include <../Common/StreamUtils.h>
+#include <RegisterCodec.h>
+#include <StreamUtils.h>
 
 #include <PpmdZip.h>
 

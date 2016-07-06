@@ -2,23 +2,23 @@
 
 #include <StdAfx.h>
 
-#include <../../../../C/CpuArch.h>
+#include <CpuArch.h>
 
-#include <../../../Common/ComTry.h>
-#include <../../../Common/IntToString.h>
+#include <ComTry.h>
+#include <IntToString.h>
 
 #ifndef __7Z_SET_PROPERTIES
-#include <../../../Windows/System.h>
+#include <System.h>
 #endif
 
-#include <../Common/ItemNameUtils.h>
+#include <ItemNameUtils.h>
 
 #include <7zHandler.h>
 #include <7zProperties.h>
 
 #ifdef __7Z_SET_PROPERTIES
 #ifdef EXTRACT_ONLY
-#include <../Common/ParseProperties.h>
+#include <ParseProperties.h>
 #endif
 #endif
 

@@ -5,15 +5,15 @@
 
 #include <ExtractDialogRes.h>
 
-#include <../../../Windows/Control/ComboBox.h>
-#include <../../../Windows/Control/Edit.h>
+#include <ComboBox.h>
+#include <Edit.h>
 
-#include <../Common/ExtractMode.h>
+#include <ExtractMode.h>
 
-#include <../FileManager/DialogSize.h>
+#include <DialogSize.h>
 
 #ifndef NO_REGISTRY
-#include <../Common/ZipRegistry.h>
+#include <ZipRegistry.h>
 #endif
 
 namespace NExtractionDialog

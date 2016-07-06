@@ -4,12 +4,12 @@
 
 // #include <stdio.h>
 
-#include <../../../Common/DynamicBuffer.h>
+#include <DynamicBuffer.h>
 
-#include <../../Common/LimitedStreams.h>
-#include <../../Common/StreamUtils.h>
+#include <LimitedStreams.h>
+#include <StreamUtils.h>
 
-#include <../IArchive.h>
+#include <IArchive.h>
 
 #include <ZipIn.h>
 

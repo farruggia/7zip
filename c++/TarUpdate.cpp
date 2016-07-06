@@ -2,12 +2,12 @@
 
 #include <StdAfx.h>
 
-#include <../../../Windows/TimeUtils.h>
+#include <TimeUtils.h>
 
-#include <../../Common/LimitedStreams.h>
-#include <../../Common/ProgressUtils.h>
+#include <LimitedStreams.h>
+#include <ProgressUtils.h>
 
-#include <../../Compress/CopyCoder.h>
+#include <CopyCoder.h>
 
 #include <TarOut.h>
 #include <TarUpdate.h>

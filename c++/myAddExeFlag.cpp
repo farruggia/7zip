@@ -8,7 +8,7 @@
 #define NEED_NAME_WINDOWS_TO_UNIX
 #include <myPrivate.h>
 
-#include <Common/StringConvert.h>
+#include <StringConvert.h>
 
 void myAddExeFlag(const UString &u_name)
 {

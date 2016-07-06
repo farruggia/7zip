@@ -4,26 +4,26 @@
 
 // #include  <stdio.h>
 
-#include <../../../C/CpuArch.h>
+#include <CpuArch.h>
 
-#include <../../Common/ComTry.h>
-#include <../../Common/Defs.h>
-#include <../../Common/StringConvert.h>
+#include <ComTry.h>
+#include <Defs.h>
+#include <StringConvert.h>
 
-#include <../../Windows/PropVariant.h>
-#include <../../Windows/TimeUtils.h>
+#include <PropVariant.h>
+#include <TimeUtils.h>
 
-#include <../Common/ProgressUtils.h>
-#include <../Common/RegisterArc.h>
-#include <../Common/StreamUtils.h>
+#include <ProgressUtils.h>
+#include <RegisterArc.h>
+#include <StreamUtils.h>
 
-#include <../Compress/CopyCoder.h>
-#include <../Compress/DeflateDecoder.h>
-#include <../Compress/DeflateEncoder.h>
+#include <CopyCoder.h>
+#include <DeflateDecoder.h>
+#include <DeflateEncoder.h>
 
-#include <Common/HandlerOut.h>
-#include <Common/InStreamWithCRC.h>
-#include <Common/OutStreamWithCRC.h>
+#include <HandlerOut.h>
+#include <InStreamWithCRC.h>
+#include <OutStreamWithCRC.h>
 
 #define Get32(p) GetUi32(p)
 

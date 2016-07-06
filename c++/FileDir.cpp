@@ -3,7 +3,7 @@
 #include <StdAfx.h>
 
 #ifndef _UNICODE
-#include <../Common/StringConvert.h>
+#include <StringConvert.h>
 #endif
 
 #include <FileDir.h>
@@ -14,12 +14,12 @@ using namespace NWindows;
 using namespace NFile;
 using namespace NName;
 
-#include <../Common/StringConvert.h>
-#include <../Common/IntToString.h>
+#include <StringConvert.h>
+#include <IntToString.h>
 
 #define NEED_NAME_WINDOWS_TO_UNIX
 #include <myPrivate.h>
-#include <Windows/Synchronization.h>
+#include <Synchronization.h>
 
 #include <unistd.h> // rmdir
 #include <errno.h>

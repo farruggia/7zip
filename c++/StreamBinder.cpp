@@ -2,7 +2,7 @@
 
 #include <StdAfx.h>
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
 #include <StreamBinder.h>
 

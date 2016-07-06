@@ -3,7 +3,7 @@
 #ifndef __7Z_PROPERTIES_H
 #define __7Z_PROPERTIES_H
 
-#include <../../PropID.h>
+#include <PropID.h>
 
 namespace NArchive {
 namespace N7z {

@@ -2,8 +2,8 @@
 
 #include <StdAfx.h>
 
-#include <../../../Common/StdInStream.h>
-#include <../../../Common/StringConvert.h>
+#include <StdInStream.h>
+#include <StringConvert.h>
 
 #include <UserInputUtils.h>
 
@@ -11,14 +11,14 @@
 // the programs like file-roller or xarchiver do not support archives with password
 // these programs freeze because p7zip is waiting for a password
 // defining USE_FLTK allows p7zip to use a popup in order to ask the password.
-#include <FL/Fl.H>
-#include <FL/Fl_Window.H>
-#include <FL/fl_ask.H>
+#include <Fl.H>
+#include <Fl_Window.H>
+#include <fl_ask.H>
 #else
 #ifdef ENV_HAVE_GETPASS
 #include <pwd.h>
 #include <unistd.h>
-#include <Common/MyException.h>
+#include <MyException.h>
 #endif
 #endif
 

@@ -7,13 +7,13 @@
 #ifndef __COMPRESS_RAR3_DECODER_H
 #define __COMPRESS_RAR3_DECODER_H
 
-#include <../../../C/Ppmd7.h>
+#include <Ppmd7.h>
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../ICoder.h>
+#include <ICoder.h>
 
-#include <../Common/InBuffer.h>
+#include <InBuffer.h>
 
 #include <BitmDecoder.h>
 #include <HuffmanDecoder.h>

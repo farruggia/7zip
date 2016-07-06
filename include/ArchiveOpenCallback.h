@@ -3,14 +3,14 @@
 #ifndef __ARCHIVE_OPEN_CALLBACK_H
 #define __ARCHIVE_OPEN_CALLBACK_H
 
-#include <../../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../../../Windows/FileFind.h>
+#include <FileFind.h>
 
 #ifndef _NO_CRYPTO
-#include <../../IPassword.h>
+#include <IPassword.h>
 #endif
-#include <../../Archive/IArchive.h>
+#include <IArchive.h>
 
 #ifdef _NO_CRYPTO
 

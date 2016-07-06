@@ -3,9 +3,9 @@
 #ifndef __ARCHIVE_TAR_OUT_H
 #define __ARCHIVE_TAR_OUT_H
 
-#include <../../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../../IStream.h>
+#include <IStream.h>
 
 #include <TarItem.h>
 

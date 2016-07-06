@@ -3,11 +3,11 @@
 #ifndef __CRYPTO_MY_AES_H
 #define __CRYPTO_MY_AES_H
 
-#include <../../../C/Aes.h>
+#include <Aes.h>
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../ICoder.h>
+#include <ICoder.h>
 
 namespace NCrypto {
 

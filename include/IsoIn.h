@@ -3,10 +3,10 @@
 #ifndef __ARCHIVE_ISO_IN_H
 #define __ARCHIVE_ISO_IN_H
 
-#include <../../../Common/IntToString.h>
-#include <../../../Common/MyCom.h>
+#include <IntToString.h>
+#include <MyCom.h>
 
-#include <../../IStream.h>
+#include <IStream.h>
 
 #include <IsoHeader.h>
 #include <IsoItem.h>

@@ -2,7 +2,7 @@
 
 #include <StdAfx.h>
 
-#include <../../Common/OffsetStream.h>
+#include <OffsetStream.h>
 
 #include <ZipOut.h>
 

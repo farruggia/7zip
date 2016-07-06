@@ -3,9 +3,9 @@
 #ifndef __LZX_DECODER_H
 #define __LZX_DECODER_H
 
-#include <../../../C/CpuArch.h>
+#include <CpuArch.h>
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
 #include <HuffmanDecoder.h>
 #include <Lzx.h>

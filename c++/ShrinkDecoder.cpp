@@ -2,10 +2,10 @@
 
 #include <StdAfx.h>
 
-#include <../../../C/Alloc.h>
+#include <Alloc.h>
 
-#include <../Common/InBuffer.h>
-#include <../Common/OutBuffer.h>
+#include <InBuffer.h>
+#include <OutBuffer.h>
 
 #include <BitlDecoder.h>
 #include <ShrinkDecoder.h>

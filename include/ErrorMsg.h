@@ -3,7 +3,7 @@
 #ifndef __WINDOWS_ERROR_MSG_H
 #define __WINDOWS_ERROR_MSG_H
 
-#include <../Common/MyString.h>
+#include <MyString.h>
 
 namespace NWindows {
 namespace NError {

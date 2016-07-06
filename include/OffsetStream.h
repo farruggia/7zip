@@ -3,9 +3,9 @@
 #ifndef __OFFSET_STREAM_H
 #define __OFFSET_STREAM_H
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../IStream.h>
+#include <IStream.h>
 
 class COffsetOutStream:
   public IOutStream,

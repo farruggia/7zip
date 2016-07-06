@@ -11,15 +11,15 @@
 #endif
 #include <stdio.h>
 
-#include <../../../Common/ListFileUtils.h>
-#include <../../../Common/StringConvert.h>
-#include <../../../Common/StringToInt.h>
+#include <ListFileUtils.h>
+#include <StringConvert.h>
+#include <StringToInt.h>
 
-#include <../../../Windows/FileDir.h>
-#include <../../../Windows/FileName.h>
+#include <FileDir.h>
+#include <FileName.h>
 #ifdef _WIN32
-#include <../../../Windows/FileMapping.h>
-#include <../../../Windows/Synchronization.h>
+#include <FileMapping.h>
+#include <Synchronization.h>
 #else
 #include <myPrivate.h>
 #endif

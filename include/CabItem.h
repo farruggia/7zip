@@ -3,7 +3,7 @@
 #ifndef __ARCHIVE_CAB_ITEM_H
 #define __ARCHIVE_CAB_ITEM_H
 
-#include <../../../Common/MyString.h>
+#include <MyString.h>
 
 #include <CabHeader.h>
 

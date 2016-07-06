@@ -3,11 +3,11 @@
 #ifndef __COMPRESS_BCJ2_CODER_H
 #define __COMPRESS_BCJ2_CODER_H
 
-#include <../../../C/Bcj2.h>
+#include <Bcj2.h>
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../ICoder.h>
+#include <ICoder.h>
 
 namespace NCompress {
 namespace NBcj2 {

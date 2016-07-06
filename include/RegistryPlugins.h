@@ -3,7 +3,7 @@
 #ifndef __REGISTRY_PLUGINS_H
 #define __REGISTRY_PLUGINS_H
 
-#include <../../../Common/MyString.h>
+#include <MyString.h>
 
 enum EPluginType
 {

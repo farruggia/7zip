@@ -3,11 +3,11 @@
 #ifndef __ZIP_IN_H
 #define __ZIP_IN_H
 
-#include <../../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../../IStream.h>
+#include <IStream.h>
 
-#include <../../Common/InBuffer.h>
+#include <InBuffer.h>
 
 #include <ZipHeader.h>
 #include <ZipItem.h>

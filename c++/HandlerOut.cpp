@@ -3,10 +3,10 @@
 #include <StdAfx.h>
 
 #ifndef _7ZIP_ST
-#include <../../../Windows/System.h>
+#include <System.h>
 #endif
 
-#include <../Common/ParseProperties.h>
+#include <ParseProperties.h>
 
 #include <HandlerOut.h>
 

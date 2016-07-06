@@ -3,7 +3,7 @@
 #ifndef __UPDATE_GUI_H
 #define __UPDATE_GUI_H
 
-#include <../Common/Update.h>
+#include <Update.h>
 
 #include <UpdateCallbackGUI.h>
 

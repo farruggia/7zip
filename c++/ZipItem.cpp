@@ -2,13 +2,13 @@
 
 #include <StdAfx.h>
 
-#include <../../../../C/CpuArch.h>
-#include <../../../../C/7zCrc.h>
+#include <CpuArch.h>
+#include <7zCrc.h>
 
-#include <../../../Common/MyLinux.h>
-#include <../../../Common/StringConvert.h>
+#include <MyLinux.h>
+#include <StringConvert.h>
 
-#include <../Common/ItemNameUtils.h>
+#include <ItemNameUtils.h>
 
 #include <ZipItem.h>
 

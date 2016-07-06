@@ -4,15 +4,15 @@
 
 #include <wchar.h>
 
-#include <../../../Common/Wildcard.h>
+#include <Wildcard.h>
 
-#include <../../../Windows/FileDir.h>
-#include <../../../Windows/FileIO.h>
-#include <../../../Windows/FileName.h>
+#include <FileDir.h>
+#include <FileIO.h>
+#include <FileName.h>
 
 #if defined(_WIN32) && !defined(UNDER_CE)
 #define _USE_SECURITY_CODE
-#include <../../../Windows/SecurityUtils.h>
+#include <SecurityUtils.h>
 #endif
 
 #include <EnumDirItems.h>

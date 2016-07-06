@@ -2,12 +2,12 @@
 
 #include <StdAfx.h>
 
-#include <../../Common/CreateCoder.h>
-#include <../../Common/FilterCoder.h>
-#include <../../Common/LimitedStreams.h>
-#include <../../Common/InOutTempBuffer.h>
-#include <../../Common/ProgressUtils.h>
-#include <../../Common/StreamObjects.h>
+#include <CreateCoder.h>
+#include <FilterCoder.h>
+#include <LimitedStreams.h>
+#include <InOutTempBuffer.h>
+#include <ProgressUtils.h>
+#include <StreamObjects.h>
 
 #include <7zEncode.h>
 #include <7zSpecStream.h>

@@ -2,13 +2,13 @@
 
 #include <StdAfx.h>
 
-#include <../../../Common/MyCom.h>
-#include <../../../Common/MyString.h>
-#include <../../../Common/StringToInt.h>
+#include <MyCom.h>
+#include <MyString.h>
+#include <StringToInt.h>
 
-#include <../../../Windows/PropVariant.h>
+#include <PropVariant.h>
 
-#include <../../Archive/IArchive.h>
+#include <IArchive.h>
 
 #include <SetProperties.h>
 

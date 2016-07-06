@@ -33,7 +33,7 @@
 #include <math.h>
 
 #ifdef __NETWARE__
-#include <sys/types.h>
+#include <types.h>
 #endif
 
 #undef CS /* fix for Solaris 10 x86 */

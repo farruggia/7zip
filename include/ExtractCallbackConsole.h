@@ -3,13 +3,13 @@
 #ifndef __EXTRACT_CALLBACK_CONSOLE_H
 #define __EXTRACT_CALLBACK_CONSOLE_H
 
-#include <../../../Common/StdOutStream.h>
+#include <StdOutStream.h>
 
-#include <../../IPassword.h>
+#include <IPassword.h>
 
-#include <../../Archive/IArchive.h>
+#include <IArchive.h>
 
-#include <../Common/ArchiveExtractCallback.h>
+#include <ArchiveExtractCallback.h>
 
 #include <PercentPrinter.h>
 

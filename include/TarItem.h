@@ -3,7 +3,7 @@
 #ifndef __ARCHIVE_TAR_ITEM_H
 #define __ARCHIVE_TAR_ITEM_H
 
-#include <../Common/ItemNameUtils.h>
+#include <ItemNameUtils.h>
 
 #include <TarHeader.h>
 

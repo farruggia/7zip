@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include <../../../Common/MyBuffer.h>
+#include <MyBuffer.h>
 
-#include <../../Common/StreamUtils.h>
+#include <StreamUtils.h>
 
 #include <FindSignature.h>
 

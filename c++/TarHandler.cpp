@@ -2,20 +2,20 @@
 
 #include <StdAfx.h>
 
-#include <../../../Common/ComTry.h>
-#include <../../../Common/IntToString.h>
-#include <../../../Common/StringConvert.h>
-#include <../../../Common/UTFConvert.h>
+#include <ComTry.h>
+#include <IntToString.h>
+#include <StringConvert.h>
+#include <UTFConvert.h>
 
-#include <../../../Windows/TimeUtils.h>
+#include <TimeUtils.h>
 
-#include <../../Common/LimitedStreams.h>
-#include <../../Common/MethodProps.h>
-#include <../../Common/ProgressUtils.h>
-#include <../../Common/StreamObjects.h>
-#include <../../Common/StreamUtils.h>
+#include <LimitedStreams.h>
+#include <MethodProps.h>
+#include <ProgressUtils.h>
+#include <StreamObjects.h>
+#include <StreamUtils.h>
 
-#include <../Common/ItemNameUtils.h>
+#include <ItemNameUtils.h>
 
 #include <TarHandler.h>
 

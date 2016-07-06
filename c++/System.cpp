@@ -2,25 +2,25 @@
 #include <stdlib.h>
 
 #if defined (__NetBSD__) || defined(__OpenBSD__) || defined (__FreeBSD__) || defined (__FreeBSD_kernel__) || defined (__APPLE__)
-#include <sys/param.h>
-#include <sys/sysctl.h>
+#include <param.h>
+#include <sysctl.h>
 #elif defined(__linux__) || defined(__CYGWIN__) || defined(sun) || defined(__NETWARE__)
 #include <unistd.h>
 #elif defined(hpux) || defined(__hpux)
-#include <sys/param.h>
-#include <sys/pstat.h>
+#include <param.h>
+#include <pstat.h>
 #endif
 
 #if defined(__NETWARE__)
-#include <sys/sysinfo.h>
+#include <sysinfo.h>
 #endif
 
 #if defined(ENV_BEOS)
-#include <be/kernel/OS.h>
+#include <OS.h>
 #endif
 
 
-#include <Common/MyTypes.h>
+#include <MyTypes.h>
 
 namespace NWindows
 {

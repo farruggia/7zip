@@ -3,11 +3,11 @@
 #ifndef __ARCHIVE_ZIP_ITEM_H
 #define __ARCHIVE_ZIP_ITEM_H
 
-#include <../../../../C/CpuArch.h>
+#include <CpuArch.h>
 
-#include <../../../Common/MyBuffer.h>
-#include <../../../Common/MyString.h>
-#include <../../../Common/UTFConvert.h>
+#include <MyBuffer.h>
+#include <MyString.h>
+#include <UTFConvert.h>
 
 #include <ZipHeader.h>
 

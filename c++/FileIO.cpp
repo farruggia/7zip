@@ -4,7 +4,7 @@
 
 #include <FileIO.h>
 #include <Defs.h>
-#include <../Common/StringConvert.h>
+#include <StringConvert.h>
 
 #include <time.h>
 #include <sys/types.h>

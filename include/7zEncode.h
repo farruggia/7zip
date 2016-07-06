@@ -5,7 +5,7 @@
 
 #include <7zCompressionMode.h>
 
-#include <../Common/CoderMixer2.h>
+#include <CoderMixer2.h>
 
 #include <7zItem.h>
 

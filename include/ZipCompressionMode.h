@@ -3,13 +3,13 @@
 #ifndef __ZIP_COMPRESSION_MODE_H
 #define __ZIP_COMPRESSION_MODE_H
 
-#include <../../../Common/MyString.h>
+#include <MyString.h>
 
 #ifndef _7ZIP_ST
-#include <../../../Windows/System.h>
+#include <System.h>
 #endif
 
-#include <../Common/HandlerOut.h>
+#include <HandlerOut.h>
 
 namespace NArchive {
 namespace NZip {

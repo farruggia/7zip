@@ -3,15 +3,15 @@
 #ifndef __RAR5_HANDLER_H
 #define __RAR5_HANDLER_H
 
-#include <../../../../C/Blake2.h>
+#include <Blake2.h>
 
-#include <../../../Common/MyBuffer.h>
+#include <MyBuffer.h>
 
-#include <../../../Windows/PropVariant.h>
+#include <PropVariant.h>
 
-#include <../../Common/CreateCoder.h>
+#include <CreateCoder.h>
 
-#include <../IArchive.h>
+#include <IArchive.h>
 
 namespace NArchive {
 namespace NRar5 {

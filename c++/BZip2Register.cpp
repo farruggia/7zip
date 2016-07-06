@@ -2,7 +2,7 @@
 
 #include <StdAfx.h>
 
-#include <../Common/RegisterCodec.h>
+#include <RegisterCodec.h>
 
 #include <BZip2Decoder.h>
 

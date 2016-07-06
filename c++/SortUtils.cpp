@@ -2,7 +2,7 @@
 
 #include <StdAfx.h>
 
-#include <../../../Common/Wildcard.h>
+#include <Wildcard.h>
 
 #include <SortUtils.h>
 

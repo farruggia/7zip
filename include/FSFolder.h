@@ -3,12 +3,12 @@
 #ifndef __FS_FOLDER_H
 #define __FS_FOLDER_H
 
-#include <../../../Common/MyCom.h>
-#include <../../../Common/MyBuffer.h>
+#include <MyCom.h>
+#include <MyBuffer.h>
 
-#include <../../../Windows/FileFind.h>
+#include <FileFind.h>
 
-#include <../../Archive/IArchive.h>
+#include <IArchive.h>
 
 #include <IFolder.h>
 #include <TextPairs.h>

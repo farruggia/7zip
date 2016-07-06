@@ -2,7 +2,7 @@
 
 #include <StdAfx.h>
 
-#include <../../../C/Alloc.h>
+#include <Alloc.h>
 
 #include <CWrappers.h>
 

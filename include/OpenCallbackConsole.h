@@ -3,9 +3,9 @@
 #ifndef __OPEN_CALLBACK_CONSOLE_H
 #define __OPEN_CALLBACK_CONSOLE_H
 
-#include <../../../Common/StdOutStream.h>
+#include <StdOutStream.h>
 
-#include <../Common/ArchiveOpenCallback.h>
+#include <ArchiveOpenCallback.h>
 
 #include <PercentPrinter.h>
 

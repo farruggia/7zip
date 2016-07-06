@@ -3,15 +3,15 @@
 #ifndef __COMPRESS_DIALOG_H
 #define __COMPRESS_DIALOG_H
 
-#include <../../../Common/Wildcard.h>
+#include <Wildcard.h>
 
-#include <../../../Windows/Control/ComboBox.h>
-#include <../../../Windows/Control/Edit.h>
+#include <ComboBox.h>
+#include <Edit.h>
 
-#include <../Common/LoadCodecs.h>
-#include <../Common/ZipRegistry.h>
+#include <LoadCodecs.h>
+#include <ZipRegistry.h>
 
-#include <../FileManager/DialogSize.h>
+#include <DialogSize.h>
 
 #include <CompressDialogRes.h>
 

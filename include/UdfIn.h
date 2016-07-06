@@ -3,13 +3,13 @@
 #ifndef __ARCHIVE_UDF_IN_H
 #define __ARCHIVE_UDF_IN_H
 
-#include <../../../Common/IntToString.h>
-#include <../../../Common/MyBuffer.h>
-#include <../../../Common/MyCom.h>
-#include <../../../Common/MyMap.h>
-#include <../../../Common/MyString.h>
+#include <IntToString.h>
+#include <MyBuffer.h>
+#include <MyCom.h>
+#include <MyMap.h>
+#include <MyString.h>
 
-#include <../../IStream.h>
+#include <IStream.h>
 
 namespace NArchive {
 namespace NUdf {

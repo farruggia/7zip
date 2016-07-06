@@ -3,7 +3,7 @@
 #ifndef __PROP_VARIANT_UTILS_H
 #define __PROP_VARIANT_UTILS_H
 
-#include <../Common/MyString.h>
+#include <MyString.h>
 
 #include <PropVariant.h>
 

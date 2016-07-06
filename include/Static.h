@@ -3,8 +3,8 @@
 #ifndef __WINDOWS_CONTROL_STATIC_H
 #define __WINDOWS_CONTROL_STATIC_H
 
-#include <Windows/Window.h>
-#include <Windows/Defs.h>
+#include <Window.h>
+#include <Defs.h>
 
 typedef void * HICON;
 

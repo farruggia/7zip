@@ -3,7 +3,7 @@
 #ifndef __FM_TEXT_PAIRS_H
 #define __FM_TEXT_PAIRS_H
 
-#include <../../../Common/MyString.h>
+#include <MyString.h>
 
 struct CTextPair
 {

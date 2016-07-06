@@ -3,17 +3,17 @@
 #ifndef __ARCHIVE_EXTRACT_CALLBACK_H
 #define __ARCHIVE_EXTRACT_CALLBACK_H
 
-#include <../../../Common/MyCom.h>
-#include <../../../Common/Wildcard.h>
+#include <MyCom.h>
+#include <Wildcard.h>
 
-#include <../../../Windows/FileDir.h>
+#include <FileDir.h>
 
-#include <../../IPassword.h>
+#include <IPassword.h>
 
-#include <../../Common/FileStreams.h>
-#include <../../Common/ProgressUtils.h>
+#include <FileStreams.h>
+#include <ProgressUtils.h>
 
-#include <../../Archive/IArchive.h>
+#include <IArchive.h>
 
 #include <ExtractMode.h>
 #include <IFileExtractCallback.h>

@@ -3,8 +3,8 @@
 #ifndef __WINDOWS_FILE_DIR_H
 #define __WINDOWS_FILE_DIR_H
 
-#include <../Common/MyString.h>
-#include <../Common/MyVector.h>
+#include <MyString.h>
+#include <MyVector.h>
 
 #include <FileIO.h>
 

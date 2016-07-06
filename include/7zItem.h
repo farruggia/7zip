@@ -3,10 +3,10 @@
 #ifndef __7Z_ITEM_H
 #define __7Z_ITEM_H
 
-#include <../../../Common/MyBuffer.h>
-#include <../../../Common/MyString.h>
+#include <MyBuffer.h>
+#include <MyString.h>
 
-#include <../../Common/MethodId.h>
+#include <MethodId.h>
 
 #include <7zHeader.h>
 

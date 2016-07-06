@@ -3,7 +3,7 @@
 #ifndef __BITL_ENCODER_H
 #define __BITL_ENCODER_H
 
-#include <../Common/OutBuffer.h>
+#include <OutBuffer.h>
 
 class CBitlEncoder
 {

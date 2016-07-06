@@ -2,9 +2,9 @@
 
 #include <StdAfx.h>
 
-#include <../../../Common/Wildcard.h>
+#include <Wildcard.h>
 
-#include <../../../Windows/FileName.h>
+#include <FileName.h>
 
 #include <ExtractingFilePath.h>
 

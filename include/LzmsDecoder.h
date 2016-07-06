@@ -13,13 +13,13 @@
 // #define PRF(x)
 #endif
 
-#include <../../../C/CpuArch.h>
-#include <../../../C/HuffEnc.h>
+#include <CpuArch.h>
+#include <HuffEnc.h>
 
-#include <../../Common/MyBuffer.h>
-#include <../../Common/MyCom.h>
+#include <MyBuffer.h>
+#include <MyCom.h>
 
-#include <../ICoder.h>
+#include <ICoder.h>
 
 #include <HuffmanDecoder.h>
 

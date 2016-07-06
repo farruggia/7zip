@@ -3,9 +3,9 @@
 #ifndef __CAB_HANDLER_H
 #define __CAB_HANDLER_H
 
-#include <../../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../IArchive.h>
+#include <IArchive.h>
 
 #include <CabIn.h>
 

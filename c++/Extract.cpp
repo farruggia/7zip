@@ -2,15 +2,15 @@
 
 #include <StdAfx.h>
 
-#include <../../../../C/Sort.h>
+#include <Sort.h>
 
-#include <../../../Common/StringConvert.h>
+#include <StringConvert.h>
 
-#include <../../../Windows/FileDir.h>
-#include <../../../Windows/PropVariant.h>
-#include <../../../Windows/PropVariantConv.h>
+#include <FileDir.h>
+#include <PropVariant.h>
+#include <PropVariantConv.h>
 
-#include <../Common/ExtractingFilePath.h>
+#include <ExtractingFilePath.h>
 
 #include <Extract.h>
 #include <SetProperties.h>

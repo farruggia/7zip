@@ -2,15 +2,15 @@
 
 #include <StdAfx.h>
 
-#include <../../../../C/CpuArch.h>
+#include <CpuArch.h>
 
-#include <../../../Common/IntToString.h>
-#include <../../../Common/StringConvert.h>
+#include <IntToString.h>
+#include <StringConvert.h>
 
-#include <../../../Windows/FileIO.h>
-#include <../../../Windows/PropVariantConv.h>
+#include <FileIO.h>
+#include <PropVariantConv.h>
 
-#include <../../PropID.h>
+#include <PropID.h>
 
 #include <PropIDUtils.h>
 

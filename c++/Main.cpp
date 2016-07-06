@@ -2,7 +2,7 @@
 
 #include <StdAfx.h>
 
-#include <../../../Common/MyWindows.h>
+#include <MyWindows.h>
 
 #ifdef _WIN32
 #include <Psapi.h>
@@ -10,38 +10,38 @@
 #include <myPrivate.h>
 #endif
 
-#include <../../../../C/CpuArch.h>
+#include <CpuArch.h>
 
 #if defined( _7ZIP_LARGE_PAGES)
-#include <../../../../C/Alloc.h>
+#include <Alloc.h>
 #endif
 
-#include <../../../Common/MyInitGuid.h>
+#include <MyInitGuid.h>
 
-#include <../../../Common/CommandLineParser.h>
-#include <../../../Common/IntToString.h>
-#include <../../../Common/MyException.h>
-#include <../../../Common/StringConvert.h>
-#include <../../../Common/StringToInt.h>
-#include <../../../Common/UTFConvert.h>
+#include <CommandLineParser.h>
+#include <IntToString.h>
+#include <MyException.h>
+#include <StringConvert.h>
+#include <StringToInt.h>
+#include <UTFConvert.h>
 
-#include <../../../Windows/ErrorMsg.h>
+#include <ErrorMsg.h>
 
 #ifdef _WIN32
-#include <../../../Windows/MemoryLock.h>
+#include <MemoryLock.h>
 #endif
 
-#include <../../../Windows/TimeUtils.h>
+#include <TimeUtils.h>
 
-#include <../Common/ArchiveCommandLine.h>
-#include <../Common/ExitCode.h>
-#include <../Common/Extract.h>
+#include <ArchiveCommandLine.h>
+#include <ExitCode.h>
+#include <Extract.h>
 
 #ifdef EXTERNAL_CODECS
-#include <../Common/LoadCodecs.h>
+#include <LoadCodecs.h>
 #endif
 
-#include <../../Common/RegisterCodec.h>
+#include <RegisterCodec.h>
 
 #include <BenchCon.h>
 #include <ConsoleClose.h>
@@ -53,9 +53,9 @@
 #include <HashCon.h>
 
 #ifdef PROG_VARIANT_R
-#include <../../../../C/7zVersion.h>
+#include <7zVersion.h>
 #else
-#include <../../MyVersion.h>
+#include <MyVersion.h>
 #endif
 
 #include <chrono>

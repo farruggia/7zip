@@ -46,18 +46,18 @@ EXTERNAL_CODECS
         b) call SetCodecs(compressCodecsInfo) function from DLL file
 */
 
-#include <../../../Common/MyBuffer.h>
-#include <../../../Common/MyCom.h>
-#include <../../../Common/MyString.h>
-#include <../../../Common/ComTry.h>
+#include <MyBuffer.h>
+#include <MyCom.h>
+#include <MyString.h>
+#include <ComTry.h>
 
 #ifdef EXTERNAL_CODECS
-#include <../../../Windows/DLL.h>
+#include <DLL.h>
 #endif
 
-#include <../../ICoder.h>
+#include <ICoder.h>
 
-#include <../../Archive/IArchive.h>
+#include <IArchive.h>
 
 
 #ifdef EXTERNAL_CODECS

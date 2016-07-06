@@ -2,10 +2,10 @@
 
 #include <StdAfx.h>
 
-#include <../../../C/7zCrc.h>
-#include <../../../C/CpuArch.h>
+#include <7zCrc.h>
+#include <CpuArch.h>
 
-#include <../Common/StreamUtils.h>
+#include <StreamUtils.h>
 
 #include <Sha1Cls.h>
 #include <ZipStrong.h>

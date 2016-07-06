@@ -3,7 +3,7 @@
 #ifndef __7Z_DECODE_H
 #define __7Z_DECODE_H
 
-#include <../Common/CoderMixer2.h>
+#include <CoderMixer2.h>
 
 #include <7zIn.h>
 

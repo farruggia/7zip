@@ -3,8 +3,8 @@
 #ifndef __APP_H
 #define __APP_H
 
-// #include <../../../Windows/Control/CommandBar.h>
-// #include <../../../Windows/Control/ImageList.h>
+// #include <CommandBar.h>
+// #include <ImageList.h>
 
 #include <AppState.h>
 #include <Panel.h>

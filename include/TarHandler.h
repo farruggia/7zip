@@ -3,13 +3,13 @@
 #ifndef __TAR_HANDLER_H
 #define __TAR_HANDLER_H
 
-#include <../../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../../../Windows/PropVariant.h>
+#include <PropVariant.h>
 
-#include <../../Compress/CopyCoder.h>
+#include <CopyCoder.h>
 
-#include <../IArchive.h>
+#include <IArchive.h>
 
 #include <TarIn.h>
 

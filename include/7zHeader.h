@@ -3,7 +3,7 @@
 #ifndef __7Z_HEADER_H
 #define __7Z_HEADER_H
 
-#include <../../../Common/MyTypes.h>
+#include <MyTypes.h>
 
 namespace NArchive {
 namespace N7z {

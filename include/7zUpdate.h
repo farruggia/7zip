@@ -3,9 +3,9 @@
 #ifndef __7Z_UPDATE_H
 #define __7Z_UPDATE_H
 
-#include <../IArchive.h>
+#include <IArchive.h>
 
-// #include <../../Common/UniqBlocks.h>
+// #include <UniqBlocks.h>
 
 #include <7zCompressionMode.h>
 #include <7zIn.h>

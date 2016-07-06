@@ -2,12 +2,12 @@
 
 #include <StdAfx.h>
 
-#include <../../C/7zCrc.h>
-#include <../../C/CpuArch.h>
+#include <7zCrc.h>
+#include <CpuArch.h>
 
-#include <../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../7zip/Common/RegisterCodec.h>
+#include <RegisterCodec.h>
 
 EXTERN_C_BEGIN
 

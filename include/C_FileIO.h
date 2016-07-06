@@ -4,7 +4,7 @@
 #define __COMMON_C_FILEIO_H
 
 #include <stdio.h>
-#include <sys/types.h>
+#include <types.h>
 
 #include <MyTypes.h>
 #include <MyWindows.h>

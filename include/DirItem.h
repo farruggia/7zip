@@ -3,13 +3,13 @@
 #ifndef __DIR_ITEM_H
 #define __DIR_ITEM_H
 
-#include <../../../Common/MyString.h>
+#include <MyString.h>
 
-#include <../../../Windows/FileFind.h>
+#include <FileFind.h>
 
-#include <../../Common/UniqBlocks.h>
+#include <UniqBlocks.h>
 
-#include <../../Archive/IArchive.h>
+#include <IArchive.h>
 
 struct CDirItemsStat
 {

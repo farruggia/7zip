@@ -2,9 +2,9 @@
 
 #include <StdAfx.h>
 
-#include <../../Common/LimitedStreams.h>
-#include <../../Common/ProgressUtils.h>
-#include <../../Common/StreamObjects.h>
+#include <LimitedStreams.h>
+#include <ProgressUtils.h>
+#include <StreamObjects.h>
 
 #include <7zDecode.h>
 

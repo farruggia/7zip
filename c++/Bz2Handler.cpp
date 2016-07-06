@@ -2,18 +2,18 @@
 
 #include <StdAfx.h>
 
-#include <../../Common/ComTry.h>
+#include <ComTry.h>
 
-#include <../Common/ProgressUtils.h>
-#include <../Common/RegisterArc.h>
-#include <../Common/StreamUtils.h>
+#include <ProgressUtils.h>
+#include <RegisterArc.h>
+#include <StreamUtils.h>
 
-#include <../Compress/BZip2Decoder.h>
-#include <../Compress/BZip2Encoder.h>
-#include <../Compress/CopyCoder.h>
+#include <BZip2Decoder.h>
+#include <BZip2Encoder.h>
+#include <CopyCoder.h>
 
-#include <Common/DummyOutStream.h>
-#include <Common/HandlerOut.h>
+#include <DummyOutStream.h>
+#include <HandlerOut.h>
 
 using namespace NWindows;
 

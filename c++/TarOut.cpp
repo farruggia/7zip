@@ -2,7 +2,7 @@
 
 #include <StdAfx.h>
 
-#include <../../Common/StreamUtils.h>
+#include <StreamUtils.h>
 
 #include <TarOut.h>
 

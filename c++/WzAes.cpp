@@ -8,9 +8,9 @@ Note: you must include MyAes.cpp to project to initialize AES tables
 
 #include <StdAfx.h>
 
-#include <../../../C/CpuArch.h>
+#include <CpuArch.h>
 
-#include <../Common/StreamUtils.h>
+#include <StreamUtils.h>
 
 #include <Pbkdf2HmacSha1.h>
 #include <RandGen.h>

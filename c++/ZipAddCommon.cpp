@@ -2,23 +2,23 @@
 
 #include <StdAfx.h>
 
-#include <../../../../C/7zCrc.h>
-#include <../../../../C/Alloc.h>
+#include <7zCrc.h>
+#include <Alloc.h>
 
-#include <../../../Windows/PropVariant.h>
+#include <PropVariant.h>
 
-#include <../../ICoder.h>
-#include <../../IPassword.h>
-#include <../../MyVersion.h>
+#include <ICoder.h>
+#include <IPassword.h>
+#include <MyVersion.h>
 
-#include <../../Common/CreateCoder.h>
-#include <../../Common/StreamObjects.h>
-#include <../../Common/StreamUtils.h>
+#include <CreateCoder.h>
+#include <StreamObjects.h>
+#include <StreamUtils.h>
 
-#include <../../Compress/LzmaEncoder.h>
-#include <../../Compress/PpmdZip.h>
+#include <LzmaEncoder.h>
+#include <PpmdZip.h>
 
-#include <../Common/InStreamWithCRC.h>
+#include <InStreamWithCRC.h>
 
 #include <ZipAddCommon.h>
 #include <ZipHeader.h>

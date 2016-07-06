@@ -3,7 +3,7 @@
 #include <StdAfx.h>
 
 #ifndef _7ZIP_ST
-#include <../../Windows/Synchronization.h>
+#include <Synchronization.h>
 #endif
 
 #include <RandGen.h>
@@ -15,7 +15,7 @@
 #endif
 
 #ifdef USE_POSIX_TIME
-#include <time.h>
+#include <sys/time.h>
 #ifdef USE_POSIX_TIME2
 #include <sys/time.h>
 #endif

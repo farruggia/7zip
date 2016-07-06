@@ -3,7 +3,7 @@
 #ifndef __HASH_CON_H
 #define __HASH_CON_H
 
-#include <../Common/HashCalc.h>
+#include <HashCalc.h>
 
 #include <UpdateCallbackConsole.h>
 

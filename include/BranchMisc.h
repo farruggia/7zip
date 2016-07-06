@@ -3,9 +3,9 @@
 #ifndef __COMPRESS_BRANCH_MISC_H
 #define __COMPRESS_BRANCH_MISC_H
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../ICoder.h>
+#include <ICoder.h>
 
 EXTERN_C_BEGIN
 

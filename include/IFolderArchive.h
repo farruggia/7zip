@@ -3,14 +3,14 @@
 #ifndef __IFOLDER_ARCHIVE_H
 #define __IFOLDER_ARCHIVE_H
 
-#include <../../../Common/MyString.h>
+#include <MyString.h>
 
-#include <../../Archive/IArchive.h>
-#include <../../UI/Common/LoadCodecs.h>
-#include <../../UI/FileManager/IFolder.h>
+#include <IArchive.h>
+#include <LoadCodecs.h>
+#include <IFolder.h>
 
-#include <../Common/ExtractMode.h>
-#include <../Common/IFileExtractCallback.h>
+#include <ExtractMode.h>
+#include <IFileExtractCallback.h>
 
 #define FOLDER_ARCHIVE_INTERFACE_SUB(i, base, x) DECL_INTERFACE_SUB(i, base, 0x01, x)
 #define FOLDER_ARCHIVE_INTERFACE(i, x) FOLDER_ARCHIVE_INTERFACE_SUB(i, IUnknown, x)

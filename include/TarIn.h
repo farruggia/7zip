@@ -3,7 +3,7 @@
 #ifndef __ARCHIVE_TAR_IN_H
 #define __ARCHIVE_TAR_IN_H
 
-#include <../../IStream.h>
+#include <IStream.h>
 
 #include <TarItem.h>
 

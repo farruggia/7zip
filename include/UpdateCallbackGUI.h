@@ -3,8 +3,8 @@
 #ifndef __UPDATE_CALLBACK_GUI_H
 #define __UPDATE_CALLBACK_GUI_H
 
-#include <../Common/Update.h>
-#include <../Common/ArchiveOpenCallback.h>
+#include <Update.h>
+#include <ArchiveOpenCallback.h>
 
 #include <UpdateCallbackGUI2.h>
 

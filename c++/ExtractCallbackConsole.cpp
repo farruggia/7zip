@@ -2,22 +2,22 @@
 
 #include <StdAfx.h>
 
-#include <../../../Common/IntToString.h>
-#include <../../../Common/Wildcard.h>
+#include <IntToString.h>
+#include <Wildcard.h>
 
-#include <../../../Windows/FileDir.h>
-#include <../../../Windows/FileFind.h>
-#include <../../../Windows/TimeUtils.h>
-#include <../../../Windows/ErrorMsg.h>
-#include <../../../Windows/PropVariantConv.h>
+#include <FileDir.h>
+#include <FileFind.h>
+#include <TimeUtils.h>
+#include <ErrorMsg.h>
+#include <PropVariantConv.h>
 
 #ifndef _7ZIP_ST
-#include <../../../Windows/Synchronization.h>
+#include <Synchronization.h>
 #endif
 
-#include <../../Common/FilePathAutoRename.h>
+#include <FilePathAutoRename.h>
 
-#include <../Common/ExtractingFilePath.h>
+#include <ExtractingFilePath.h>
 
 #include <ConsoleClose.h>
 #include <ExtractCallbackConsole.h>

@@ -3,11 +3,11 @@
 #ifndef __COMPRESS_BCJ_CODER_H
 #define __COMPRESS_BCJ_CODER_H
 
-#include <../../../C/Bra.h>
+#include <Bra.h>
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../ICoder.h>
+#include <ICoder.h>
 
 class CBcjCoder:
   public ICompressFilter,

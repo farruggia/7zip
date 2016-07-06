@@ -6,7 +6,7 @@
 #include <DirItem.h>
 #include <UpdateAction.h>
 
-#include <../../Archive/IArchive.h>
+#include <IArchive.h>
 
 struct CUpdatePair
 {

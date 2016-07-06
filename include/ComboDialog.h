@@ -3,8 +3,8 @@
 #ifndef __COMBO_DIALOG_H
 #define __COMBO_DIALOG_H
 
-#include <../../../Windows/Control/ComboBox.h>
-#include <../../../Windows/Control/Dialog.h>
+#include <ComboBox.h>
+#include <Dialog.h>
 
 #include <ComboDialogRes.h>
 

@@ -3,9 +3,9 @@
 #ifndef __RAR_HANDLER_H
 #define __RAR_HANDLER_H
 
-#include <../IArchive.h>
+#include <IArchive.h>
 
-#include <../../Common/CreateCoder.h>
+#include <CreateCoder.h>
 
 #include <RarItem.h>
 

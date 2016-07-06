@@ -3,11 +3,11 @@
 #ifndef __COMPRESS_LZH_DECODER_H
 #define __COMPRESS_LZH_DECODER_H
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../ICoder.h>
+#include <ICoder.h>
 
-#include <../Common/InBuffer.h>
+#include <InBuffer.h>
 
 #include <BitmDecoder.h>
 #include <HuffmanDecoder.h>

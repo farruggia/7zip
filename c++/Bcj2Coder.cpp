@@ -2,9 +2,9 @@
 
 #include <StdAfx.h>
 
-#include <../../../C/Alloc.h>
+#include <Alloc.h>
 
-#include <../Common/StreamUtils.h>
+#include <StreamUtils.h>
 
 #include <Bcj2Coder.h>
 

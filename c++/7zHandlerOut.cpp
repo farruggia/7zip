@@ -2,12 +2,12 @@
 
 #include <StdAfx.h>
 
-#include <../../../Common/ComTry.h>
-#include <../../../Common/StringToInt.h>
-#include <../../../Common/Wildcard.h>
+#include <ComTry.h>
+#include <StringToInt.h>
+#include <Wildcard.h>
 
-#include <../Common/ItemNameUtils.h>
-#include <../Common/ParseProperties.h>
+#include <ItemNameUtils.h>
+#include <ParseProperties.h>
 
 #include <7zHandler.h>
 #include <7zOut.h>

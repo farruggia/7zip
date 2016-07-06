@@ -3,12 +3,12 @@
 #ifndef __CRYPTO_7Z_AES_H
 #define __CRYPTO_7Z_AES_H
 
-#include <../../Common/MyBuffer.h>
-#include <../../Common/MyCom.h>
-#include <../../Common/MyVector.h>
+#include <MyBuffer.h>
+#include <MyCom.h>
+#include <MyVector.h>
 
-#include <../ICoder.h>
-#include <../IPassword.h>
+#include <ICoder.h>
+#include <IPassword.h>
 
 namespace NCrypto {
 namespace N7z {

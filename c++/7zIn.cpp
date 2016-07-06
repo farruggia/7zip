@@ -8,11 +8,11 @@
 #include <ctype.h>
 #endif
 
-#include <../../../../C/7zCrc.h>
-#include <../../../../C/CpuArch.h>
+#include <7zCrc.h>
+#include <CpuArch.h>
 
-#include <../../Common/StreamObjects.h>
-#include <../../Common/StreamUtils.h>
+#include <StreamObjects.h>
+#include <StreamUtils.h>
 
 #include <7zDecode.h>
 #include <7zIn.h>

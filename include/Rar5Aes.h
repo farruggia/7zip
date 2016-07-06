@@ -3,9 +3,9 @@
 #ifndef __CRYPTO_RAR5_AES_H
 #define __CRYPTO_RAR5_AES_H
 
-#include <../../../C/Aes.h>
+#include <Aes.h>
 
-#include <../../Common/MyBuffer.h>
+#include <MyBuffer.h>
 
 #include <HmacSha256.h>
 #include <MyAes.h>

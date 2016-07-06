@@ -8,8 +8,8 @@
 #include <7zHeader.h>
 #include <7zItem.h>
 
-#include <../../Common/OutBuffer.h>
-#include <../../Common/StreamUtils.h>
+#include <OutBuffer.h>
+#include <StreamUtils.h>
 
 namespace NArchive {
 namespace N7z {

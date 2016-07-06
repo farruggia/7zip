@@ -3,15 +3,15 @@
 #ifndef __PROGRESS_DIALOG_2_H
 #define __PROGRESS_DIALOG_2_H
 
-#include <../../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../../../Windows/ErrorMsg.h>
-#include <../../../Windows/Synchronization.h>
-#include <../../../Windows/Thread.h>
+#include <ErrorMsg.h>
+#include <Synchronization.h>
+#include <Thread.h>
 
-#include <../../../Windows/Control/Dialog.h>
-#include <../../../Windows/Control/ListView.h>
-#include <../../../Windows/Control/ProgressBar.h>
+#include <Dialog.h>
+#include <ListView.h>
+#include <ProgressBar.h>
 
 #include <MyWindowsNew.h>
 

@@ -2,7 +2,7 @@
 
 #include <StdAfx.h>
 
-#include <../../../Windows/FileDir.h>
+#include <FileDir.h>
 
 #include <TempFiles.h>
 

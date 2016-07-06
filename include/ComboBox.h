@@ -3,11 +3,11 @@
 #ifndef __WINDOWS_WX_CONTROL_COMBOBOX_H
 #define __WINDOWS_WX_CONTROL_COMBOBOX_H
 
-#include <Windows/Window.h>
-#include <Windows/Defs.h>
+#include <Window.h>
+#include <Defs.h>
 
 
-#include <Windows/Control/Window2.h> // NMHDR
+#include <Window2.h> // NMHDR
 
 #ifndef _WIN32
 #define CB_ERR (-1)  // wxNOT_FOUND

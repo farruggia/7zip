@@ -2,19 +2,19 @@
 
 #include <StdAfx.h>
 
-#include <../../../Common/IntToString.h>
-#include <../../../Common/MyCom.h>
-#include <../../../Common/StdOutStream.h>
-#include <../../../Common/StringConvert.h>
-#include <../../../Common/UTFConvert.h>
+#include <IntToString.h>
+#include <MyCom.h>
+#include <StdOutStream.h>
+#include <StringConvert.h>
+#include <UTFConvert.h>
 
-#include <../../../Windows/ErrorMsg.h>
-#include <../../../Windows/FileDir.h>
-#include <../../../Windows/PropVariant.h>
-#include <../../../Windows/PropVariantConv.h>
+#include <ErrorMsg.h>
+#include <FileDir.h>
+#include <PropVariant.h>
+#include <PropVariantConv.h>
 
-#include <../Common/OpenArchive.h>
-#include <../Common/PropIDUtils.h>
+#include <OpenArchive.h>
+#include <PropIDUtils.h>
 
 #include <ConsoleClose.h>
 #include <List.h>

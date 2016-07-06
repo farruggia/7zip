@@ -2,12 +2,12 @@
 
 #include <StdAfx.h>
 
-#include <../../../Common/IntToString.h>
+#include <IntToString.h>
 
-#include <../../../Windows/ErrorMsg.h>
+#include <ErrorMsg.h>
 
 #ifndef _7ZIP_ST
-#include <../../../Windows/Synchronization.h>
+#include <Synchronization.h>
 #endif
 
 #include <ConsoleClose.h>

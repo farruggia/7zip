@@ -2,10 +2,10 @@
 
 #include <StdAfx.h>
 
-#include <../../../C/Alloc.h>
-#include <../../../C/HuffEnc.h>
+#include <Alloc.h>
+#include <HuffEnc.h>
 
-#include <../../Common/ComTry.h>
+#include <ComTry.h>
 
 #include <DeflateEncoder.h>
 

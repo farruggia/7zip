@@ -3,11 +3,11 @@
 #ifndef __OUT_STREAM_WITH_SHA1_H
 #define __OUT_STREAM_WITH_SHA1_H
 
-#include <../../../../C/Sha1.h>
+#include <Sha1.h>
 
-#include <../../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../../IStream.h>
+#include <IStream.h>
 
 class COutStreamWithSha1:
   public ISequentialOutStream,

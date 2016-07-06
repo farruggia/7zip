@@ -3,7 +3,7 @@
 #ifndef __UPDATE_CALLBACK_AGENT_H
 #define __UPDATE_CALLBACK_AGENT_H
 
-#include <../Common/UpdateCallback.h>
+#include <UpdateCallback.h>
 
 #include <IFolderArchive.h>
 

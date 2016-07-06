@@ -3,20 +3,20 @@
 #ifndef __EXTRACT_CALLBACK_H
 #define __EXTRACT_CALLBACK_H
 
-#include <../../../../C/Alloc.h>
+#include <Alloc.h>
 
-#include <../../../Common/MyCom.h>
-#include <../../../Common/StringConvert.h>
+#include <MyCom.h>
+#include <StringConvert.h>
 
 #ifndef _SFX
-#include <../Agent/IFolderArchive.h>
+#include <IFolderArchive.h>
 #endif
 
-#include <../Common/ArchiveExtractCallback.h>
-#include <../Common/ArchiveOpenCallback.h>
+#include <ArchiveExtractCallback.h>
+#include <ArchiveOpenCallback.h>
 
 #ifndef _NO_CRYPTO
-#include <../../IPassword.h>
+#include <IPassword.h>
 #endif
 
 #ifndef _SFX

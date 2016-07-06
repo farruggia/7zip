@@ -3,7 +3,7 @@
 #ifndef __PLUGIN_LOADER_H
 #define __PLUGIN_LOADER_H
 
-#include <../../../Windows/DLL.h>
+#include <DLL.h>
 
 #include <IFolder.h>
 

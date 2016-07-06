@@ -2,13 +2,13 @@
 
 #include <StdAfx.h>
 
-#include <../../../../C/CpuArch.h>
+#include <CpuArch.h>
 
-#include <../../../Common/StringToInt.h>
+#include <StringToInt.h>
 
-#include <../../Common/StreamUtils.h>
+#include <StreamUtils.h>
 
-#include <../IArchive.h>
+#include <IArchive.h>
 
 #include <TarIn.h>
 

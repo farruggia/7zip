@@ -2,12 +2,12 @@
 
 #include <StdAfx.h>
 
-#include <../../../Common/ComTry.h>
+#include <ComTry.h>
 
-#include <../../../Windows/FileName.h>
-#include <../../../Windows/PropVariant.h>
+#include <FileName.h>
+#include <PropVariant.h>
 
-#include <../../Common/FileStreams.h>
+#include <FileStreams.h>
 
 #include <ArchiveOpenCallback.h>
 

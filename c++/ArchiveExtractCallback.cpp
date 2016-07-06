@@ -5,30 +5,30 @@
 #undef sprintf
 #undef printf
 
-#include <../../../../C/Alloc.h>
+#include <Alloc.h>
 
-#include <../../../Common/ComTry.h>
-#include <../../../Common/IntToString.h>
-#include <../../../Common/StringConvert.h>
-#include <../../../Common/Wildcard.h>
+#include <ComTry.h>
+#include <IntToString.h>
+#include <StringConvert.h>
+#include <Wildcard.h>
 
-#include <../../../Windows/ErrorMsg.h>
-#include <../../../Windows/FileDir.h>
-#include <../../../Windows/FileFind.h>
-#include <../../../Windows/FileName.h>
-#include <../../../Windows/PropVariant.h>
-#include <../../../Windows/PropVariantConv.h>
+#include <ErrorMsg.h>
+#include <FileDir.h>
+#include <FileFind.h>
+#include <FileName.h>
+#include <PropVariant.h>
+#include <PropVariantConv.h>
 
 #if defined(_WIN32) && !defined(UNDER_CE)  && !defined(_SFX)
 #define _USE_SECURITY_CODE
-#include <../../../Windows/SecurityUtils.h>
+#include <SecurityUtils.h>
 #endif
 
-#include <../../Common/FilePathAutoRename.h>
-// #include <../../Common/StreamUtils.h>
+#include <FilePathAutoRename.h>
+// #include <StreamUtils.h>
 
-#include <../Common/ExtractingFilePath.h>
-#include <../Common/PropIDUtils.h>
+#include <ExtractingFilePath.h>
+#include <PropIDUtils.h>
 
 #include <ArchiveExtractCallback.h>
 

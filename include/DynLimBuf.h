@@ -5,7 +5,7 @@
 
 #include <string.h>
 
-#include <../../C/Alloc.h>
+#include <Alloc.h>
 
 #include <MyString.h>
 

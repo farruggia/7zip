@@ -2,7 +2,7 @@
 
 #include <StdAfx.h>
 
-#include <../Common/Bench.h>
+#include <Bench.h>
 
 #include <BenchCon.h>
 #include <ConsoleClose.h>

@@ -3,16 +3,16 @@
 #ifndef __AGENT_AGENT_H
 #define __AGENT_AGENT_H
 
-#include <../../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../../../Windows/PropVariant.h>
+#include <PropVariant.h>
 
-#include <../Common/OpenArchive.h>
-#include <../Common/UpdateAction.h>
+#include <OpenArchive.h>
+#include <UpdateAction.h>
 
 #ifdef NEW_FOLDER_INTERFACE
-#include <../FileManager/IFolder.h>
-#include <../Common/LoadCodecs.h>
+#include <IFolder.h>
+#include <LoadCodecs.h>
 #endif
 
 #include <AgentProxy.h>

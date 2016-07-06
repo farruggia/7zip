@@ -3,11 +3,11 @@
 #ifndef __DEFLATE_DECODER_H
 #define __DEFLATE_DECODER_H
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../ICoder.h>
+#include <ICoder.h>
 
-#include <../Common/InBuffer.h>
+#include <InBuffer.h>
 
 #include <BitlDecoder.h>
 #include <DeflateConst.h>

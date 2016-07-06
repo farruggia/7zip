@@ -3,7 +3,7 @@
 #ifndef __TAR_UPDATE_H
 #define __TAR_UPDATE_H
 
-#include <../IArchive.h>
+#include <IArchive.h>
 
 #include <TarItem.h>
 

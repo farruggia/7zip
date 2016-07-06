@@ -4,9 +4,9 @@
 
 #include <time.h>
 
-#include <../../../Common/Wildcard.h>
+#include <Wildcard.h>
 
-#include <../../../Windows/TimeUtils.h>
+#include <TimeUtils.h>
 
 #include <SortUtils.h>
 #include <UpdatePair.h>

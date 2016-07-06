@@ -3,14 +3,14 @@
 #ifndef __BENCHMARK_DIALOG_H
 #define __BENCHMARK_DIALOG_H
 
-#include <../../../Windows/Synchronization.h>
+#include <Synchronization.h>
 
-#include <../../../Windows/Control/ComboBox.h>
-#include <../../../Windows/Control/Edit.h>
+#include <ComboBox.h>
+#include <Edit.h>
 
-#include <../Common/Bench.h>
+#include <Bench.h>
 
-#include <../FileManager/DialogSize.h>
+#include <DialogSize.h>
 
 #include <BenchmarkDialogRes.h>
 

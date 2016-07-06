@@ -3,7 +3,7 @@
 #ifndef __COMPRESS_MTF8_H
 #define __COMPRESS_MTF8_H
 
-#include <../../../C/CpuArch.h>
+#include <CpuArch.h>
 
 namespace NCompress {
 

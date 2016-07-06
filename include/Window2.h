@@ -3,8 +3,8 @@
 #ifndef __WINDOWS_CONTROL_WINDOW2_H
 #define __WINDOWS_CONTROL_WINDOW2_H
 
-#include <Windows/Window.h>
-#include <Windows/Defs.h>
+#include <Window.h>
+#include <Defs.h>
 
 namespace NWindows {
 namespace NControl {

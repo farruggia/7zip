@@ -3,7 +3,7 @@
 #ifndef __TEMP_FILES_H
 #define __TEMP_FILES_H
 
-#include <../../../Common/MyString.h>
+#include <MyString.h>
 
 class CTempFiles
 {

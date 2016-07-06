@@ -3,10 +3,10 @@
 #ifndef __ARCHIVE_CAB_IN_H
 #define __ARCHIVE_CAB_IN_H
 
-#include <../../../Common/MyBuffer.h>
-#include <../../../Common/MyCom.h>
+#include <MyBuffer.h>
+#include <MyCom.h>
 
-#include <../../Common/InBuffer.h>
+#include <InBuffer.h>
 
 #include <CabItem.h>
 

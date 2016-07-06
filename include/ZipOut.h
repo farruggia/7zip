@@ -3,10 +3,10 @@
 #ifndef __ZIP_OUT_H
 #define __ZIP_OUT_H
 
-#include <../../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../../IStream.h>
-#include <../../Common/OutBuffer.h>
+#include <IStream.h>
+#include <OutBuffer.h>
 
 #include <ZipItem.h>
 

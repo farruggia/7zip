@@ -2,7 +2,7 @@
 
 #include <StdAfx.h>
 
-#include <../../../C/Alloc.h>
+#include <Alloc.h>
 
 #include <BZip2Decoder.h>
 #include <Mtf8.h>

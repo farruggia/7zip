@@ -3,7 +3,7 @@
 #ifndef __SYS_ICON_UTILS_H
 #define __SYS_ICON_UTILS_H
 
-#include <Common/MyString.h>
+#include <MyString.h>
 
 struct CExtIconPair
 {

@@ -3,7 +3,7 @@
 #ifndef __WINDOWS_RESOURCE_STRING_H
 #define __WINDOWS_RESOURCE_STRING_H
 
-#include <../Common/MyString.h>
+#include <MyString.h>
 
 namespace NWindows {
 

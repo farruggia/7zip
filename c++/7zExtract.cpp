@@ -2,11 +2,11 @@
 
 #include <StdAfx.h>
 
-#include <../../../../C/7zCrc.h>
+#include <7zCrc.h>
 
-#include <../../../Common/ComTry.h>
+#include <ComTry.h>
 
-#include <../../Common/ProgressUtils.h>
+#include <ProgressUtils.h>
 
 #include <7zDecode.h>
 #include <7zHandler.h>

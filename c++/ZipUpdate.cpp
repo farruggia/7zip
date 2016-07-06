@@ -2,25 +2,25 @@
 
 #include <StdAfx.h>
 
-#include <../../../../C/Alloc.h>
+#include <Alloc.h>
 
-#include <../../../Common/AutoPtr.h>
-#include <../../../Common/Defs.h>
-#include <../../../Common/StringConvert.h>
+#include <AutoPtr.h>
+#include <Defs.h>
+#include <StringConvert.h>
 
-#include <../../../Windows/TimeUtils.h>
-#include <../../../Windows/Thread.h>
+#include <TimeUtils.h>
+#include <Thread.h>
 
-#include <../../Common/CreateCoder.h>
-#include <../../Common/LimitedStreams.h>
-#include <../../Common/OutMemStream.h>
-#include <../../Common/ProgressUtils.h>
+#include <CreateCoder.h>
+#include <LimitedStreams.h>
+#include <OutMemStream.h>
+#include <ProgressUtils.h>
 #ifndef _7ZIP_ST
-#include <../../Common/ProgressMt.h>
+#include <ProgressMt.h>
 #endif
-#include <../../Common/StreamUtils.h>
+#include <StreamUtils.h>
 
-#include <../../Compress/CopyCoder.h>
+#include <CopyCoder.h>
 
 #include <ZipAddCommon.h>
 #include <ZipOut.h>

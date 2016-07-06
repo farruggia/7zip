@@ -3,7 +3,7 @@
 #ifndef __ARCHIVE_RAR_ITEM_H
 #define __ARCHIVE_RAR_ITEM_H
 
-#include <../../../Common/StringConvert.h>
+#include <StringConvert.h>
 
 #include <RarHeader.h>
 

@@ -3,9 +3,9 @@
 #ifndef __XZ_HANDLER_H
 #define __XZ_HANDLER_H
 
-#include <../../../C/Xz.h>
+#include <Xz.h>
 
-#include <../ICoder.h>
+#include <ICoder.h>
 
 namespace NArchive {
 namespace NXz {

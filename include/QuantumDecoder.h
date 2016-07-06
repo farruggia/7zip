@@ -3,7 +3,7 @@
 #ifndef __COMPRESS_QUANTUM_DECODER_H
 #define __COMPRESS_QUANTUM_DECODER_H
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
 #include <LzOutWindow.h>
 

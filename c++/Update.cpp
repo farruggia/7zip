@@ -4,26 +4,26 @@
 
 #include <Update.h>
 
-#include <../../../Common/IntToString.h>
-#include <../../../Common/StringConvert.h>
+#include <IntToString.h>
+#include <StringConvert.h>
 
-#include <../../../Windows/DLL.h>
-#include <../../../Windows/FileDir.h>
-#include <../../../Windows/FileFind.h>
-#include <../../../Windows/FileName.h>
-#include <../../../Windows/PropVariant.h>
-#include <../../../Windows/PropVariantConv.h>
-#include <../../../Windows/TimeUtils.h>
+#include <DLL.h>
+#include <FileDir.h>
+#include <FileFind.h>
+#include <FileName.h>
+#include <PropVariant.h>
+#include <PropVariantConv.h>
+#include <TimeUtils.h>
 
-#include <../../Common/FileStreams.h>
-#include <../../Common/LimitedStreams.h>
+#include <FileStreams.h>
+#include <LimitedStreams.h>
 
-#include <../../Compress/CopyCoder.h>
+#include <CopyCoder.h>
 
-#include <../Common/DirItem.h>
-#include <../Common/EnumDirItems.h>
-#include <../Common/OpenArchive.h>
-#include <../Common/UpdateProduce.h>
+#include <DirItem.h>
+#include <EnumDirItems.h>
+#include <OpenArchive.h>
+#include <UpdateProduce.h>
 
 #include <EnumDirItems.h>
 #include <SetProperties.h>

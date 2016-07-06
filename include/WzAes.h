@@ -12,13 +12,13 @@ specified in "A Password Based File Encryption Utility":
 #ifndef __CRYPTO_WZ_AES_H
 #define __CRYPTO_WZ_AES_H
 
-#include <../../../C/Aes.h>
+#include <Aes.h>
 
-#include <../../Common/MyBuffer.h>
-#include <../../Common/MyCom.h>
+#include <MyBuffer.h>
+#include <MyCom.h>
 
-#include <../ICoder.h>
-#include <../IPassword.h>
+#include <ICoder.h>
+#include <IPassword.h>
 
 #include <HmacSha1.h>
 

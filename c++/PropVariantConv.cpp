@@ -2,7 +2,7 @@
 
 #include <StdAfx.h>
 
-#include <../Common/IntToString.h>
+#include <IntToString.h>
 
 #include <Defs.h>
 #include <PropVariantConv.h>

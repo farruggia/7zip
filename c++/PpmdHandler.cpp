@@ -6,22 +6,22 @@ This code is based on:
 
 #include <StdAfx.h>
 
-#include <../../../C/CpuArch.h>
-#include <../../../C/Alloc.h>
-#include <../../../C/Ppmd7.h>
-#include <../../../C/Ppmd8.h>
+#include <CpuArch.h>
+#include <Alloc.h>
+#include <Ppmd7.h>
+#include <Ppmd8.h>
 
-#include <../../Common/ComTry.h>
-#include <../../Common/IntToString.h>
-#include <../../Common/StringConvert.h>
+#include <ComTry.h>
+#include <IntToString.h>
+#include <StringConvert.h>
 
-#include <../../Windows/PropVariant.h>
-#include <../../Windows/TimeUtils.h>
+#include <PropVariant.h>
+#include <TimeUtils.h>
 
-#include <../Common/CWrappers.h>
-#include <../Common/ProgressUtils.h>
-#include <../Common/RegisterArc.h>
-#include <../Common/StreamUtils.h>
+#include <CWrappers.h>
+#include <ProgressUtils.h>
+#include <RegisterArc.h>
+#include <StreamUtils.h>
 
 using namespace NWindows;
 

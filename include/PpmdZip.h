@@ -3,14 +3,14 @@
 #ifndef __COMPRESS_PPMD_ZIP_H
 #define __COMPRESS_PPMD_ZIP_H
 
-#include <../../../C/Alloc.h>
-#include <../../../C/Ppmd8.h>
+#include <Alloc.h>
+#include <Ppmd8.h>
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../Common/CWrappers.h>
+#include <CWrappers.h>
 
-#include <../ICoder.h>
+#include <ICoder.h>
 
 namespace NCompress {
 namespace NPpmdZip {

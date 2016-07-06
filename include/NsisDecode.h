@@ -3,12 +3,12 @@
 #ifndef __NSIS_DECODE_H
 #define __NSIS_DECODE_H
 
-#include <../../../Common/MyBuffer.h>
+#include <MyBuffer.h>
 
-#include <../../Common/FilterCoder.h>
-#include <../../Common/StreamUtils.h>
+#include <FilterCoder.h>
+#include <StreamUtils.h>
 
-#include <../../Compress/LzmaDecoder.h>
+#include <LzmaDecoder.h>
 
 namespace NArchive {
 namespace NNsis {

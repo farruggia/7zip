@@ -3,10 +3,10 @@
 #ifndef __ARCHIVE_ISO_ITEM_H
 #define __ARCHIVE_ISO_ITEM_H
 
-#include <../../../Common/MyString.h>
-#include <../../../Common/MyBuffer.h>
+#include <MyString.h>
+#include <MyBuffer.h>
 
-#include <../../../Windows/TimeUtils.h>
+#include <TimeUtils.h>
 
 #include <IsoHeader.h>
 

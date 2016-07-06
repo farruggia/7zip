@@ -3,13 +3,13 @@
 #ifndef __COMPRESS_PPMD_ENCODER_H
 #define __COMPRESS_PPMD_ENCODER_H
 
-#include <../../../C/Ppmd7.h>
+#include <Ppmd7.h>
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../ICoder.h>
+#include <ICoder.h>
 
-#include <../Common/CWrappers.h>
+#include <CWrappers.h>
 
 namespace NCompress {
 namespace NPpmd {

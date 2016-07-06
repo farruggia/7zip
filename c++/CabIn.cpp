@@ -4,10 +4,10 @@
 
 // #include <stdio.h>
 
-#include <../../../../C/CpuArch.h>
+#include <CpuArch.h>
 
-#include <../../Common/LimitedStreams.h>
-#include <../../Common/StreamUtils.h>
+#include <LimitedStreams.h>
+#include <StreamUtils.h>
 
 #include <CabIn.h>
 

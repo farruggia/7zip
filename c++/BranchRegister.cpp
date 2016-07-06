@@ -2,9 +2,9 @@
 
 #include <StdAfx.h>
 
-#include <../../../C/Bra.h>
+#include <Bra.h>
 
-#include <../Common/RegisterCodec.h>
+#include <RegisterCodec.h>
 
 #include <BranchMisc.h>
 

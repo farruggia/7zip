@@ -5,15 +5,15 @@
 #ifndef __COMPRESS_RAR5_DECODER_H
 #define __COMPRESS_RAR5_DECODER_H
 
-#include <../../../C/Alloc.h>
-#include <../../../C/CpuArch.h>
+#include <Alloc.h>
+#include <CpuArch.h>
 
-#include <../../Common/MyBuffer.h>
-#include <../../Common/MyCom.h>
-#include <../../Common/MyException.h>
-#include <../../Common/MyVector.h>
+#include <MyBuffer.h>
+#include <MyCom.h>
+#include <MyException.h>
+#include <MyVector.h>
 
-#include <../ICoder.h>
+#include <ICoder.h>
 
 #include <HuffmanDecoder.h>
 

@@ -9,8 +9,8 @@
 #endif
 
 #ifdef SUPPORT_DEVICE_FILE
-#include <../../../C/Alloc.h>
-#include <../../Common/Defs.h>
+#include <Alloc.h>
+#include <Defs.h>
 #endif
 
 #include <FileStreams.h>

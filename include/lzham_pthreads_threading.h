@@ -9,13 +9,13 @@
 #endif
 
 #ifdef __APPLE__
-   #include <libkern/OSAtomic.h>
+   #include <OSAtomic.h>
 #endif
 
 #include <pthread.h>
 #include <semaphore.h>
 #include <unistd.h>
-#include <sys/time.h>
+#include <time.h>
 
 #define LZHAM_RND_CONG(jcong)  (69069U * jcong + 1234567U)
 

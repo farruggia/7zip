@@ -3,9 +3,9 @@
 #ifndef __7Z_SPEC_STREAM_H
 #define __7Z_SPEC_STREAM_H
 
-#include <../../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../../ICoder.h>
+#include <ICoder.h>
 
 class CSequentialInStreamSizeCount2:
   public ISequentialInStream,

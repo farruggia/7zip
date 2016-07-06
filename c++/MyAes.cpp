@@ -2,7 +2,7 @@
 
 #include <StdAfx.h>
 
-#include <../../../C/CpuArch.h>
+#include <CpuArch.h>
 
 #include <MyAes.h>
 

@@ -3,11 +3,11 @@
 #ifndef __DEFLATE_ENCODER_H
 #define __DEFLATE_ENCODER_H
 
-#include <../../../C/LzFind.h>
+#include <LzFind.h>
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../ICoder.h>
+#include <ICoder.h>
 
 #include <BitlEncoder.h>
 #include <DeflateConst.h>

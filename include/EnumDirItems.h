@@ -3,9 +3,9 @@
 #ifndef __ENUM_DIR_ITEMS_H
 #define __ENUM_DIR_ITEMS_H
 
-#include <../../../Common/Wildcard.h>
+#include <Wildcard.h>
 
-#include <../../../Windows/FileFind.h>
+#include <FileFind.h>
 
 #include <DirItem.h>
 

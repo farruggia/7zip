@@ -2,10 +2,10 @@
 
 #include <StdAfx.h>
 
-#include <../../../C/Alloc.h>
+#include <Alloc.h>
 
-#include <../Common/CWrappers.h>
-#include <../Common/StreamUtils.h>
+#include <CWrappers.h>
+#include <StreamUtils.h>
 
 #include <Lzma2Encoder.h>
 

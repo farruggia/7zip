@@ -3,11 +3,11 @@
 #ifndef __LZMA_ENCODER_H
 #define __LZMA_ENCODER_H
 
-#include <../../../C/LzmaEnc.h>
+#include <LzmaEnc.h>
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../ICoder.h>
+#include <ICoder.h>
 
 namespace NCompress {
 namespace NLzma {

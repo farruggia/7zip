@@ -3,8 +3,8 @@
 #ifndef __WINDOWS_CONTROL_DIALOGIMPL_H
 #define __WINDOWS_CONTROL_DIALOGIMPL_H
 
-#include <Windows/Window.h>
-#include <Windows/Control/Dialog.h>
+#include <Window.h>
+#include <Dialog.h>
 
 void myCreateHandle(int n); // FIXME - duplicate
 

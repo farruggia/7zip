@@ -7,7 +7,7 @@
 
 extern "C"
 {
-#include <../../C/Threads.h>
+#include <Threads.h>
 }
 
 namespace NWindows {

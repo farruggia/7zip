@@ -13,7 +13,7 @@
 #define PRF(x)
 #endif
 
-#include <../../../C/Alloc.h>
+#include <Alloc.h>
 
 #include <LzxDecoder.h>
 

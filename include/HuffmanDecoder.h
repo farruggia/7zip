@@ -3,7 +3,7 @@
 #ifndef __COMPRESS_HUFFMAN_DECODER_H
 #define __COMPRESS_HUFFMAN_DECODER_H
 
-#include <../../Common/MyTypes.h>
+#include <MyTypes.h>
 
 namespace NCompress {
 namespace NHuffman {

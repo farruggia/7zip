@@ -2,9 +2,9 @@
 
 #include <StdAfx.h>
 
-#include <../../../C/7zCrc.h>
+#include <7zCrc.h>
 
-#include <../Common/StreamUtils.h>
+#include <StreamUtils.h>
 
 #include <RandGen.h>
 #include <ZipCrypto.h>

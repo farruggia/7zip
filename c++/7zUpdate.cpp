@@ -2,17 +2,17 @@
 
 #include <StdAfx.h>
 
-#include <../../../../C/CpuArch.h>
+#include <CpuArch.h>
 
-#include <../../../Common/Wildcard.h>
+#include <Wildcard.h>
 
-#include <../../Common/CreateCoder.h>
-#include <../../Common/LimitedStreams.h>
-#include <../../Common/ProgressUtils.h>
+#include <CreateCoder.h>
+#include <LimitedStreams.h>
+#include <ProgressUtils.h>
 
-#include <../../Compress/CopyCoder.h>
+#include <CopyCoder.h>
 
-#include <../Common/ItemNameUtils.h>
+#include <ItemNameUtils.h>
 
 #include <7zDecode.h>
 #include <7zEncode.h>
@@ -22,7 +22,7 @@
 #include <7zUpdate.h>
 
 #ifndef WIN32
-#include <Windows/FileIO.h>
+#include <FileIO.h>
 #endif
 
 namespace NArchive {

@@ -2,9 +2,9 @@
 
 #include <StdAfx.h>
 
-#include <../../C/CpuArch.h>
+#include <CpuArch.h>
 
-#include <../Windows/FileIO.h>
+#include <FileIO.h>
 
 #include <ListFileUtils.h>
 #include <MyBuffer.h>

@@ -2,10 +2,10 @@
 
 #include <StdAfx.h>
 
-#include <../../../../C/Alloc.h>
-#include <../../../../C/CpuArch.h>
+#include <Alloc.h>
+#include <CpuArch.h>
 
-#include <../../Common/StreamUtils.h>
+#include <StreamUtils.h>
 
 #include <CabBlockInStream.h>
 

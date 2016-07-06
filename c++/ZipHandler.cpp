@@ -2,34 +2,34 @@
 
 #include <StdAfx.h>
 
-#include <../../../Common/ComTry.h>
-#include <../../../Common/IntToString.h>
-#include <../../../Common/StringConvert.h>
+#include <ComTry.h>
+#include <IntToString.h>
+#include <StringConvert.h>
 
-#include <../../../Windows/PropVariant.h>
-#include <../../../Windows/TimeUtils.h>
+#include <PropVariant.h>
+#include <TimeUtils.h>
 
-#include <../../IPassword.h>
+#include <IPassword.h>
 
-#include <../../Common/FilterCoder.h>
-#include <../../Common/ProgressUtils.h>
-#include <../../Common/StreamObjects.h>
-#include <../../Common/StreamUtils.h>
+#include <FilterCoder.h>
+#include <ProgressUtils.h>
+#include <StreamObjects.h>
+#include <StreamUtils.h>
 
-#include <../../Compress/CopyCoder.h>
-#include <../../Compress/LzmaDecoder.h>
-#include <../../Compress/ImplodeDecoder.h>
-#include <../../Compress/PpmdZip.h>
-#include <../../Compress/ShrinkDecoder.h>
+#include <CopyCoder.h>
+#include <LzmaDecoder.h>
+#include <ImplodeDecoder.h>
+#include <PpmdZip.h>
+#include <ShrinkDecoder.h>
 
-#include <../../Crypto/WzAes.h>
-#include <../../Crypto/ZipCrypto.h>
-#include <../../Crypto/ZipStrong.h>
+#include <WzAes.h>
+#include <ZipCrypto.h>
+#include <ZipStrong.h>
 
-#include <../Common/ItemNameUtils.h>
-#include <../Common/OutStreamWithCRC.h>
+#include <ItemNameUtils.h>
+#include <OutStreamWithCRC.h>
 
-#include <../XzHandler.h>
+#include <XzHandler.h>
 
 #include <ZipHandler.h>
 

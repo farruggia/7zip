@@ -3,13 +3,13 @@
 #ifndef __UPDATE_CALLBACK100_H
 #define __UPDATE_CALLBACK100_H
 
-#include <../../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../../IPassword.h>
+#include <IPassword.h>
 
-#include <../Agent/IFolderArchive.h>
+#include <IFolderArchive.h>
 
-#include <../GUI/UpdateCallbackGUI2.h>
+#include <UpdateCallbackGUI2.h>
 
 #include <ProgressDialog2.h>
 

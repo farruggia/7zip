@@ -3,12 +3,12 @@
 #ifndef __CODER_MIXER2_H
 #define __CODER_MIXER2_H
 
-#include <../../../Common/MyCom.h>
-#include <../../../Common/MyVector.h>
+#include <MyCom.h>
+#include <MyVector.h>
 
-#include <../../ICoder.h>
+#include <ICoder.h>
 
-#include <../../Common/CreateCoder.h>
+#include <CreateCoder.h>
 
 #ifdef _7ZIP_ST
   #define USE_MIXER_ST
@@ -20,8 +20,8 @@
 #endif
 
 #ifdef USE_MIXER_MT
-#include <../../Common/StreamBinder.h>
-#include <../../Common/VirtThread.h>
+#include <StreamBinder.h>
+#include <VirtThread.h>
 #endif
 
 

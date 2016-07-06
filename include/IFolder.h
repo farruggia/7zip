@@ -3,8 +3,8 @@
 #ifndef __IFOLDER_H
 #define __IFOLDER_H
 
-#include <../../IProgress.h>
-#include <../../IStream.h>
+#include <IProgress.h>
+#include <IStream.h>
 
 #define FOLDER_INTERFACE_SUB(i, b, x) DECL_INTERFACE_SUB(i, b, 8, x)
 #define FOLDER_INTERFACE(i, x) FOLDER_INTERFACE_SUB(i, IUnknown, x)

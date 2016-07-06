@@ -3,7 +3,7 @@
 #ifndef __HANDLER_CONT_H
 #define __HANDLER_CONT_H
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
 #include <IArchive.h>
 

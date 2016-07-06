@@ -3,8 +3,8 @@
 #ifndef __CAB_BLOCK_IN_STREAM_H
 #define __CAB_BLOCK_IN_STREAM_H
 
-#include <../../../Common/MyCom.h>
-#include <../../IStream.h>
+#include <MyCom.h>
+#include <IStream.h>
 
 namespace NArchive {
 namespace NCab {

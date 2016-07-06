@@ -2,7 +2,7 @@
 
 #include <StdAfx.h>
 
-#include <../../../Common/IntToString.h>
+#include <IntToString.h>
 
 #include <PercentPrinter.h>
 

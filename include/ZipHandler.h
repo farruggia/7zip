@@ -3,11 +3,11 @@
 #ifndef __ZIP_HANDLER_H
 #define __ZIP_HANDLER_H
 
-#include <../../../Common/DynamicBuffer.h>
-#include <../../ICoder.h>
-#include <../IArchive.h>
+#include <DynamicBuffer.h>
+#include <ICoder.h>
+#include <IArchive.h>
 
-#include <../../Common/CreateCoder.h>
+#include <CreateCoder.h>
 
 #include <ZipIn.h>
 #include <ZipCompressionMode.h>

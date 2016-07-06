@@ -3,7 +3,7 @@
 #ifndef __WINDOWS_COMMON_DIALOG_H
 #define __WINDOWS_COMMON_DIALOG_H
 
-#include <../Common/MyString.h>
+#include <MyString.h>
 
 namespace NWindows {
 

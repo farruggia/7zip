@@ -3,9 +3,9 @@
 #ifndef __EXTRACT_GUI_H
 #define __EXTRACT_GUI_H
 
-#include <../Common/Extract.h>
+#include <Extract.h>
 
-#include <../FileManager/ExtractCallback.h>
+#include <ExtractCallback.h>
 
 /*
   RESULT can be S_OK, even if there are errors!!!

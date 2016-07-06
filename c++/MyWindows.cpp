@@ -6,7 +6,7 @@
 
 #include <MyWindows.h>
 #include <MyTypes.h>
-#include <stdlib.h> /* FIXED <malloc.h> */
+#include <stdlib.h>
 
 static inline void *AllocateForBSTR(size_t cb) { return ::malloc(cb); }
 static inline void FreeForBSTR(void *pv) { ::free(pv);}

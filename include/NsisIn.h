@@ -3,13 +3,13 @@
 #ifndef __ARCHIVE_NSIS_IN_H
 #define __ARCHIVE_NSIS_IN_H
 
-#include <../../../../C/CpuArch.h>
+#include <CpuArch.h>
 
-#include <../../../Common/DynLimBuf.h>
-#include <../../../Common/MyBuffer.h>
-#include <../../../Common/MyCom.h>
-#include <../../../Common/StringConvert.h>
-#include <../../../Common/UTFConvert.h>
+#include <DynLimBuf.h>
+#include <MyBuffer.h>
+#include <MyCom.h>
+#include <StringConvert.h>
+#include <UTFConvert.h>
 
 #include <NsisDecode.h>
 

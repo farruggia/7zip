@@ -2,11 +2,11 @@
 
 #include <StdAfx.h>
 
-#include <../../../../C/7zCrc.h>
+#include <7zCrc.h>
 
-#include <../../../Common/AutoPtr.h>
+#include <AutoPtr.h>
 
-#include <../../Common/StreamObjects.h>
+#include <StreamObjects.h>
 
 #include <7zOut.h>
 

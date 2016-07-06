@@ -2,9 +2,9 @@
 
 #include <StdAfx.h>
 
-#include <../../../C/7zCrc.h>
+#include <7zCrc.h>
 
-#include <../../Common/Defs.h>
+#include <Defs.h>
 
 #include <InOutTempBuffer.h>
 #include <StreamUtils.h>

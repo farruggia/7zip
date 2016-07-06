@@ -3,8 +3,8 @@
 #ifndef __PASSWORD_DIALOG_H
 #define __PASSWORD_DIALOG_H
 
-#include <../../../Windows/Control/Dialog.h>
-#include <../../../Windows/Control/Edit.h>
+#include <Dialog.h>
+#include <Edit.h>
 
 #include <PasswordDialogRes.h>
 

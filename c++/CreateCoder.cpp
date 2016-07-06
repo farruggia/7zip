@@ -2,8 +2,8 @@
 
 #include <StdAfx.h>
 
-#include <../../Windows/Defs.h>
-#include <../../Windows/PropVariant.h>
+#include <Defs.h>
+#include <PropVariant.h>
 
 #include <CreateCoder.h>
 

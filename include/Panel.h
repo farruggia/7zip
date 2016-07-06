@@ -3,28 +3,28 @@
 #ifndef __PANEL_H
 #define __PANEL_H
 
-#include <../../../../C/Alloc.h>
+#include <Alloc.h>
 
-#include <../../../Common/Defs.h>
-#include <../../../Common/MyCom.h>
+#include <Defs.h>
+#include <MyCom.h>
 
-#include <../../../Windows/DLL.h>
-#include <../../../Windows/FileDir.h>
-#include <../../../Windows/FileFind.h>
-#include <../../../Windows/FileName.h>
-// #include <../../../Windows/Handle.h>
-#include <../../../Windows/Synchronization.h>
+#include <DLL.h>
+#include <FileDir.h>
+#include <FileFind.h>
+#include <FileName.h>
+// #include <Handle.h>
+#include <Synchronization.h>
 
-#include <../../../Windows/Control/ComboBox.h>
-#include <../../../Windows/Control/Edit.h>
-#include <../../../Windows/Control/ListView.h>
-// FIXME #include <../../../Windows/Control/ReBar.h>
-#include <../../../Windows/Control/Static.h>
-#include <../../../Windows/Control/StatusBar.h>
-// FIXME #include <../../../Windows/Control/ToolBar.h>
-#include <../../../Windows/Control/Window2.h>
+#include <ComboBox.h>
+#include <Edit.h>
+#include <ListView.h>
+// FIXME #include <ReBar.h>
+#include <Static.h>
+#include <StatusBar.h>
+// FIXME #include <ToolBar.h>
+#include <Window2.h>
 
-#include <../../Archive/IArchive.h>
+#include <IArchive.h>
 
 #include <ExtractCallback.h>
 

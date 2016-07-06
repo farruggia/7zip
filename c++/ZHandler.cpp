@@ -2,17 +2,17 @@
 
 #include <StdAfx.h>
 
-#include <../../Common/ComTry.h>
+#include <ComTry.h>
 
-#include <../../Windows/PropVariant.h>
+#include <PropVariant.h>
 
-#include <../Common/ProgressUtils.h>
-#include <../Common/RegisterArc.h>
-#include <../Common/StreamUtils.h>
+#include <ProgressUtils.h>
+#include <RegisterArc.h>
+#include <StreamUtils.h>
 
-#include <../Compress/ZDecoder.h>
+#include <ZDecoder.h>
 
-#include <Common/DummyOutStream.h>
+#include <DummyOutStream.h>
 
 namespace NArchive {
 namespace NZ {

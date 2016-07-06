@@ -2,7 +2,7 @@
 
 #include <StdAfx.h>
 
-#include <../../Common/RegisterArc.h>
+#include <RegisterArc.h>
 
 #include <CabHandler.h>
 

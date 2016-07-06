@@ -2,15 +2,15 @@
 
 #include <StdAfx.h>
 
-#include <../../../C/Sha256.h>
+#include <Sha256.h>
 
-#include <../../Common/ComTry.h>
+#include <ComTry.h>
 
 #ifndef _7ZIP_ST
-#include <../../Windows/Synchronization.h>
+#include <Synchronization.h>
 #endif
 
-#include <../Common/StreamUtils.h>
+#include <StreamUtils.h>
 
 #include <7zAes.h>
 #include <MyAes.h>

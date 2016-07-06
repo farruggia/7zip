@@ -3,7 +3,7 @@
 #ifndef __COMMON_UPDATE_H
 #define __COMMON_UPDATE_H
 
-#include <../../../Common/Wildcard.h>
+#include <Wildcard.h>
 
 #include <ArchiveOpenCallback.h>
 #include <LoadCodecs.h>

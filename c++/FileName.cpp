@@ -2,10 +2,10 @@
 
 #include <StdAfx.h>
 
-#include <Windows/FileName.h>
-#include <Common/Wildcard.h>
+#include <FileName.h>
+#include <Wildcard.h>
 
-#include <Common/StringConvert.h>
+#include <StringConvert.h>
 
 namespace NWindows {
 namespace NFile {

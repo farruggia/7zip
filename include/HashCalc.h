@@ -3,10 +3,10 @@
 #ifndef __HASH_CALC_H
 #define __HASH_CALC_H
 
-#include <../../../Common/Wildcard.h>
+#include <Wildcard.h>
 
-#include <../../Common/CreateCoder.h>
-#include <../../Common/MethodProps.h>
+#include <CreateCoder.h>
+#include <MethodProps.h>
 
 #include <DirItem.h>
 #include <Property.h>

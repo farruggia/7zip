@@ -3,15 +3,15 @@
 #ifndef __UPDATE_CALLBACK_H
 #define __UPDATE_CALLBACK_H
 
-#include <../../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../../Common/FileStreams.h>
+#include <FileStreams.h>
 
-#include <../../IPassword.h>
-#include <../../ICoder.h>
+#include <IPassword.h>
+#include <ICoder.h>
 
-#include <../Common/UpdatePair.h>
-#include <../Common/UpdateProduce.h>
+#include <UpdatePair.h>
+#include <UpdateProduce.h>
 
 #include <OpenArchive.h>
 

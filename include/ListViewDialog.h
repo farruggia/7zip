@@ -3,8 +3,8 @@
 #ifndef __LISTVIEW_DIALOG_H
 #define __LISTVIEW_DIALOG_H
 
-#include <../../../Windows/Control/Dialog.h>
-#include <../../../Windows/Control/ListView.h>
+#include <Dialog.h>
+#include <ListView.h>
 
 #include <ListViewDialogRes.h>
 

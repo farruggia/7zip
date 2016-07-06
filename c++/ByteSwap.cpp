@@ -2,11 +2,11 @@
 
 #include <StdAfx.h>
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../ICoder.h>
+#include <ICoder.h>
 
-#include <../Common/RegisterCodec.h>
+#include <RegisterCodec.h>
 
 class CByteSwap2:
   public ICompressFilter,

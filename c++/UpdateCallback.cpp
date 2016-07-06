@@ -3,26 +3,26 @@
 #include <StdAfx.h>
 
 #ifndef _7ZIP_ST
-#include <../../../Windows/Synchronization.h>
+#include <Synchronization.h>
 #endif
 
-#include <../../../Common/ComTry.h>
-#include <../../../Common/IntToString.h>
-#include <../../../Common/StringConvert.h>
-#include <../../../Common/Wildcard.h>
+#include <ComTry.h>
+#include <IntToString.h>
+#include <StringConvert.h>
+#include <Wildcard.h>
 
-#include <../../../Windows/FileDir.h>
-#include <../../../Windows/FileName.h>
-#include <../../../Windows/PropVariant.h>
-#include <../../../Windows/Synchronization.h>
+#include <FileDir.h>
+#include <FileName.h>
+#include <PropVariant.h>
+#include <Synchronization.h>
 
-#include <../../Common/StreamObjects.h>
+#include <StreamObjects.h>
 
 #include <UpdateCallback.h>
 
 #if defined(_WIN32) && !defined(UNDER_CE)
 #define _USE_SECURITY_CODE
-#include <../../../Windows/SecurityUtils.h>
+#include <SecurityUtils.h>
 #endif
 
 using namespace NWindows;

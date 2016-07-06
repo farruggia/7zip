@@ -10,7 +10,7 @@
 #endif
 
 #ifdef USE_POSIX_TIME
-#include <time.h>
+#include <sys/time.h>
 #ifdef USE_POSIX_TIME2
 #include <sys/time.h>
 #endif
@@ -28,15 +28,15 @@
 #endif
 #endif
 
-#include <../../../../C/7zCrc.h>
-#include <../../../../C/Alloc.h>
-#include <../../../../C/CpuArch.h>
+#include <7zCrc.h>
+#include <Alloc.h>
+#include <CpuArch.h>
 
-#include <../../../Windows/System.h>
+#include <System.h>
 
 #ifndef _7ZIP_ST
-#include <../../../Windows/Synchronization.h>
-#include <../../../Windows/Thread.h>
+#include <Synchronization.h>
+#include <Thread.h>
 #endif
 
 #if defined(_WIN32) || defined(UNIX_USE_WIN_FILE)
@@ -44,16 +44,16 @@
 #endif
 
 #ifdef USE_WIN_FILE
-#include <../../../Windows/FileIO.h>
+#include <FileIO.h>
 #endif
 
 
-#include <../../../Common/IntToString.h>
-#include <../../../Common/StringConvert.h>
-#include <../../../Common/StringToInt.h>
+#include <IntToString.h>
+#include <StringConvert.h>
+#include <StringToInt.h>
 
-#include <../../Common/MethodProps.h>
-#include <../../Common/StreamUtils.h>
+#include <MethodProps.h>
+#include <StreamUtils.h>
 
 #include <Bench.h>
 

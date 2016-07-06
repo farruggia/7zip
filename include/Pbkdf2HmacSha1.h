@@ -6,7 +6,7 @@
 
 #include <stddef.h>
 
-#include <../../Common/MyTypes.h>
+#include <MyTypes.h>
 
 namespace NCrypto {
 namespace NSha1 {

@@ -3,8 +3,8 @@
 #ifndef __WINDOWS_FILE_FIND_H
 #define __WINDOWS_FILE_FIND_H
 
-#include <../Common/MyString.h>
-#include <../Common/MyTypes.h>
+#include <MyString.h>
+#include <MyTypes.h>
 #include <Defs.h>
 
 #include <sys/types.h> /* for DIR */

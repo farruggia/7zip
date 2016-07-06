@@ -2,10 +2,10 @@
 
 #include <StdAfx.h>
 
-#include <../../Common/Defs.h>
-#include <../../Common/IntToString.h>
+#include <Defs.h>
+#include <IntToString.h>
 
-#include <../../Windows/FileFind.h>
+#include <FileFind.h>
 
 #include <FilePathAutoRename.h>
 

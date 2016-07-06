@@ -12,7 +12,7 @@ int global_use_utf16_conversion = 0;
 
 #ifdef __APPLE_CC__
 #define UInt32  macUIn32
-#include <CoreFoundation/CoreFoundation.h>
+#include <CoreFoundation.h>
 #undef UInt32
 
 UString MultiByteToUnicodeString(const AString &srcString, UINT codePage)

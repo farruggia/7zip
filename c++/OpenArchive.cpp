@@ -8,22 +8,22 @@
 #include <stdio.h>
 #endif
 
-#include <../../../../C/CpuArch.h>
+#include <CpuArch.h>
 
-#include <../../../Common/ComTry.h>
-#include <../../../Common/IntToString.h>
-#include <../../../Common/StringConvert.h>
-#include <../../../Common/StringToInt.h>
-#include <../../../Common/Wildcard.h>
+#include <ComTry.h>
+#include <IntToString.h>
+#include <StringConvert.h>
+#include <StringToInt.h>
+#include <Wildcard.h>
 
-#include <../../../Windows/FileDir.h>
+#include <FileDir.h>
 
-#include <../../Common/FileStreams.h>
-#include <../../Common/LimitedStreams.h>
-#include <../../Common/ProgressUtils.h>
-#include <../../Common/StreamUtils.h>
+#include <FileStreams.h>
+#include <LimitedStreams.h>
+#include <ProgressUtils.h>
+#include <StreamUtils.h>
 
-#include <../../Compress/CopyCoder.h>
+#include <CopyCoder.h>
 
 #include <DefaultName.h>
 #include <OpenArchive.h>

@@ -2,7 +2,7 @@
 
 #include <StdAfx.h>
 
-#include <../../Common/StringToInt.h>
+#include <StringToInt.h>
 
 #include <MethodProps.h>
 

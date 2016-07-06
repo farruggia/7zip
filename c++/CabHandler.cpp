@@ -4,25 +4,25 @@
 
 // #include <stdio.h>
 
-#include <../../../../C/Alloc.h>
+#include <Alloc.h>
 
-#include <../../../Common/ComTry.h>
-#include <../../../Common/IntToString.h>
-#include <../../../Common/StringConvert.h>
-#include <../../../Common/UTFConvert.h>
+#include <ComTry.h>
+#include <IntToString.h>
+#include <StringConvert.h>
+#include <UTFConvert.h>
 
-#include <../../../Windows/PropVariant.h>
-#include <../../../Windows/TimeUtils.h>
+#include <PropVariant.h>
+#include <TimeUtils.h>
 
-#include <../../Common/ProgressUtils.h>
-#include <../../Common/StreamUtils.h>
+#include <ProgressUtils.h>
+#include <StreamUtils.h>
 
-#include <../../Compress/CopyCoder.h>
-#include <../../Compress/DeflateDecoder.h>
-#include <../../Compress/LzxDecoder.h>
-#include <../../Compress/QuantumDecoder.h>
+#include <CopyCoder.h>
+#include <DeflateDecoder.h>
+#include <LzxDecoder.h>
+#include <QuantumDecoder.h>
 
-#include <../Common/ItemNameUtils.h>
+#include <ItemNameUtils.h>
 
 #include <CabBlockInStream.h>
 #include <CabHandler.h>

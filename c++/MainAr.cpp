@@ -2,14 +2,14 @@
 
 #include <StdAfx.h>
 
-#include <../../../Common/MyException.h>
-#include <../../../Common/StdOutStream.h>
+#include <MyException.h>
+#include <StdOutStream.h>
 
-#include <../../../Windows/ErrorMsg.h>
-#include <../../../Windows/NtCheck.h>
+#include <ErrorMsg.h>
+#include <NtCheck.h>
 
-#include <../Common/ArchiveCommandLine.h>
-#include <../Common/ExitCode.h>
+#include <ArchiveCommandLine.h>
+#include <ExitCode.h>
 
 #include <ConsoleClose.h>
 

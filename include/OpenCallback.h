@@ -3,13 +3,13 @@
 #ifndef __OPEN_CALLBACK_H
 #define __OPEN_CALLBACK_H
 
-#include <../../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../../../Windows/FileFind.h>
+#include <FileFind.h>
 
-#include <../../IPassword.h>
+#include <IPassword.h>
 
-#include <../../Archive/IArchive.h>
+#include <IArchive.h>
 
 #ifdef _SFX
 #include <ProgressDialog.h>

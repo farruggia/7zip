@@ -3,15 +3,15 @@
 #ifndef __7Z_IN_H
 #define __7Z_IN_H
 
-#include <../../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../../../Windows/PropVariant.h>
+#include <PropVariant.h>
 
-#include <../../IPassword.h>
-#include <../../IStream.h>
+#include <IPassword.h>
+#include <IStream.h>
 
-#include <../../Common/CreateCoder.h>
-#include <../../Common/InBuffer.h>
+#include <CreateCoder.h>
+#include <InBuffer.h>
 
 #include <7zItem.h>
  

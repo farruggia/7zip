@@ -1,4 +1,4 @@
 // initguid.h
 
-#include <Common/MyInitGuid.h>
+#include <MyInitGuid.h>
 

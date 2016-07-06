@@ -3,9 +3,9 @@
 #ifndef __WORK_DIR_H
 #define __WORK_DIR_H
 
-#include <../../../Windows/FileDir.h>
+#include <FileDir.h>
 
-#include <../../Common/FileStreams.h>
+#include <FileStreams.h>
 
 #include <ZipRegistry.h>
 

@@ -2,7 +2,7 @@
 
 #include <StdAfx.h>
 
-#include <../../Common/Defs.h>
+#include <Defs.h>
 
 #include <ImplodeDecoder.h>
 

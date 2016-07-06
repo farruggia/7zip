@@ -3,8 +3,8 @@
 #ifndef __WINDOWS_TIME_UTILS_H
 #define __WINDOWS_TIME_UTILS_H
 
-#include <../Common/MyTypes.h>
-#include <../Common/MyWindows.h>
+#include <MyTypes.h>
+#include <MyWindows.h>
 
 namespace NWindows {
 namespace NTime {

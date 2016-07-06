@@ -4,7 +4,7 @@
 
 #include <stdlib.h>
 
-#include <../../../C/Alloc.h>
+#include <Alloc.h>
 
 #include <StreamObjects.h>
 

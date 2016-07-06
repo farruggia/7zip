@@ -2,7 +2,7 @@
 
 #ifdef ENV_BEOS
 #include <Locker.h>
-#include <kernel/OS.h>
+#include <OS.h>
 #include <list>
 #endif
 

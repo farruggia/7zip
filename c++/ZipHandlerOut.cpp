@@ -2,21 +2,21 @@
 
 #include <StdAfx.h>
 
-#include <../../../Common/ComTry.h>
-#include <../../../Common/StringConvert.h>
-#include <../../../Common/StringToInt.h>
+#include <ComTry.h>
+#include <StringConvert.h>
+#include <StringToInt.h>
 
-#include <../../../Windows/PropVariant.h>
-#include <../../../Windows/TimeUtils.h>
+#include <PropVariant.h>
+#include <TimeUtils.h>
 
-#include <../../IPassword.h>
+#include <IPassword.h>
 
-#include <../../Common/OutBuffer.h>
+#include <OutBuffer.h>
 
-#include <../../Crypto/WzAes.h>
+#include <WzAes.h>
 
-#include <../Common/ItemNameUtils.h>
-#include <../Common/ParseProperties.h>
+#include <ItemNameUtils.h>
+#include <ParseProperties.h>
 
 #include <ZipHandler.h>
 #include <ZipUpdate.h>

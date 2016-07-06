@@ -3,7 +3,7 @@
 #ifndef __COMPRESS_CALL_H
 #define __COMPRESS_CALL_H
 
-#include <../../../Common/MyString.h>
+#include <MyString.h>
 
 UString GetQuotedString(const UString &s);
 

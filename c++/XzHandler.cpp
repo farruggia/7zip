@@ -2,26 +2,26 @@
 
 #include <StdAfx.h>
 
-#include <../../../C/Alloc.h>
-#include <../../../C/XzCrc64.h>
-#include <../../../C/XzEnc.h>
+#include <Alloc.h>
+#include <XzCrc64.h>
+#include <XzEnc.h>
 
-#include <../../Common/ComTry.h>
-#include <../../Common/Defs.h>
-#include <../../Common/IntToString.h>
+#include <ComTry.h>
+#include <Defs.h>
+#include <IntToString.h>
 
-#include <../ICoder.h>
+#include <ICoder.h>
 
-#include <../Common/CWrappers.h>
-#include <../Common/ProgressUtils.h>
-#include <../Common/RegisterArc.h>
-#include <../Common/StreamUtils.h>
+#include <CWrappers.h>
+#include <ProgressUtils.h>
+#include <RegisterArc.h>
+#include <StreamUtils.h>
 
-#include <../Compress/CopyCoder.h>
+#include <CopyCoder.h>
 
 #include <IArchive.h>
 
-#include <Common/HandlerOut.h>
+#include <HandlerOut.h>
 
 #include <XzHandler.h>
 

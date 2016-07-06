@@ -2,8 +2,8 @@
 
 #include <StdAfx.h>
 
-#include <Windows/ErrorMsg.h>
-#include <Common/StringConvert.h>
+#include <ErrorMsg.h>
+#include <StringConvert.h>
 
 namespace NWindows {
 namespace NError {

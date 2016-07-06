@@ -2,14 +2,14 @@
 
 #include <StdAfx.h>
 
-#include <../../../Common/ComTry.h>
-#include <../../../Common/Defs.h>
-#include <../../../Common/MyLinux.h>
-#include <../../../Common/StringConvert.h>
-#include <../../../Common/UTFConvert.h>
+#include <ComTry.h>
+#include <Defs.h>
+#include <MyLinux.h>
+#include <StringConvert.h>
+#include <UTFConvert.h>
 
-#include <../../../Windows/PropVariant.h>
-#include <../../../Windows/TimeUtils.h>
+#include <PropVariant.h>
+#include <TimeUtils.h>
 
 #include <TarHandler.h>
 #include <TarUpdate.h>

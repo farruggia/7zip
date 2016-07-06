@@ -3,7 +3,7 @@
 #ifndef __ARCHIVE_ISO_HEADER_H
 #define __ARCHIVE_ISO_HEADER_H
 
-#include <../../../Common/MyTypes.h>
+#include <MyTypes.h>
 
 namespace NArchive {
 namespace NIso {

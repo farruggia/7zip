@@ -2,17 +2,17 @@
 
 #include <StdAfx.h>
 
-#include <../../Common/ComTry.h>
-#include <../../Common/MyString.h>
+#include <ComTry.h>
+#include <MyString.h>
 
-#include <../../Windows/PropVariant.h>
+#include <PropVariant.h>
 
-#include <../Common/ProgressUtils.h>
-#include <../Common/RegisterArc.h>
+#include <ProgressUtils.h>
+#include <RegisterArc.h>
 
-#include <../Compress/CopyCoder.h>
+#include <CopyCoder.h>
 
-#include <Common/MultiStream.h>
+#include <MultiStream.h>
 
 using namespace NWindows;
 

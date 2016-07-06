@@ -8,7 +8,7 @@
 #include <windows.h>
 
 #ifdef ENV_BEOS
-#include <kernel/OS.h>
+#include <OS.h>
 #define MAX_THREAD 256
 #else
 #include <pthread.h>

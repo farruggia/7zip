@@ -5,7 +5,7 @@
 #include <FileFind.h>
 #include <FileIO.h>
 
-#include <../Common/StringConvert.h>
+#include <StringConvert.h>
 
 
 #ifndef _UNICODE

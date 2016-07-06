@@ -3,7 +3,7 @@
 #ifndef __APP_STATE_H
 #define __APP_STATE_H
 
-#include <../../../Windows/Synchronization.h>
+#include <Synchronization.h>
 
 #include <ViewSettings.h>
 

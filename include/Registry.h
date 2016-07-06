@@ -3,9 +3,9 @@
 #ifndef __WINDOWS_REGISTRY_H
 #define __WINDOWS_REGISTRY_H
 
-#include <../Common/MyBuffer.h>
-#include <../Common/MyString.h>
-#include <../Common/MyTypes.h>
+#include <MyBuffer.h>
+#include <MyString.h>
+#include <MyTypes.h>
 
 #ifndef _WIN32
 class HKEY_Impl;

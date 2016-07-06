@@ -3,7 +3,7 @@
 #ifndef __ARCHIVE_WIM_HANDLER_H
 #define __ARCHIVE_WIM_HANDLER_H
 
-#include <../../../Common/MyCom.h>
+#include <MyCom.h>
 
 #include <WimIn.h>
 

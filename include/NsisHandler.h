@@ -3,11 +3,11 @@
 #ifndef __NSIS_HANDLER_H
 #define __NSIS_HANDLER_H
 
-#include <../../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../../Common/CreateCoder.h>
+#include <CreateCoder.h>
 
-#include <../IArchive.h>
+#include <IArchive.h>
 
 #include <NsisIn.h>
 

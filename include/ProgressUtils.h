@@ -3,10 +3,10 @@
 #ifndef __PROGRESS_UTILS_H
 #define __PROGRESS_UTILS_H
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../ICoder.h>
-#include <../IProgress.h>
+#include <ICoder.h>
+#include <IProgress.h>
 
 class CLocalProgress:
   public ICompressProgressInfo,

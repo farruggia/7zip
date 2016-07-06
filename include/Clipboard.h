@@ -3,7 +3,7 @@
 #ifndef __CLIPBOARD_H
 #define __CLIPBOARD_H
 
-#include <Common/MyString.h>
+#include <MyString.h>
 
 namespace NWindows {
 

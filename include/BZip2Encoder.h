@@ -3,18 +3,18 @@
 #ifndef __COMPRESS_BZIP2_ENCODER_H
 #define __COMPRESS_BZIP2_ENCODER_H
 
-#include <../../Common/Defs.h>
-#include <../../Common/MyCom.h>
+#include <Defs.h>
+#include <MyCom.h>
 
 #ifndef _7ZIP_ST
-#include <../../Windows/Synchronization.h>
-#include <../../Windows/Thread.h>
+#include <Synchronization.h>
+#include <Thread.h>
 #endif
 
-#include <../ICoder.h>
+#include <ICoder.h>
 
-#include <../Common/InBuffer.h>
-#include <../Common/OutBuffer.h>
+#include <InBuffer.h>
+#include <OutBuffer.h>
 
 #include <BitmEncoder.h>
 #include <BZip2Const.h>

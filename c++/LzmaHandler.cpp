@@ -2,22 +2,22 @@
 
 #include <StdAfx.h>
 
-#include <../../../C/CpuArch.h>
+#include <CpuArch.h>
 
-#include <../../Common/ComTry.h>
-#include <../../Common/IntToString.h>
+#include <ComTry.h>
+#include <IntToString.h>
 
-#include <../../Windows/PropVariant.h>
+#include <PropVariant.h>
 
-#include <../Common/FilterCoder.h>
-#include <../Common/ProgressUtils.h>
-#include <../Common/RegisterArc.h>
-#include <../Common/StreamUtils.h>
+#include <FilterCoder.h>
+#include <ProgressUtils.h>
+#include <RegisterArc.h>
+#include <StreamUtils.h>
 
-#include <../Compress/BcjCoder.h>
-#include <../Compress/LzmaDecoder.h>
+#include <BcjCoder.h>
+#include <LzmaDecoder.h>
 
-#include <Common/DummyOutStream.h>
+#include <DummyOutStream.h>
 
 using namespace NWindows;
 

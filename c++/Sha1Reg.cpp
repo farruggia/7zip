@@ -2,11 +2,11 @@
 
 #include <StdAfx.h>
 
-#include <../../C/Sha1.h>
+#include <Sha1.h>
 
-#include <../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../7zip/Common/RegisterCodec.h>
+#include <RegisterCodec.h>
 
 class CSha1Hasher:
   public IHasher,

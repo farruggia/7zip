@@ -3,7 +3,7 @@
 #ifndef __7Z_PROPERTY_H
 #define __7Z_PROPERTY_H
 
-#include <../../../Common/MyString.h>
+#include <MyString.h>
 
 struct CProperty
 {

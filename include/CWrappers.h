@@ -3,8 +3,8 @@
 #ifndef __C_WRAPPERS_H
 #define __C_WRAPPERS_H
 
-#include <../ICoder.h>
-#include <../../Common/MyCom.h>
+#include <ICoder.h>
+#include <MyCom.h>
 
 struct CCompressProgressWrap
 {

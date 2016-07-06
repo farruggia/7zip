@@ -3,9 +3,9 @@
 #ifndef __COMPRESS_Z_DECODER_H
 #define __COMPRESS_Z_DECODER_H
 
-#include <../../Common/MyCom.h>
+#include <MyCom.h>
 
-#include <../ICoder.h>
+#include <ICoder.h>
 
 namespace NCompress {
 namespace NZ {

@@ -3,7 +3,7 @@
 #ifndef __WINDOWS_CONTROL_DIALOG_H
 #define __WINDOWS_CONTROL_DIALOG_H
 
-#include <Windows/Window.h>
+#include <Window.h>
 
 #ifndef _WIN32
 
