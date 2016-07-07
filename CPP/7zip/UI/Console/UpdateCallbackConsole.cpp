@@ -90,57 +90,71 @@ HRESULT CUpdateCallbackConsole::OpenResult(
 
     if (warningFlags != 0 || !er.WarningMessage.IsEmpty())
     {
+      #if 0
       if (_so)
       {
         *_so << endl;
         if (level != 0)
           *_so << arc.Path << endl;
       }
+      #endif
       
       if (warningFlags != 0)
       {
+        #if 0
         if (_so)
           PrintErrorFlags(*_so, "WARNINGS:", warningFlags);
+        #endif
       }
       
       if (!er.WarningMessage.IsEmpty())
       {
+        #if 0
         if (_so)
           *_so << "WARNINGS:" << endl << er.WarningMessage << endl;
+        #endif
       }
       
+      #if 0
       if (_so)
       {
         *_so << endl;
         if (NeedFlush)
           _so->Flush();
       }
+      #endif
     }
 
   
     if (er.ErrorFormatIndex >= 0)
     {
+      #if 0
       if (_so)
       {
         Print_ErrorFormatIndex_Warning(_so, codecs, arc);
         if (NeedFlush)
           _so->Flush();
       }
+      #endif
     }
   }
 
   if (result == S_OK)
   {
+    #if 0
     if (_so)
     {
       RINOK(Print_OpenArchive_Props(*_so, codecs, arcLink));
       *_so << endl;
     }
+    #endif
   }
   else
   {
+    #if 0
     if (_so)
       _so->Flush();
+    #endif
     if (_se)
     {
       *_se << kError << name << endl;
@@ -155,9 +169,11 @@ HRESULT CUpdateCallbackConsole::OpenResult(
 
 HRESULT CUpdateCallbackConsole::StartScanning()
 {
+  #if 0
   if (_so)
     *_so << kScanningMessage << endl;
   _percent.Command = "Scan ";
+  #endif
   return S_OK;
 }
 
@@ -180,8 +196,10 @@ void CCallbackConsoleBase::CommonError(const FString &path, DWORD systemError, b
   
   if (_se)
   {
+    #if 0
     if (_so)
       _so->Flush();
+    #endif
 
     *_se << endl << (isWarning ? kWarning : kError)
         << NError::MyFormatMessage(systemError)
@@ -232,11 +250,13 @@ HRESULT CUpdateCallbackConsole::ScanError(const FString &path, DWORD systemError
 
 static void PrintPropPair(AString &s, const char *name, UInt64 val)
 {
+  #if 0
   char temp[32];
   ConvertUInt64ToString(val, temp);
   s += name;
   s += ": ";
   s += temp;
+  #endif
 }
 
 void PrintSize_bytes_Smart(AString &s, UInt64 val);
@@ -250,12 +270,14 @@ HRESULT CUpdateCallbackConsole::FinishScanning(const CDirItemsStat &st)
     _percent.ClearCurState();
   }
 
+  #if 0
   if (_so)
   {
     AString s;
     Print_DirItemsStat(s, st);
     *_so << s << endl << endl;
   }
+  #endif
   return S_OK;
 }
 
@@ -263,6 +285,7 @@ static const char *k_StdOut_ArcName = "StdOut";
 
 HRESULT CUpdateCallbackConsole::StartOpenArchive(const wchar_t *name)
 {
+  #if 0
   if (_so)
   {
     *_so << kOpenArchiveMessage;
@@ -272,11 +295,13 @@ HRESULT CUpdateCallbackConsole::StartOpenArchive(const wchar_t *name)
       *_so << k_StdOut_ArcName;
     *_so << endl;
   }
+  #endif
   return S_OK;
 }
 
 HRESULT CUpdateCallbackConsole::StartArchive(const wchar_t *name, bool updating)
 {
+  #if 0
   if (_so)
   {
     *_so << (updating ? kUpdatingArchiveMessage : kCreatingArchiveMessage);
@@ -286,32 +311,39 @@ HRESULT CUpdateCallbackConsole::StartArchive(const wchar_t *name, bool updating)
       *_so << k_StdOut_ArcName;
    *_so << endl << endl;
   }
+  #endif
   return S_OK;
 }
+
+void Print_UInt64_and_String(AString &s, UInt64 val, const char *name);
 
 HRESULT CUpdateCallbackConsole::FinishArchive(const CFinishArchiveStat &st)
 {
   ClosePercents2();
 
+  // #if 0
   if (_so)
   {
     AString s;
     // Print_UInt64_and_String(s, _percent.Files == 1 ? "file" : "files", _percent.Files);
-    PrintPropPair(s, "Files read from disk", _percent.Files);
+    // PrintPropPair(s, "Files read from disk", _percent.Files);
+    // s.Add_LF();
+    s += "Size\t";
+    Print_UInt64_and_String(s, st.OutArcFileSize,"\tbytes");
+    // PrintSize_bytes_Smart(s, st.OutArcFileSize);
     s.Add_LF();
-    s += "Archive size: ";
-    PrintSize_bytes_Smart(s, st.OutArcFileSize);
-    s.Add_LF();
-    *_so << endl;
+    // *_so << endl;
     *_so << s;
     // *_so << endl;
   }
+  // #endif
 
   return S_OK;
 }
 
 HRESULT CUpdateCallbackConsole::WriteSfx(const wchar_t *name, UInt64 size)
 {
+  #if 0
   if (_so)
   {
     *_so << "Write SFX: ";
@@ -320,6 +352,7 @@ HRESULT CUpdateCallbackConsole::WriteSfx(const wchar_t *name, UInt64 size)
     PrintSize_bytes_Smart(s, size);
     *_so << s << endl;
   }
+  #endif
   return S_OK;
 }
 
@@ -380,8 +413,10 @@ HRESULT CUpdateCallbackConsole::DeletingAfterArchiving(const FString &path, bool
 HRESULT CUpdateCallbackConsole::FinishDeletingAfterArchiving()
 {
   ClosePercents2();
+  #if 0
   if (_so && DeleteMessageWasShown)
     *_so << endl;
+  #endif
   return S_OK;
 }
 
@@ -400,6 +435,7 @@ HRESULT CUpdateCallbackConsole::Finalize()
 
 HRESULT CUpdateCallbackConsole::SetNumItems(UInt64 numItems)
 {
+  #if 0
   if (_so)
   {
     ClosePercents_for_so();
@@ -407,6 +443,7 @@ HRESULT CUpdateCallbackConsole::SetNumItems(UInt64 numItems)
     PrintPropPair(s, "Items to compress", numItems);
     *_so << s << endl << endl;
   }
+  #endif
   return S_OK;
 }
 
@@ -446,6 +483,7 @@ HRESULT CCallbackConsoleBase::PrintProgress(const wchar_t *name, const char *com
   
   bool show2 = (showInLog && _so);
 
+  #if 0
   if (show2)
   {
     ClosePercents_for_so();
@@ -479,7 +517,7 @@ HRESULT CCallbackConsoleBase::PrintProgress(const wchar_t *name, const char *com
     }
     _percent.Print();
   }
-  
+  #endif
   return CheckBreak2();
 }
 
@@ -545,9 +583,10 @@ HRESULT CUpdateCallbackConsole::ReportExtractResult(Int32 opRes, Int32 isEncrypt
     
     if (_se)
     {
+      #if 0
       if (_so)
         _so->Flush();
-
+      #endif
       AString s;
       SetExtractErrorMessage(opRes, isEncrypted, s);
       *_se << s << " : " << endl << name << endl << endl;

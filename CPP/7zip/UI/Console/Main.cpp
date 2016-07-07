@@ -199,6 +199,7 @@ static void GetArguments(int numArgs, const char *args[], UStringVector &parts)
 
 static void ShowCopyrightAndHelp(CStdOutStream *so, bool needHelp)
 {
+#if 0
   if (!so)
     return;
   *so << kCopyrightString;
@@ -209,6 +210,7 @@ static void ShowCopyrightAndHelp(CStdOutStream *so, bool needHelp)
 
   if (needHelp)
     *so << kHelpString;
+#endif
 }
 
 
@@ -521,8 +523,10 @@ int Main2(
     g_ErrStream = (options.Number_for_Errors == k_OutStream_stdout ? &g_StdOut : NULL);
 
   CStdOutStream *percentsStream = NULL;
+  #if 0
   if (options.Number_for_Percents != k_OutStream_disabled)
     percentsStream = (options.Number_for_Percents == k_OutStream_stderr) ? &g_StdErr : &g_StdOut;;
+  #endif
   
   if (options.HelpMode)
   {
@@ -832,9 +836,10 @@ int Main2(
       scan.Init(options.EnableHeaders ? g_StdStream : NULL, g_ErrStream, percentsStream);
       scan.SetWindowWidth(consoleWidth);
 
+      #if 0
       if (g_StdStream && options.EnableHeaders)
         *g_StdStream << "Scanning the drive for archives:" << endl;
-
+      #endif
       CDirItemsStat st;
 
       scan.StartScanning();
@@ -947,6 +952,7 @@ int Main2(
 
       bool isError = false;
 
+      #if 0
       if (so)
       {
         *so << endl;
@@ -957,6 +963,7 @@ int Main2(
           *so << "OK archives: " << ecs->NumOkArcs << endl;
         }
       }
+      #endif
 
       if (ecs->NumCantOpenArcs != 0)
       {
@@ -1021,11 +1028,10 @@ int Main2(
           *so << "Alternate Streams Size: " << stat.AltStreams_UnpackSize << endl;
         }
         
-        Int64 time_spent = std::chrono::duration_cast<std::chrono::nanoseconds>(t_2 - t_1).count();
+        Int64 time_spent = std::chrono::duration_cast<std::chrono::microseconds>(t_2 - t_1).count();
         *so
-          << "Size:       " << stat.UnpackSize << endl
-          << "Compressed: " << stat.PackSize << endl
-          << "Time: " << "\t" <<  time_spent << "\t" << "ns" << endl;
+          << "Size\t" << stat.UnpackSize << "\tbytes" << endl
+          << "Time" << "\t" <<  time_spent << "\tμs" << endl;
 
         if (hashCalc)
         {
@@ -1120,7 +1126,7 @@ int Main2(
         uo,
         errorInfo, &openCallback, &callback, true);
     auto t_2 = std::chrono::high_resolution_clock::now();          
-    Int64 time_spent = std::chrono::duration_cast<std::chrono::nanoseconds>(t_2 - t_1).count();
+    Int64 time_spent = std::chrono::duration_cast<std::chrono::microseconds>(t_2 - t_1).count();
 
     callback.ClosePercents2();
 
@@ -1130,9 +1136,9 @@ int Main2(
 
     retCode = WarningsCheck(hresultMain, callback, errorInfo,
         g_StdStream, se,
-        true // options.EnableHeaders
+        false // options.EnableHeaders
         );
-    *se << "Time\t" << time_spent << "\t" << "ns" << endl;
+    *se << "Time\t" << time_spent << "\tμs" << endl;
 #ifdef ENV_UNIX
     if (uo.SfxMode)
     {
@@ -1168,7 +1174,7 @@ int Main2(
     CStdOutStream *se = g_StdStream;
     if (!se)
       se = g_ErrStream;
-    retCode = WarningsCheck(hresultMain, callback, errorInfo, g_StdStream, se, options.EnableHeaders);
+    retCode = WarningsCheck(hresultMain, callback, errorInfo, g_StdStream, se, false);
   }
   else
     ShowMessageAndThrowException(kUserErrorMessage, NExitCode::kUserError);

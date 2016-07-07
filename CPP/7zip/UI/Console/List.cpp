@@ -877,6 +877,7 @@ static void ErrorInfo_Print(CStdOutStream &so, const CArcErrorInfo &er)
 
 HRESULT Print_OpenArchive_Props(CStdOutStream &so, const CCodecs *codecs, const CArchiveLink &arcLink)
 {
+  #if 0
   FOR_VECTOR (r, arcLink.Arcs)
   {
     const CArc &arc = arcLink.Arcs[r];
@@ -936,6 +937,7 @@ HRESULT Print_OpenArchive_Props(CStdOutStream &so, const CCodecs *codecs, const 
       }
     }
   }
+  #endif
   return S_OK;
 }
 

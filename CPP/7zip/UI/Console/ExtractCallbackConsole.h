@@ -25,10 +25,12 @@ class CExtractScanConsole: public IDirItemsCallback
   
   void ClosePercentsAndFlush()
   {
+    #if 0
     if (NeedPercents())
       _percent.ClosePrint(true);
     if (_so)
       _so->Flush();
+    #endif
   }
 
 public:

@@ -97,6 +97,7 @@ void PrintSize_bytes_Smart(AString &s, UInt64 val)
 
 void Print_DirItemsStat(AString &s, const CDirItemsStat &st)
 {
+  #if 0
   if (st.NumDirs != 0)
   {
     Print_UInt64_and_String(s, st.NumDirs, st.NumDirs == 1 ? "folder" : "folders");
@@ -112,23 +113,20 @@ void Print_DirItemsStat(AString &s, const CDirItemsStat &st)
     s += ", ";
     PrintSize_bytes_Smart(s, st.AltStreamsSize);
   }
+  #endif
 }
 
 void CExtractScanConsole::PrintStat(const CDirItemsStat &st)
 {
+  #if 0
   if (_so)
   {
     AString s;
     Print_DirItemsStat(s, st);
     *_so << s << endl;
   }
+  #endif
 }
-
-
-
-
-
-
 
 #ifndef _7ZIP_ST
 static NSynchronization::CCriticalSection g_CriticalSection;
@@ -210,6 +208,7 @@ static const char *kTab = "  ";
 
 static void PrintFileInfo(CStdOutStream *_so, const wchar_t *path, const FILETIME *ft, const UInt64 *size)
 {
+  #if 0
   *_so << kTab << "Path:     " << path << endl;
   if (size)
   {
@@ -225,6 +224,7 @@ static void PrintFileInfo(CStdOutStream *_so, const wchar_t *path, const FILETIM
       if (ConvertFileTimeToString(locTime, temp, true, true))
         *_so << kTab << "Modified: " << temp << endl;
   }
+  #endif
 }
 
 STDMETHODIMP CExtractCallbackConsole::AskOverwrite(
@@ -259,12 +259,14 @@ STDMETHODIMP CExtractCallbackConsole::AskOverwrite(
     default: return E_FAIL;
   }
   
+  #if 0
   if (_so)
   {
     *_so << endl;
     if (NeedFlush)
       _so->Flush();
   }
+  #endif
   
   return CheckBreak2();
 }
@@ -288,6 +290,7 @@ STDMETHODIMP CExtractCallbackConsole::PrepareOperation(const wchar_t *name, Int3
 
   bool show2 = (LogLevel >= requiredLevel && _so);
 
+  #if 0
   if (show2)
   {
     ClosePercents_for_so();
@@ -324,7 +327,7 @@ STDMETHODIMP CExtractCallbackConsole::PrepareOperation(const wchar_t *name, Int3
     }
     _percent.Print();
   }
-
+  #endif
   return CheckBreak2();
 }
 
@@ -472,12 +475,14 @@ HRESULT CExtractCallbackConsole::BeforeOpen(const wchar_t *name, bool testMode)
   ThereIsWarning_in_Current = false;
   NumFileErrors_in_Current = 0;
   
+  #if 0
   ClosePercents_for_so();
   if (_so)
     *_so << endl << (testMode ? kTesting : kExtracting) << name << endl;
 
   if (NeedPercents())
     _percent.Command = "Open";
+  #endif
   return S_OK;
 }
 
@@ -516,9 +521,11 @@ static AString GetOpenArcErrorMessage(UInt32 errorFlags)
 
 void PrintErrorFlags(CStdOutStream &so, const char *s, UInt32 errorFlags)
 {
+  #if 0
   if (errorFlags == 0)
     return;
   so << s << endl << GetOpenArcErrorMessage(errorFlags) << endl;
+  #endif
 }
 
 void Add_Messsage_Pre_ArcType(UString &s, const char *pre, const wchar_t *arcType)
@@ -532,6 +539,7 @@ void Add_Messsage_Pre_ArcType(UString &s, const char *pre, const wchar_t *arcTyp
 
 void Print_ErrorFormatIndex_Warning(CStdOutStream *_so, const CCodecs *codecs, const CArc &arc)
 {
+  #if 0
   const CArcErrorInfo &er = arc.ErrorInfo;
   
   UString s = L"WARNING:\n";
@@ -548,6 +556,7 @@ void Print_ErrorFormatIndex_Warning(CStdOutStream *_so, const CCodecs *codecs, c
   }
   
   *_so << s << endl << endl;
+  #endif
 }
         
 
@@ -610,63 +619,77 @@ HRESULT CExtractCallbackConsole::OpenResult(
 
     if (warningFlags != 0 || !er.WarningMessage.IsEmpty())
     {
+      #if 0
       if (_so)
       {
         *_so << endl;
         if (level != 0)
           *_so << arc.Path << endl;
       }
+      #endif
       
       if (warningFlags != 0)
       {
+        #if 0
         if (_so)
           PrintErrorFlags(*_so, "WARNINGS:", warningFlags);
+        #endif
         NumOpenArcWarnings++;
         ThereIsWarning_in_Current = true;
       }
       
       if (!er.WarningMessage.IsEmpty())
       {
+        #if 0
         if (_so)
           *_so << "WARNINGS:" << endl << er.WarningMessage << endl;
+        #endif
         NumOpenArcWarnings++;
         ThereIsWarning_in_Current = true;
       }
       
+      #if 0
       if (_so)
       {
         *_so << endl;
         if (NeedFlush)
           _so->Flush();
       }
+      #endif
     }
 
   
     if (er.ErrorFormatIndex >= 0)
     {
+      #if 0
       if (_so)
       {
         Print_ErrorFormatIndex_Warning(_so, codecs, arc);
         if (NeedFlush)
           _so->Flush();
       }
+      #endif
       ThereIsWarning_in_Current = true;
     }
   }
       
   if (result == S_OK)
   {
+    #if 0
     if (_so)
     {
       RINOK(Print_OpenArchive_Props(*_so, codecs, arcLink));
       *_so << endl;
     }
+    #endif
   }
   else
   {
     NumCantOpenArcs++;
+    #if 0
     if (_so)
       _so->Flush();
+    #endif
     if (_se)
     {
       *_se << kError << name << endl;
@@ -693,13 +716,17 @@ HRESULT CExtractCallbackConsole::OpenResult(
   
 HRESULT CExtractCallbackConsole::ThereAreNoFiles()
 {
+  #if 0
   ClosePercents_for_so();
+  #endif
 
   if (_so)
   {
+    #if 0
     *_so << endl << kNoFiles << endl;
     if (NeedFlush)
       _so->Flush();
+    #endif
   }
   return CheckBreak2();
 }
@@ -708,6 +735,7 @@ HRESULT CExtractCallbackConsole::ExtractResult(HRESULT result)
 {
   MT_LOCK
   
+  #if 0
   if (NeedPercents())
   {
     _percent.ClosePrint(true);
@@ -717,7 +745,7 @@ HRESULT CExtractCallbackConsole::ExtractResult(HRESULT result)
 
   if (_so)
     _so->Flush();
-
+  #endif
   if (result == S_OK)
   {
     if (NumFileErrors_in_Current == 0 && !ThereIsError_in_Current)
@@ -726,21 +754,27 @@ HRESULT CExtractCallbackConsole::ExtractResult(HRESULT result)
         NumArcsWithWarnings++;
       else
         NumOkArcs++;
+      #if 0
       if (_so)
         *_so << kEverythingIsOk << endl;
+      #endif
     }
     else
     {
       NumArcsWithError++;
       if (_so)
       {
+        #if 0
         *_so << endl;
         if (NumFileErrors_in_Current != 0)
           *_so << "Sub items Errors: " << NumFileErrors_in_Current << endl;
+        #endif
       }
     }
+    #if 0
     if (_so && NeedFlush)
       _so->Flush();
+    #endif
   }
   else
   {
