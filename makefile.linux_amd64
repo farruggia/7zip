@@ -2,7 +2,7 @@
 OPTFLAGS=-O3 -s
 
 # use "-m32" to have a 32bits executable
-ALLFLAGS=-std=c++14 -m64 ${OPTFLAGS} -pipe \
+ALLFLAGS=-std=c++11 -m64 ${OPTFLAGS} -pipe \
     	-D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE \
 	-DNDEBUG -D_REENTRANT -DENV_UNIX \
 	-D_7ZIP_LARGE_PAGES \
